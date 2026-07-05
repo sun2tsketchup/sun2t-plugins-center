@@ -90,6 +90,11 @@
       padding: 24px;
       min-height: 245px;
     }
+    .download-count {
+  color: #fbbf24;
+  font-weight: 700;
+  margin: 10px 0 0;
+}
     .card p, .muted { color: var(--muted); }
     .icon {
       width: 48px; height: 48px; border-radius: 14px;
@@ -302,8 +307,11 @@
             <p>Rải đối tượng theo đường dẫn, hỗ trợ random spacing, random rotate, random scale và offset path.</p>
             <p><strong>Phiên bản:</strong> V0.6.3</p>
             <div class="plugin-actions">
-              <a class="small-btn download" href="https://drive.google.com/file/d/1X80O7kYkZG5WSVp1tJRM4y_aO8P6HGw7/view?usp=drive_link" target="_blank">Tải Miễn Phí</a>
+              <a class="small-btn download" href="https://script.googleusercontent.com/macros/echo?user_content_key=AUkAhnQsIG_da9vWMr7CFAx9veWu7lCHjd9Ef7kVoT-b4PBEkHTo1SflFO9EbdhO1NW9hVEUn32doBQpjtF_FzDgF1x_-TG1apJV7m7ZtHAeZef1nwjbOgjdzmWyEwsuFD1R23qgeHuyfnUkyWjasfxmMo3ULwEJzKRelpupK067JGT5jQHGsc6Ixqbe_H9VUaLlqBFFPkxeoEmf3GMcpbIoXMHQJAqED6ue2PWpKfUnsFeCfsyzGzSDDpSJLDebJK_3YXvBR88ti7Lw7X-TrOB7yVlxMrB3rw&lib=MBP-oNOhCdwnoBwOx9vMGUO9ZTKubMu7n" target="_blank">Tải Miễn Phí</a>
               <a class="small-btn" href="https://youtu.be/mRFWGlIrnyg" target="_blank">Video HD</a>
+              <p class="download-count">
+  Lượt tải: <span data-download-count="path-tools">0</span>
+</p>
               
 
             </div>
@@ -315,8 +323,11 @@
             <p>Plugin hỗ trợ xử lý mặt, kiểm tra khoảng hở và tối ưu thao tác dựng hình trong SketchUp.</p>
             <p><strong>Phiên bản:</strong> V1.2</p>
             <div class="plugin-actions">
-              <a class="small-btn download" href="https://drive.google.com/file/d/1SANlyxeFQGqKIhzEM5tPuICB_kIt-4fU/view?usp=drive_link" target="_blank">Tải Miễn Phí</a>
+              <a class="small-btn download" href="https://script.googleusercontent.com/macros/echo?user_content_key=AUkAhnQsIG_da9vWMr7CFAx9veWu7lCHjd9Ef7kVoT-b4PBEkHTo1SflFO9EbdhO1NW9hVEUn32doBQpjtF_FzDgF1x_-TG1apJV7m7ZtHAeZef1nwjbOgjdzmWyEwsuFD1R23qgeHuyfnUkyWjasfxmMo3ULwEJzKRelpupK067JGT5jQHGsc6Ixqbe_H9VUaLlqBFFPkxeoEmf3GMcpbIoXMHQJAqED6ue2PWpKfUnsFeCfsyzGzSDDpSJLDebJK_3YXvBR88ti7Lw7X-TrOB7yVlxMrB3rw&lib=MBP-oNOhCdwnoBwOx9vMGUO9ZTKubMu7n" target="_blank">Tải Miễn Phí</a>
               <a class="small-btn" href="https://youtube.com/shorts/hnWMcJkXb8c" target="_blank">Video HD</a>
+              <p class="download-count">
+  Lượt tải: <span data-download-count="smart-face">0</span>
+</p>
             </div>
           </div>
 
@@ -463,5 +474,17 @@
   <footer>
     <div class="wrap">© Sun2T Plugin Center. Bản quyền thuộc Sun2T Group. Cấm bán lậu Plugins dưới mọi hình thức. Tác giả: Nguyễn Văn Thanh </div>
   </footer>
+  <script>
+  function renderDownloadStats(data) {
+    document.querySelectorAll('[data-download-count]').forEach(function (el) {
+      const key = el.getAttribute('data-download-count');
+      el.textContent = data[key] || 0;
+    });
+  }
+
+  const statsScript = document.createElement('script');
+  statsScript.src = 'APPS_SCRIPT_URL?action=stats&callback=renderDownloadStats';
+  document.body.appendChild(statsScript);
+</script>
 </body>
 </html>
