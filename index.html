@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sun2T Plugin Center</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --card2: #1f2937;
+      --text: #f8fafc;
+      --muted: #cbd5e1;
+      --accent: #f59e0b;
+      --accent2: #38bdf8;
+      --line: rgba(255,255,255,.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #020617 0%, #111827 55%, #1e293b 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a { color: inherit; text-decoration: none; }
+    .wrap { max-width: 1180px; margin: auto; padding: 0 22px; }
+    header {
+      position: sticky; top: 0; z-index: 10;
+      background: rgba(2, 6, 23, .82);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--line);
+    }
+    nav { display: flex; justify-content: space-between; align-items: center; padding: 16px 0; gap: 18px; }
+    .logo { font-weight: 800; letter-spacing: .4px; font-size: 20px; }
+    .logo span { color: var(--accent); }
+    .menu { display: flex; gap: 18px; flex-wrap: wrap; color: var(--muted); font-size: 14px; }
+    .hero { padding: 78px 0 50px; }
+    .hero-grid { display: grid; grid-template-columns: 1.2fr .8fr; gap: 34px; align-items: center; }
+    h1 { font-size: clamp(38px, 6vw, 68px); line-height: 1.05; margin: 0 0 18px; }
+    h2 { font-size: 32px; margin: 0 0 16px; }
+    h3 { margin: 0 0 10px; font-size: 21px; }
+    .lead { color: var(--muted); font-size: 19px; max-width: 720px; margin-bottom: 26px; }
+    .btns { display: flex; gap: 14px; flex-wrap: wrap; }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      padding: 13px 20px; border-radius: 999px; font-weight: 700;
+      border: 1px solid var(--line);
+      background: var(--card2);
+    }
+    .btn.primary { background: var(--accent); color: #111827; border-color: var(--accent); }
+    .btn.blue { background: var(--accent2); color: #082f49; border-color: var(--accent2); }
+    .hero-card {
+      background: rgba(17,24,39,.82);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      padding: 28px;
+      box-shadow: 0 30px 90px rgba(0,0,0,.35);
+    }
+    .version {
+      display: flex; justify-content: space-between; gap: 16px;
+      padding: 14px 0; border-bottom: 1px solid var(--line);
+    }
+    .version:last-child { border-bottom: 0; }
+    .tag {
+      display: inline-block; padding: 5px 10px; border-radius: 999px;
+      background: rgba(245,158,11,.16); color: #fbbf24; font-size: 12px; font-weight: 700;
+    }
+    section { padding: 54px 0; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .card {
+      background: rgba(17,24,39,.82);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 24px;
+      min-height: 245px;
+    }
+    .card p, .muted { color: var(--muted); }
+    .icon {
+      width: 48px; height: 48px; border-radius: 14px;
+      background: rgba(56,189,248,.18);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 25px; margin-bottom: 18px;
+    }
+    .plugin-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 18px; }
+    .small-btn {
+      display:inline-block; padding: 9px 13px; border-radius: 12px;
+      background: rgba(255,255,255,.08); border: 1px solid var(--line);
+      font-size: 13px; font-weight: 700;
+    }
+    .small-btn.download { background: rgba(245,158,11,.18); color: #fbbf24; }
+    .split { display: grid; grid-template-columns: .9fr 1.1fr; gap: 24px; }
+    .steps { counter-reset: step; display: grid; gap: 14px; }
+    .step {
+      background: rgba(255,255,255,.06);
+      border: 1px solid var(--line);
+      border-radius: 16px; padding: 16px;
+    }
+    .step:before {
+      counter-increment: step;
+      content: counter(step);
+      display:inline-flex; width: 28px; height: 28px; border-radius: 50%;
+      align-items:center; justify-content:center;
+      background: var(--accent); color: #111827; font-weight: 800; margin-right: 10px;
+    }
+    table { width: 100%; border-collapse: collapse; overflow: hidden; border-radius: 16px; }
+    th, td { border-bottom: 1px solid var(--line); padding: 14px; text-align: left; }
+    th { color: #fbbf24; background: rgba(255,255,255,.06); }
+    footer { padding: 36px 0; border-top: 1px solid var(--line); color: var(--muted); }
+    @media (max-width: 860px) {
+      .hero-grid, .grid, .split { grid-template-columns: 1fr; }
+      .menu { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav>
+        <div class="logo">Sun2T <span>Plugin Center</span></div>
+        <div class="menu">
+          <a href="#plugins">Plugin</a>
+          <a href="#install">Hướng dẫn cài</a>
+          <a href="#updates">Cập nhật</a>
+          <a href="#support">Hỗ trợ</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="tag">SketchUp Plugins by Sun2T</span>
+          <h1>Kho tải Plugin SketchUp cho học viên và người dùng Sun2T</h1>
+          <p class="lead">Tổng hợp link tải RBZ, video hướng dẫn HD, thông tin phiên bản, lịch sử cập nhật và hướng dẫn sử dụng các plugin do Sun2T phát triển.</p>
+          <div class="btns">
+            <a class="btn primary" href="#plugins">Xem danh sách Plugin</a>
+            <a class="btn" href="#install">Hướng dẫn cài đặt</a>
+            <a class="btn blue" href="#support">Liên hệ hỗ trợ</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h3>Phiên bản mới</h3>
+          <div class="version"><strong>Sun2T Path Tools</strong><span>V0.7</span></div>
+          <div class="version"><strong>Sun2T Smart Face</strong><span>V1.2</span></div>
+          <div class="version"><strong>FaceMe 2D</strong><span>V1.0</span></div>
+          <div class="version"><strong>Sun Materials Replace</strong><span>V1.0</span></div>
+          <p class="muted">Thay các link mẫu bằng link Google Drive, GitHub Release hoặc YouTube của anh.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="plugins">
+      <div class="wrap">
+        <h2>Danh sách Plugin</h2>
+        <p class="muted">Mỗi plugin nên có một trang riêng trong Google Sites để người dùng dễ tải, xem video và đọc hướng dẫn.</p>
+        <div class="grid">
+          <div class="card">
+            <div class="icon">🧭</div>
+            <h3>Sun2T Path Tools</h3>
+            <p>Rải đối tượng theo đường dẫn, hỗ trợ random spacing, random rotate, random scale và offset path.</p>
+            <p><strong>Phiên bản:</strong> V0.7</p>
+            <div class="plugin-actions">
+              <a class="small-btn download" href="#">Tải RBZ</a>
+              <a class="small-btn" href="#">Video HD</a>
+              <a class="small-btn" href="#">Chi tiết</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="icon">🧩</div>
+            <h3>Sun2T Smart Face</h3>
+            <p>Plugin hỗ trợ xử lý mặt, kiểm tra khoảng hở và tối ưu thao tác dựng hình trong SketchUp.</p>
+            <p><strong>Phiên bản:</strong> V1.2</p>
+            <div class="plugin-actions">
+              <a class="small-btn download" href="#">Tải RBZ</a>
+              <a class="small-btn" href="#">Video HD</a>
+              <a class="small-btn" href="#">Chi tiết</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="icon">👤</div>
+            <h3>FaceMe 2D</h3>
+            <p>Tạo đối tượng 2D luôn xoay theo camera, phù hợp người 2D, cây 2D, decor và thư viện mặt đứng.</p>
+            <p><strong>Phiên bản:</strong> V1.0</p>
+            <div class="plugin-actions">
+              <a class="small-btn download" href="#">Tải RBZ</a>
+              <a class="small-btn" href="#">Video HD</a>
+              <a class="small-btn" href="#">Chi tiết</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="icon">🎨</div>
+            <h3>Sun Materials Replace</h3>
+            <p>Thay nhanh vật liệu trên đối tượng, tăng tốc workflow khi dựng nội thất và kiến trúc.</p>
+            <p><strong>Phiên bản:</strong> V1.0</p>
+            <div class="plugin-actions">
+              <a class="small-btn download" href="#">Tải RBZ</a>
+              <a class="small-btn" href="#">Video HD</a>
+              <a class="small-btn" href="#">Chi tiết</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="icon">📦</div>
+            <h3>Thư viện Plugin</h3>
+            <p>Khu vực lưu các bản plugin cũ, bản test, bản ổn định và tài liệu đi kèm.</p>
+            <p><strong>Gợi ý:</strong> Lưu trên Google Drive hoặc GitHub Release.</p>
+            <div class="plugin-actions">
+              <a class="small-btn" href="#">Mở thư viện</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="icon">🎬</div>
+            <h3>Video hướng dẫn</h3>
+            <p>Tổng hợp video HD hướng dẫn cài đặt, sử dụng, cập nhật và sửa lỗi plugin.</p>
+            <p><strong>Nền tảng:</strong> YouTube / Google Drive.</p>
+            <div class="plugin-actions">
+              <a class="small-btn" href="#">Xem video</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="install">
+      <div class="wrap split">
+        <div>
+          <h2>Hướng dẫn cài Plugin RBZ</h2>
+          <p class="muted">Phần này đặt thành một trang riêng trong Google Sites để người mới dùng SketchUp cũng cài được.</p>
+        </div>
+        <div class="steps">
+          <div class="step"><strong>Tải file .RBZ</strong><br />Bấm nút tải plugin, lưu file về máy tính.</div>
+          <div class="step"><strong>Mở SketchUp</strong><br />Vào Window → Extension Manager.</div>
+          <div class="step"><strong>Install Extension</strong><br />Chọn file .RBZ vừa tải và bấm cài đặt.</div>
+          <div class="step"><strong>Khởi động lại SketchUp</strong><br />Nếu toolbar chưa hiện, tắt mở lại SketchUp.</div>
+          <div class="step"><strong>Cập nhật bản mới</strong><br />Nếu lỗi do bản cũ, gỡ plugin cũ rồi cài bản mới.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="updates">
+      <div class="wrap">
+        <h2>Lịch sử cập nhật</h2>
+        <table>
+          <tr><th>Plugin</th><th>Phiên bản</th><th>Nội dung chính</th><th>Ngày</th></tr>
+          <tr><td>Sun2T Path Tools</td><td>V0.7</td><td>Song ngữ Việt/Anh, giao diện sáng/tối, random thông số trong khoảng min-max.</td><td>Đang cập nhật</td></tr>
+          <tr><td>Sun2T Smart Face</td><td>V1.2</td><td>Tối ưu hiển thị kiểm tra khoảng hở, chỉnh nét và font nhỏ gọn hơn.</td><td>Đang cập nhật</td></tr>
+          <tr><td>FaceMe 2D</td><td>V1.0</td><td>Tạo đối tượng 2D luôn xoay theo camera, hỗ trợ group/component/mặt phẳng đơn lẻ.</td><td>Đang cập nhật</td></tr>
+        </table>
+      </div>
+    </section>
+
+    <section id="support">
+      <div class="wrap split">
+        <div>
+          <h2>Hỗ trợ & liên hệ</h2>
+          <p class="muted">Khi người dùng gặp lỗi, anh nên yêu cầu họ gửi ảnh lỗi, phiên bản SketchUp, Windows và video thao tác nếu có.</p>
+        </div>
+        <div class="card">
+          <h3>Sun2T Group</h3>
+          <p>Email: sun2tgroup@gmail.com</p>
+          <p>YouTube: Dán link kênh YouTube của anh tại đây</p>
+          <p>Facebook: Dán link Facebook/Fanpage/Group tại đây</p>
+          <div class="plugin-actions">
+            <a class="small-btn download" href="#">Gửi yêu cầu hỗ trợ</a>
+            <a class="small-btn" href="#">Xem lỗi thường gặp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© Sun2T Plugin Center. Thiết kế mẫu dùng để dựng lại trên Google Sites.</div>
+  </footer>
+</body>
+</html>
