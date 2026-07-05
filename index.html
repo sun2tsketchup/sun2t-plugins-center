@@ -292,7 +292,6 @@
     <img src="images/qr-chuyen-khoan.png" alt="QR chuyển khoản ủng hộ Sun2T">
   </div>
 </div>
-        </div>
       </div>
     </section>
 
@@ -306,14 +305,10 @@
             <h3>Sun2T Path Tools</h3>
             <p>Rải đối tượng theo đường dẫn, hỗ trợ random spacing, random rotate, random scale và offset path.</p>
             <p><strong>Phiên bản:</strong> V0.6.3</p>
+            <p class="download-count">Lượt tải: <span data-download-count="path-tools">0</span></p>
             <div class="plugin-actions">
-              <a class="small-btn download" href="https://script.google.com/macros/s/AKfycbyc0KlhxksyHAUAuuunwYAYMwSMkyHDuymw2SJ5wACqI3I3cRSbiLKf_1QpTq_yZZeFSQ/exec" target="_blank">Tải Miễn Phí</a>
+              <a class="small-btn download" href="#" data-download-plugin="path-tools" target="_blank">Tải Miễn Phí</a>
               <a class="small-btn" href="https://youtu.be/mRFWGlIrnyg" target="_blank">Video HD</a>
-              <p class="download-count">
-  Lượt tải: <span data-download-count="path-tools">0</span>
-</p>
-              
-
             </div>
           </div>
 
@@ -322,12 +317,10 @@
             <h3>Sun2T Smart Face</h3>
             <p>Plugin hỗ trợ xử lý mặt, kiểm tra khoảng hở và tối ưu thao tác dựng hình trong SketchUp.</p>
             <p><strong>Phiên bản:</strong> V1.2</p>
+            <p class="download-count">Lượt tải: <span data-download-count="smart-face">0</span></p>
             <div class="plugin-actions">
-              <a class="small-btn download" href="https://script.google.com/macros/s/AKfycbyc0KlhxksyHAUAuuunwYAYMwSMkyHDuymw2SJ5wACqI3I3cRSbiLKf_1QpTq_yZZeFSQ/exec" target="_blank">Tải Miễn Phí</a>
+              <a class="small-btn download" href="#" data-download-plugin="smart-face" target="_blank">Tải Miễn Phí</a>
               <a class="small-btn" href="https://youtube.com/shorts/hnWMcJkXb8c" target="_blank">Video HD</a>
-              <p class="download-count">
-  Lượt tải: <span data-download-count="smart-face">0</span>
-</p>
             </div>
           </div>
 
@@ -475,16 +468,44 @@
     <div class="wrap">© Sun2T Plugin Center. Bản quyền thuộc Sun2T Group. Cấm bán lậu Plugins dưới mọi hình thức. Tác giả: Nguyễn Văn Thanh </div>
   </footer>
   <script>
+  // Dán link Web App Apps Script dạng /exec vào đây.
+  // Ví dụ: https://script.google.com/macros/s/AKfycbxxxxxxxxxxxxxxxx/exec
+  const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwxfMH2bfhKTcr_NFRZZnK3QZqF-FjM_ZDuwcHj5FhA3yBrW6ECQder6Zq3aMjMr5HPJQ/exec';
+
+  function hasStatsApi() {
+    return APPS_SCRIPT_URL &&
+      APPS_SCRIPT_URL.startsWith('https://script.google.com/macros/s/') &&
+      APPS_SCRIPT_URL.includes('/exec');
+  }
+
   function renderDownloadStats(data) {
     document.querySelectorAll('[data-download-count]').forEach(function (el) {
       const key = el.getAttribute('data-download-count');
-      el.textContent = data[key] || 0;
+      el.textContent = data && data[key] ? data[key] : 0;
     });
   }
 
-  const statsScript = document.createElement('script');
-  statsScript.src = 'APPS_SCRIPT_URL?action=stats&callback=renderDownloadStats';
-  document.body.appendChild(statsScript);
+  document.querySelectorAll('[data-download-plugin]').forEach(function (btn) {
+    btn.addEventListener('click', function (event) {
+      const plugin = btn.getAttribute('data-download-plugin');
+
+      if (!hasStatsApi()) {
+        event.preventDefault();
+        alert('Anh chưa dán link Apps Script Web App /exec vào biến APPS_SCRIPT_URL trong file index.html.');
+        return;
+      }
+
+      event.preventDefault();
+      const url = APPS_SCRIPT_URL + '?action=download&plugin=' + encodeURIComponent(plugin);
+      window.open(url, '_blank');
+    });
+  });
+
+  if (hasStatsApi()) {
+    const statsScript = document.createElement('script');
+    statsScript.src = APPS_SCRIPT_URL + '?action=stats&callback=renderDownloadStats';
+    document.body.appendChild(statsScript);
+  }
 </script>
 </body>
 </html>
