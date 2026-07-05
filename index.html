@@ -82,6 +82,15 @@
       display: flex; align-items: center; justify-content: center;
       font-size: 25px; margin-bottom: 18px;
     }
+    .plugin-preview {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  display: block;
+  border-radius: 18px;
+  margin-bottom: 20px;
+  background: #ffffff;
+}
     .plugin-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 18px; }
     .small-btn {
       display:inline-block; padding: 9px 13px; border-radius: 12px;
@@ -158,7 +167,7 @@
         <p class="muted">Mỗi plugin nên có một trang riêng trong Google Sites để người dùng dễ tải, xem video và đọc hướng dẫn.</p>
         <div class="grid">
           <div class="card">
-            <div class="icon">🧭</div>
+            <img class="plugin-preview" src="images/path-tools-preview.png" alt="Sun2T Path Tools Preview">
             <h3>Sun2T Path Tools</h3>
             <p>Rải đối tượng theo đường dẫn, hỗ trợ random spacing, random rotate, random scale và offset path.</p>
             <p><strong>Phiên bản:</strong> V0.6.3</p>
