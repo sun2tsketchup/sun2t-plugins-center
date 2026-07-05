@@ -116,9 +116,78 @@
     th, td { border-bottom: 1px solid var(--line); padding: 14px; text-align: left; }
     th { color: #fbbf24; background: rgba(255,255,255,.06); }
     footer { padding: 36px 0; border-top: 1px solid var(--line); color: var(--muted); }
+    .install-box {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 36px;
+  background: rgba(17, 24, 39, 0.82);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.25);
+}
+
+.install-box h2 {
+  margin-bottom: 18px;
+}
+
+.install-box p {
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.8;
+  margin: 0 0 18px;
+}
+
+.code-path {
+  margin: 20px 0;
+  padding: 16px 18px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  color: #fbbf24;
+  font-family: Consolas, monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  word-break: break-all;
+}
+.coffee-card {
+  display: grid;
+  grid-template-columns: 1fr 170px;
+  gap: 24px;
+  align-items: center;
+}
+
+.coffee-text h3 {
+  margin-bottom: 14px;
+}
+
+.coffee-text p {
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.qr-box {
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qr-box img {
+  width: 100%;
+  max-width: 150px;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  display: block;
+}
     @media (max-width: 860px) {
-      .hero-grid, .grid, .split { grid-template-columns: 1fr; }
-      .menu { display: none; }
+  .hero-grid, .grid, .split { grid-template-columns: 1fr; }
+  .coffee-card { grid-template-columns: 1fr; }
+  .menu { display: none; }
+}
     }
   </style>
 </head>
@@ -150,13 +219,19 @@
             <a class="btn blue" href="#support">Liên hệ hỗ trợ</a>
           </div>
         </div>
-        <div class="hero-card">
-          <h3>Phiên bản mới</h3>
-          <div class="version"><strong>Sun2T Path Tools</strong><span>V0.7</span></div>
-          <div class="version"><strong>Sun2T Smart Face</strong><span>V1.2</span></div>
-          <div class="version"><strong>FaceMe 2D</strong><span>V1.0</span></div>
-          <div class="version"><strong>Sun Materials Replace</strong><span>V1.0</span></div>
-          <p class="muted">Mời mình 1 ly cà phê để có thêm động lực viết Plugins cho anh em nhé</p>
+        <div class="hero-card coffee-card">
+  <div class="coffee-text">
+    <h3>Ủng hộ Sun2T</h3>
+    <p>
+      Mời mình 1 ly cà phê để có thêm động lực viết Plugins miễn phí cho anh em nhé.
+      Cảm ơn anh em rất nhiềuu ^^
+    </p>
+  </div>
+
+  <div class="qr-box">
+    <img src="images/qr-chuyen-khoan.png" alt="QR chuyển khoản ủng hộ Sun2T">
+  </div>
+</div>
         </div>
       </div>
     </section>
@@ -238,11 +313,24 @@
     </section>
 
     <section id="install">
-      <div class="wrap split">
-        <div>
-          <h2>Hướng dẫn cài Plugin RBZ</h2>
-          <p class="muted">Để gỡ hoàn toàn Plugins cũ, mọi người tắt sketchup sau đó vào đường dẫn dưới đây và xóa thư mục có tên Plugins đó và file .rb tương ứng C:\Users\%Tên máy tính của bạn, Thông thường là admin\AppData\Roaming\SketchUp\SketchUp 202x\SketchUp\Plugins </p>
-        </div>
+  <div class="wrap">
+    <div class="install-box">
+      <h2>Hướng dẫn cài Plugin RBZ</h2>
+
+      <p>
+        Để gỡ hoàn toàn plugin cũ, mọi người tắt SketchUp. Sau đó vào đường dẫn dưới đây và xóa thư mục có tên plugin hoặc file <strong>.rb</strong> tương ứng.
+      </p>
+
+      <div class="code-path">
+        C:\Users\Tên máy tính của bạn\AppData\Roaming\SketchUp\SketchUp 202x\SketchUp\Plugins
+      </div>
+
+      <p>
+        Sau khi xóa xong, mở lại SketchUp và cài file <strong>.rbz</strong> bản mới trong mục Extension Manager.
+      </p>
+    </div>
+  </div>
+</section>
         <div class="steps">
           <div class="step"><strong>Tải file .RBZ</strong><br />Bấm nút tải plugin, lưu file về máy tính.</div>
           <div class="step"><strong>Mở SketchUp</strong><br />Vào Window → Extension Manager.</div>
@@ -277,8 +365,7 @@
           <a class="small-btn" href="https://www.youtube.com/@ThanhSketchUp" target="_blank">Kênh Youtube</a>
           <a class="small-btn" href="https://www.facebook.com/Sun2T.SketchUp" target="_blank">Fanpage Facebook</a>
           <div class="plugin-actions">
-            <a class="small-btn download" href="https://www.facebook.com/Sun2T.SketchUp">Gửi yêu cầu hỗ trợ</a>
-            <a class="small-btn" href="https://www.youtube.com/watch?v=hnWMcJkXb8c&list=PLfUDYb3XZbpk">Xem lỗi thường gặp</a>
+           
           </div>
         </div>
       </div>
