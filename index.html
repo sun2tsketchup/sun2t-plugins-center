@@ -422,7 +422,7 @@
             <p><strong>Phiên bản:</strong> V0.8.3</p>
 
             <p class="download-count">
-              Lượt tải: <span data-download-count="path-tools">0</span>
+              Lượt tải: <span data-download-count="path-tools">207</span>
             </p>
 
             <div class="plugin-actions">
@@ -438,7 +438,7 @@
             <p><strong>Phiên bản:</strong> V1.8</p>
 
             <p class="download-count">
-              Lượt tải: <span data-download-count="smart-face">0</span>
+              Lượt tải: <span data-download-count="smart-face">390</span>
             </p>
 
             <div class="plugin-actions">
@@ -454,7 +454,7 @@
             <p><strong>Phiên bản:</strong> V1.5</p>
 
             <p class="download-count">
-              Lượt tải: <span data-download-count="rotate-tools">0</span>
+              Lượt tải: <span data-download-count="rotate-tools">102</span>
             </p>
 
             <div class="plugin-actions">
@@ -469,8 +469,12 @@
             <p>Tạo nhanh các lam gỗ trên bề mặt với các tùy chọn kích thước, số lượng, góc xoay,...</p>
             <p><strong>Phiên bản:</strong> V2.2</p>
 
+            <p class="download-count">
+              Lượt tải: <span data-download-count="auto-lam">5</span>
+            </p>
+
             <div class="plugin-actions">
-              <a class="small-btn download" href="#">Tải Miễn Phí</a>
+              <a class="small-btn download" href="#" data-download-plugin="auto-lam">Tải Miễn Phí</a>
               <a class="small-btn" href="#">Video HD</a>
             </div>
           </div>
@@ -586,39 +590,91 @@
     const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbywo3N5efyNePR8hBlOORsLcW5Xhg-JwY7A9ZvL6OUGkX42PJ59tlQAQ-3LRIW9cZ6SWA/exec';
 
     function hasStatsApi() {
-      return APPS_SCRIPT_URL &&
+      return typeof APPS_SCRIPT_URL === 'string' &&
         APPS_SCRIPT_URL.startsWith('https://script.google.com/macros/s/') &&
         APPS_SCRIPT_URL.includes('/exec');
     }
 
-    function renderDownloadStats(data) {
+    function applyDownloadStats(data) {
+      if (!data || typeof data !== 'object' || data.error) {
+        if (data && data.error) {
+          console.warn('Apps Script:', data.error);
+        }
+        return;
+      }
+
       document.querySelectorAll('[data-download-count]').forEach(function (el) {
-        const key = el.getAttribute('data-download-count');
-        el.textContent = data && data[key] ? data[key] : 0;
+        const pluginId = el.getAttribute('data-download-count');
+
+        if (Object.prototype.hasOwnProperty.call(data, pluginId)) {
+          const value = Number(data[pluginId]);
+          if (Number.isFinite(value)) {
+            el.textContent = String(value);
+          }
+        }
       });
+    }
+
+    function loadDownloadStats() {
+      if (!hasStatsApi()) return;
+
+      const callbackName = 'betagonStats_' + Date.now() + '_' +
+        Math.random().toString(36).slice(2);
+
+      const script = document.createElement('script');
+      script.async = true;
+      script.id = callbackName;
+
+      let finished = false;
+      const cleanup = function () {
+        if (finished) return;
+        finished = true;
+        if (script.parentNode) script.parentNode.removeChild(script);
+        try { delete window[callbackName]; } catch (_) { window[callbackName] = undefined; }
+      };
+
+      window[callbackName] = function (data) {
+        applyDownloadStats(data);
+        cleanup();
+      };
+
+      script.onerror = function () {
+        console.warn('Không lấy được số lượt tải từ Google Sheet. Hãy triển khai lại Apps Script ở phiên bản mới.');
+        cleanup();
+      };
+
+      script.src = APPS_SCRIPT_URL +
+        '?action=stats&callback=' + encodeURIComponent(callbackName) +
+        '&_=' + Date.now();
+
+      document.head.appendChild(script);
+      window.setTimeout(cleanup, 12000);
     }
 
     document.querySelectorAll('[data-download-plugin]').forEach(function (btn) {
-      btn.addEventListener('click', function (event) {
-        const plugin = btn.getAttribute('data-download-plugin');
+      const pluginId = btn.getAttribute('data-download-plugin');
 
-        if (!hasStatsApi()) {
-          event.preventDefault();
-          alert('Anh chưa dán link Apps Script Web App /exec vào biến APPS_SCRIPT_URL trong file index.html.');
-          return;
-        }
+      if (!pluginId || !hasStatsApi()) return;
 
-        event.preventDefault();
-        const url = APPS_SCRIPT_URL + '?action=download&plugin=' + encodeURIComponent(plugin);
-        window.open(url, '_blank');
+      // Mỗi nút đi qua Apps Script: Apps Script cộng số trong Sheet rồi chuyển sang file Drive.
+      btn.href = APPS_SCRIPT_URL + '?plugin=' + encodeURIComponent(pluginId);
+      btn.target = '_blank';
+      btn.rel = 'noopener noreferrer';
+
+      btn.addEventListener('click', function () {
+        // Không cộng giả trên giao diện. Chỉ lấy lại số thật từ Google Sheet.
+        window.setTimeout(loadDownloadStats, 1500);
+        window.setTimeout(loadDownloadStats, 3500);
+        window.setTimeout(loadDownloadStats, 6500);
       });
     });
 
-    if (hasStatsApi()) {
-      const statsScript = document.createElement('script');
-      statsScript.src = APPS_SCRIPT_URL + '?action=stats&callback=renderDownloadStats';
-      document.body.appendChild(statsScript);
-    }
+    // Lấy dữ liệu thật từ Sheet khi mở trang, F5 hoặc quay lại tab.
+    document.addEventListener('DOMContentLoaded', loadDownloadStats);
+    window.addEventListener('pageshow', loadDownloadStats);
+    document.addEventListener('visibilitychange', function () {
+      if (!document.hidden) loadDownloadStats();
+    });
   </script>
 </body>
 </html>
