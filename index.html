@@ -3,263 +3,375 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sun2T Plugin Center</title>
-  <meta property="og:title" content="Sun2T Plugin Center">
-<meta property="og:description" content="Kho tải Plugin SketchUp miễn phí: Sun2T Path Tools, Sun2T Smart Face, FaceMe 2D và các plugin hỗ trợ dựng hình SketchUp.">
-<meta property="og:image" content="https://sun2tsketchup.github.io/sun2t-plugins-center/images/social-preview.png">
-<meta property="og:url" content="https://sun2tsketchup.github.io/sun2t-plugins-center/">
-<meta property="og:type" content="website">
+  <title>Betagon Plugin Center</title>
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Sun2T Plugin Center">
-<meta name="twitter:description" content="Kho tải Plugin SketchUp miễn phí cho anh em SketchUp.">
-<meta name="twitter:image" content="https://sun2tsketchup.github.io/sun2t-plugins-center/images/social-preview.png">
+  <meta property="og:title" content="Betagon Plugin Center">
+  <meta property="og:description" content="Kho tải Plugin SketchUp miễn phí: Betagon Path Tools, Betagon Smart Face, Betagon Rotate và các công cụ hỗ trợ dựng hình SketchUp.">
+  <meta property="og:image" content="https://sun2tsketchup.github.io/sun2t-plugins-center/images/social-preview.png">
+  <meta property="og:url" content="https://sun2tsketchup.github.io/sun2t-plugins-center/">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Betagon Plugin Center">
+  <meta name="twitter:description" content="Kho tải Plugin SketchUp miễn phí cho học viên và người dùng Betagon.">
+  <meta name="twitter:image" content="https://sun2tsketchup.github.io/sun2t-plugins-center/images/social-preview.png">
+
   <style>
     :root {
-      --bg: #0f172a;
-      --card: #111827;
-      --card2: #1f2937;
-      --text: #f8fafc;
-      --muted: #cbd5e1;
+      --bg: #ffffff;
+      --surface: #ffffff;
+      --soft: #f6f7f9;
+      --card: #ffffff;
+      --card2: #111111;
+      --text: #111111;
+      --muted: #555b66;
       --accent: #f59e0b;
-      --accent2: #38bdf8;
-      --line: rgba(255,255,255,.12);
+      --accent-dark: #d97706;
+      --line: rgba(17, 17, 17, .12);
+      --shadow: 0 22px 70px rgba(17, 17, 17, .10);
     }
+
     * { box-sizing: border-box; }
+
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
-      background: linear-gradient(135deg, #020617 0%, #111827 55%, #1e293b 100%);
+      background:
+        radial-gradient(circle at 15% 10%, rgba(245, 158, 11, .11), transparent 24%),
+        linear-gradient(135deg, #ffffff 0%, #f8fafc 52%, #eef1f5 100%);
       color: var(--text);
       line-height: 1.6;
     }
+
     a { color: inherit; text-decoration: none; }
     .wrap { max-width: 1180px; margin: auto; padding: 0 22px; }
+
     header {
-      position: sticky; top: 0; z-index: 10;
-      background: rgba(2, 6, 23, .82);
-      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(255, 255, 255, .88);
+      backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--line);
     }
-    nav { display: flex; justify-content: space-between; align-items: center; padding: 16px 0; gap: 18px; }
-    .logo { font-weight: 800; letter-spacing: .4px; font-size: 20px; }
-    .logo span { color: var(--accent); }
-    .menu { display: flex; gap: 18px; flex-wrap: wrap; color: var(--muted); font-size: 14px; }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 0;
+      gap: 18px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 900;
+      letter-spacing: .5px;
+      font-size: 20px;
+    }
+
+    .brand img {
+      width: 42px;
+      height: 42px;
+      object-fit: contain;
+      display: block;
+    }
+
+    .brand span { color: var(--accent-dark); }
+
+    .menu {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .menu a:hover { color: var(--accent-dark); }
+
     .hero { padding: 78px 0 50px; }
-    .hero-grid { display: grid; grid-template-columns: 1.2fr .8fr; gap: 34px; align-items: center; }
-   h1 {
-  font-size: clamp(32px, 3.8vw, 48px);
-  line-height: 1.14;
-  margin: 0 0 18px;
-  max-width: 640px;
-}
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 34px;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: clamp(34px, 4.2vw, 54px);
+      line-height: 1.1;
+      margin: 0 0 18px;
+      max-width: 700px;
+      letter-spacing: -1.4px;
+    }
+
     h2 { font-size: 32px; margin: 0 0 16px; }
     h3 { margin: 0 0 10px; font-size: 21px; }
-    .lead { color: var(--muted); font-size: 19px; max-width: 720px; margin-bottom: 26px; }
-    .btns { display: flex; gap: 14px; flex-wrap: wrap; }
-    .btn {
-      display: inline-flex; align-items: center; justify-content: center;
-      padding: 13px 20px; border-radius: 999px; font-weight: 700;
-      border: 1px solid var(--line);
-      background: var(--card2);
+
+    .lead {
+      color: var(--muted);
+      font-size: 19px;
+      max-width: 720px;
+      margin-bottom: 26px;
     }
-    .btn.primary { background: var(--accent); color: #111827; border-color: var(--accent); }
-    .btn.blue { background: var(--accent2); color: #082f49; border-color: var(--accent2); }
+
+    .tag {
+      display: inline-block;
+      padding: 5px 10px;
+      border-radius: 999px;
+      background: rgba(245, 158, 11, .14);
+      color: var(--accent-dark);
+      font-size: 12px;
+      font-weight: 800;
+      margin-bottom: 14px;
+    }
+
+    .btns { display: flex; gap: 14px; flex-wrap: wrap; }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 13px 20px;
+      border-radius: 999px;
+      font-weight: 800;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      box-shadow: 0 8px 24px rgba(17, 17, 17, .07);
+    }
+
+    .btn.primary {
+      background: var(--accent);
+      color: #111111;
+      border-color: var(--accent);
+    }
+
+    .btn.blue {
+      background: #111111;
+      color: #ffffff;
+      border-color: #111111;
+    }
+
     .hero-card {
-      background: rgba(17,24,39,.82);
+      background: rgba(255, 255, 255, .86);
       border: 1px solid var(--line);
       border-radius: 28px;
       padding: 28px;
-      box-shadow: 0 30px 90px rgba(0,0,0,.35);
+      box-shadow: var(--shadow);
     }
-    .version {
-      display: flex; justify-content: space-between; gap: 16px;
-      padding: 14px 0; border-bottom: 1px solid var(--line);
-    }
-    .version:last-child { border-bottom: 0; }
-    .tag {
-      display: inline-block; padding: 5px 10px; border-radius: 999px;
-      background: rgba(245,158,11,.16); color: #fbbf24; font-size: 12px; font-weight: 700;
-    }
+
     section { padding: 54px 0; }
-    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
     .card {
-      background: rgba(17,24,39,.82);
+      background: var(--card);
       border: 1px solid var(--line);
       border-radius: 22px;
       padding: 24px;
       min-height: 245px;
+      box-shadow: 0 18px 50px rgba(17, 17, 17, .08);
     }
-    .download-count {
-  color: #fbbf24;
-  font-weight: 700;
-  margin: 10px 0 0;
-}
+
     .card p, .muted { color: var(--muted); }
-    .icon {
-      width: 48px; height: 48px; border-radius: 14px;
-      background: rgba(56,189,248,.18);
-      display: flex; align-items: center; justify-content: center;
-      font-size: 25px; margin-bottom: 18px;
-    }
+
     .plugin-preview {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: contain;
-  display: block;
-  border-radius: 18px;
-  margin-bottom: 20px;
-  background: #ffffff;
-}
-    .plugin-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 18px; }
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: contain;
+      display: block;
+      border-radius: 18px;
+      margin-bottom: 20px;
+      background: #ffffff;
+      border: 1px solid rgba(17, 17, 17, .08);
+    }
+
+    .icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 14px;
+      background: rgba(245, 158, 11, .16);
+      color: #111111;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 25px;
+      margin-bottom: 18px;
+    }
+
+    .download-count {
+      color: var(--accent-dark);
+      font-weight: 800;
+      margin: 10px 0 0;
+    }
+
+    .plugin-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+
     .small-btn {
-      display:inline-block; padding: 9px 13px; border-radius: 12px;
-      background: rgba(255,255,255,.08); border: 1px solid var(--line);
-      font-size: 13px; font-weight: 700;
+      display: inline-block;
+      padding: 9px 13px;
+      border-radius: 12px;
+      background: #111111;
+      color: #ffffff;
+      border: 1px solid #111111;
+      font-size: 13px;
+      font-weight: 800;
     }
-    .small-btn.download { background: rgba(245,158,11,.18); color: #fbbf24; }
-    .split { display: grid; grid-template-columns: .9fr 1.1fr; gap: 24px; }
-    .steps { counter-reset: step; display: grid; gap: 14px; }
-    .step {
-      background: rgba(255,255,255,.06);
-      border: 1px solid var(--line);
-      border-radius: 16px; padding: 16px;
+
+    .small-btn.download {
+      background: rgba(245, 158, 11, .20);
+      color: #111111;
+      border-color: rgba(245, 158, 11, .45);
     }
-    .step:before {
-      counter-increment: step;
-      content: counter(step);
-      display:inline-flex; width: 28px; height: 28px; border-radius: 50%;
-      align-items:center; justify-content:center;
-      background: var(--accent); color: #111827; font-weight: 800; margin-right: 10px;
+
+    .split {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 24px;
     }
-    table { width: 100%; border-collapse: collapse; overflow: hidden; border-radius: 16px; }
-    th, td { border-bottom: 1px solid var(--line); padding: 14px; text-align: left; }
-    th { color: #fbbf24; background: rgba(255,255,255,.06); }
-    footer { padding: 36px 0; border-top: 1px solid var(--line); color: var(--muted); }
+
     .install-layout {
-  display: grid;
-  grid-template-columns: 0.9fr 1.1fr;
-  gap: 36px;
-  align-items: start;
-}
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 36px;
+      align-items: start;
+    }
 
-.install-info {
-  padding: 8px 0;
-}
+    .install-info { padding: 8px 0; }
+    .install-info h2 { margin-bottom: 18px; }
 
-.install-info h2 {
-  margin-bottom: 18px;
-}
+    .install-info p {
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.8;
+      margin: 0 0 18px;
+    }
 
-.install-info p {
-  color: var(--muted);
-  font-size: 17px;
-  line-height: 1.8;
-  margin: 0 0 18px;
-}
+    .code-path {
+      margin: 20px 0;
+      padding: 16px 18px;
+      background: #111111;
+      border: 1px solid #111111;
+      border-radius: 14px;
+      color: #fbbf24;
+      font-family: Consolas, monospace;
+      font-size: 15px;
+      line-height: 1.6;
+      word-break: break-all;
+    }
 
-.code-path {
-  margin: 20px 0;
-  padding: 16px 18px;
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid var(--line);
-  border-radius: 14px;
-  color: #fbbf24;
-  font-family: Consolas, monospace;
-  font-size: 15px;
-  line-height: 1.6;
-  word-break: break-all;
-}
+    .install-steps {
+      display: grid;
+      gap: 14px;
+    }
 
-.install-steps {
-  display: grid;
-  gap: 14px;
-}
+    .install-step {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      padding: 16px 18px;
+      background: #ffffff;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      box-shadow: 0 12px 34px rgba(17, 17, 17, .06);
+    }
 
-.install-step {
-  display: flex;
-  gap: 14px;
-  align-items: flex-start;
-  padding: 16px 18px;
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid var(--line);
-  border-radius: 16px;
-}
+    .install-step span {
+      flex: 0 0 28px;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: #111111;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+    }
 
-.install-step span {
-  flex: 0 0 28px;
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  background: var(--accent);
-  color: #111827;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 800;
-}
+    .install-step strong {
+      display: block;
+      margin-bottom: 4px;
+    }
 
-.install-step strong {
-  display: block;
-  margin-bottom: 4px;
-}
+    .install-step p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.5;
+    }
 
-.install-step p {
-  margin: 0;
-  color: var(--muted);
-  line-height: 1.5;
-}
-.coffee-card {
-  display: grid;
-  grid-template-columns: 1fr 170px;
-  gap: 24px;
-  align-items: center;
-}
+    .coffee-card {
+      display: grid;
+      grid-template-columns: 1fr 170px;
+      gap: 24px;
+      align-items: center;
+    }
 
-.coffee-text h3 {
-  margin-bottom: 14px;
-}
+    .coffee-text p {
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.8;
+      margin: 0;
+    }
 
-.coffee-text p {
-  color: var(--muted);
-  font-size: 17px;
-  line-height: 1.8;
-  margin: 0;
-}
+    .qr-box {
+      background: #ffffff;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
-.qr-box {
-  background: #ffffff;
-  border-radius: 22px;
-  padding: 14px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+    .qr-box img {
+      width: 100%;
+      max-width: 150px;
+      aspect-ratio: 1 / 1;
+      object-fit: contain;
+      display: block;
+    }
 
-.qr-box img {
-  width: 100%;
-  max-width: 150px;
-  aspect-ratio: 1 / 1;
-  object-fit: contain;
-  display: block;
-}
+    footer {
+      padding: 36px 0;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      background: rgba(255, 255, 255, .70);
+    }
+
     @media (max-width: 860px) {
-  .hero-grid, .grid, .split, .install-layout { grid-template-columns: 1fr; }
-  .coffee-card { grid-template-columns: 1fr; }
-  .menu { display: none; }
-}
-    
+      .hero-grid, .grid, .split, .install-layout { grid-template-columns: 1fr; }
+      .coffee-card { grid-template-columns: 1fr; }
+      .menu { display: none; }
+    }
   </style>
 </head>
+
 <body>
   <header>
     <div class="wrap">
       <nav>
-        <div class="logo">Sun2T <span>Plugin Center</span></div>
+        <div class="brand">
+          <img src="images/betagon-logo.png" alt="Betagon Logo">
+          <div>BETAGON <span>Plugin Center</span></div>
+        </div>
+
         <div class="menu">
           <a href="#plugins">Plugin</a>
           <a href="#install">Hướng dẫn cài</a>
-          <a href="#updates">Cập nhật</a>
           <a href="#support">Hỗ trợ</a>
         </div>
       </nav>
@@ -270,28 +382,30 @@
     <section class="hero">
       <div class="wrap hero-grid">
         <div>
-          <span class="tag">SketchUp Plugins by Sun2T</span>
-          <h1>Kho tải Plugin SketchUp cho học viên và người dùng Sun2T Group</h1>
-          <p class="lead">Tổng hợp link tải RBZ, video hướng dẫn HD, thông tin phiên bản, lịch sử cập nhật và hướng dẫn sử dụng các plugin do Sun2T phát triển.</p>
+          <span class="tag">SketchUp Plugins by Betagon</span>
+          <h1>Kho tải Plugin SketchUp cho học viên và người dùng Betagon</h1>
+          <p class="lead">Tổng hợp link tải RBZ, video hướng dẫn HD, thông tin phiên bản và hướng dẫn sử dụng các plugin do Betagon phát triển.</p>
+
           <div class="btns">
             <a class="btn primary" href="#plugins">Xem danh sách Plugin</a>
             <a class="btn" href="#install">Hướng dẫn cài đặt</a>
             <a class="btn blue" href="#support">Liên hệ hỗ trợ</a>
           </div>
         </div>
-        <div class="hero-card coffee-card">
-  <div class="coffee-text">
-    <h3>Donate ủng hộ tác giả</h3>
-    <p>
-      Mời mình 1 ly cà phê để có thêm động lực viết Plugins miễn phí cho anh em nhé.
-      Cảm ơn anh em rất nhiềuu ^^
-    </p>
-  </div>
 
-  <div class="qr-box">
-    <img src="images/qr-chuyen-khoan.png" alt="QR chuyển khoản ủng hộ Sun2T">
-  </div>
-</div>
+        <div class="hero-card coffee-card">
+          <div class="coffee-text">
+            <h3>Donate ủng hộ tác giả</h3>
+            <p>
+              Mời mình 1 ly cà phê để có thêm động lực viết Plugins miễn phí cho anh em nhé.
+              Cảm ơn anh em rất nhiềuu ^^
+            </p>
+          </div>
+
+          <div class="qr-box">
+            <img src="images/qr-chuyen-khoan.png" alt="QR chuyển khoản ủng hộ Betagon">
+          </div>
+        </div>
       </div>
     </section>
 
@@ -299,69 +413,65 @@
       <div class="wrap">
         <h2>Danh sách Plugins</h2>
         <p class="muted">Hình ảnh Preview chỉ mang tính chất minh họa, xem video HD để biết chi tiết Plugins nhé.</p>
+
         <div class="grid">
           <div class="card">
-            <img class="plugin-preview" src="path-tools-preview2.png" alt="Sun2T Path Tools Preview">
-            <h3>Sun2T Path Tools</h3>
+            <img class="plugin-preview" src="path-tools-preview2.png" alt="Betagon Path Tools Preview">
+            <h3>Betagon Path Tools</h3>
             <p>Rải đối tượng theo đường dẫn, hỗ trợ random spacing, random rotate, random scale và offset path.</p>
             <p><strong>Phiên bản:</strong> V0.6.3</p>
-           <p class="download-count">
-  Lượt tải: <span data-download-count="path-tools">0</span>
-</p>
+
+            <p class="download-count">
+              Lượt tải: <span data-download-count="path-tools">0</span>
+            </p>
+
             <div class="plugin-actions">
-              <a class="small-btn download"
-   href="#"
-   data-download-plugin="path-tools">
-   Tải Miễn Phí
-</a>
+              <a class="small-btn download" href="#" data-download-plugin="path-tools">Tải Miễn Phí</a>
               <a class="small-btn" href="https://youtu.be/mRFWGlIrnyg" target="_blank">Video HD</a>
             </div>
           </div>
 
           <div class="card">
-           <img class="plugin-preview" src="images/smart-face-preview.png" alt="Sun2T Smart Face Preview">
-            <h3>Sun2T Smart Face</h3>
-            <p>Plugin hỗ trợ đảo mặt, kiểm tra khoảng hở và tối ưu thao tác dựng hình trong SketchUp.</p>
+            <img class="plugin-preview" src="images/smart-face-preview.png" alt="Betagon Smart Face Preview">
+            <h3>Betagon Smart Face</h3>
+            <p>Plugin hỗ trợ đảo mặt, tạo mặt từ line kín, chọn mặt theo vật liệu, kiểm tra khoảng hở và dọn rác hình học.</p>
             <p><strong>Phiên bản:</strong> V1.2</p>
+
             <p class="download-count">
-  Lượt tải: <span data-download-count="smart-face">0</span>
-</p>
+              Lượt tải: <span data-download-count="smart-face">0</span>
+            </p>
+
             <div class="plugin-actions">
-              <a class="small-btn download"
-   href="#"
-   data-download-plugin="smart-face">
-   Tải Miễn Phí
-</a>
+              <a class="small-btn download" href="#" data-download-plugin="smart-face">Tải Miễn Phí</a>
               <a class="small-btn" href="https://youtube.com/shorts/hnWMcJkXb8c" target="_blank">Video HD</a>
             </div>
           </div>
 
           <div class="card">
-  <img class="plugin-preview" src="images/rotate-tools-preview.png" alt="Sun2T Rotate Preview">
+            <img class="plugin-preview" src="images/rotate-tools-preview.png" alt="Betagon Rotate Preview">
+            <h3>Betagon Rotate</h3>
+            <p>Plugin hỗ trợ xoay nhanh hàng loạt đối tượng trong SketchUp: xoay -90°, +90°, 180° và xoay theo góc ngẫu nhiên.</p>
+            <p><strong>Phiên bản:</strong> V1.5</p>
 
-  <h3>Sun2T Rotate</h3>
-  <p>Plugin hỗ trợ xoay nhanh hàng loạt đối tượng trong SketchUp: xoay -90°, +90°, 180° và xoay theo góc ngẫu nhiên.</p>
-  <p><strong>Phiên bản:</strong> V1.5</p>
+            <p class="download-count">
+              Lượt tải: <span data-download-count="rotate-tools">0</span>
+            </p>
 
-  <p class="download-count">
-    Lượt tải: <span data-download-count="rotate-tools">0</span>
-  </p>
-
-  <div class="plugin-actions">
-    <a class="small-btn download" href="#" data-download-plugin="rotate-tools">Tải Miễn Phí</a>
-    <a class="small-btn" href="https://youtube.com/shorts/eSXSJOWcVrk" target="_blank">Video HD</a>
-  </div>
-</div>
+            <div class="plugin-actions">
+              <a class="small-btn download" href="#" data-download-plugin="rotate-tools">Tải Miễn Phí</a>
+              <a class="small-btn" href="https://youtube.com/shorts/eSXSJOWcVrk" target="_blank">Video HD</a>
+            </div>
+          </div>
 
           <div class="card">
             <div class="icon">🎨</div>
-            <h3>Sun Materials Replace</h3>
+            <h3>Betagon Materials Replace</h3>
             <p>Thay nhanh vật liệu trên đối tượng, tăng tốc workflow khi dựng nội thất và kiến trúc.</p>
             <p><strong>Phiên bản:</strong> Sắp ra mắt</p>
+
             <div class="plugin-actions">
               <a class="small-btn download" href="#">Tải Miễn Phí</a>
               <a class="small-btn" href="#">Video HD</a>
-            
             </div>
           </div>
 
@@ -369,9 +479,9 @@
             <div class="icon">📦</div>
             <h3>Thư viện Plugin</h3>
             <p>Khu vực lưu các bản plugin cũ, bản test, bản ổn định và tài liệu đi kèm.</p>
-            
+
             <div class="plugin-actions">
-              <a class="small-btn" href="#">Mở thư viện</a>
+              <a class="small-btn" href="https://drive.google.com/drive/folders/1900ARpNwwwSajw0BwSxqEnPlfhC7pNDg" target="_blank">Mở thư viện</a>
             </div>
           </div>
 
@@ -380,8 +490,9 @@
             <h3>Video hướng dẫn</h3>
             <p>Tổng hợp video HD hướng dẫn cài đặt, sử dụng, cập nhật và sửa lỗi plugin.</p>
             <p><strong>Nền tảng:</strong> YouTube / Google Drive.</p>
+
             <div class="plugin-actions">
-              <a class="small-btn" href="https://www.youtube.com/watch?v=hnWMcJkXb8c&list=PLfUDYb3XZbpk">Xem video</a>
+              <a class="small-btn" href="https://www.youtube.com/watch?v=hnWMcJkXb8c&list=PLfUDYb3XZbpk" target="_blank">Xem video</a>
             </div>
           </div>
         </div>
@@ -389,130 +500,125 @@
     </section>
 
     <section id="install">
-  <div class="wrap install-layout">
-    <div class="install-info">
-      <h2>Hướng dẫn cài Plugin RBZ</h2>
+      <div class="wrap install-layout">
+        <div class="install-info">
+          <h2>Hướng dẫn cài Plugin RBZ</h2>
 
-      <p>
-        Để gỡ hoàn toàn plugin cũ, mọi người tắt SketchUp. Sau đó vào đường dẫn dưới đây và xóa thư mục có tên plugin hoặc file <strong>.rb</strong> tương ứng.
-      </p>
+          <p>
+            Để gỡ hoàn toàn plugin cũ, mọi người tắt SketchUp. Sau đó vào đường dẫn dưới đây và xóa thư mục có tên plugin hoặc file <strong>.rb</strong> tương ứng.
+          </p>
 
-      <div class="code-path">
-        C:\Users\Tên máy tính của bạn\AppData\Roaming\SketchUp\SketchUp 202x\SketchUp\Plugins
-      </div>
+          <div class="code-path">
+            C:\Users\Tên máy tính của bạn\AppData\Roaming\SketchUp\SketchUp 202x\SketchUp\Plugins
+          </div>
 
-      <p>
-        Sau khi xóa xong, mở lại SketchUp và cài file <strong>.rbz</strong> bản mới trong mục Extension Manager.
-      </p>
-    </div>
+          <p>
+            Sau khi xóa xong, mở lại SketchUp và cài file <strong>.rbz</strong> bản mới trong mục Extension Manager.
+          </p>
+        </div>
 
-    <div class="install-steps">
-      <div class="install-step">
-        <span>1</span>
-        <div>
-          <strong>Tải file .RBZ</strong>
-          <p>Bấm nút tải plugin, lưu file về máy tính.</p>
+        <div class="install-steps">
+          <div class="install-step">
+            <span>1</span>
+            <div>
+              <strong>Tải file .RBZ</strong>
+              <p>Bấm nút tải plugin, lưu file về máy tính.</p>
+            </div>
+          </div>
+
+          <div class="install-step">
+            <span>2</span>
+            <div>
+              <strong>Mở SketchUp</strong>
+              <p>Vào Window → Extension Manager.</p>
+            </div>
+          </div>
+
+          <div class="install-step">
+            <span>3</span>
+            <div>
+              <strong>Install Extension</strong>
+              <p>Chọn file .RBZ vừa tải và bấm cài đặt.</p>
+            </div>
+          </div>
+
+          <div class="install-step">
+            <span>4</span>
+            <div>
+              <strong>Bật toolbar plugin</strong>
+              <p>Nếu toolbar chưa hiện, tắt mở lại SketchUp.</p>
+            </div>
+          </div>
+
+          <div class="install-step">
+            <span>5</span>
+            <div>
+              <strong>Cập nhật bản mới</strong>
+              <p>Nếu lỗi do bản cũ, gỡ plugin cũ rồi cài bản mới.</p>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="install-step">
-        <span>2</span>
-        <div>
-          <strong>Mở SketchUp</strong>
-          <p>Vào Window → Extension Manager.</p>
-        </div>
-      </div>
-
-      <div class="install-step">
-        <span>3</span>
-        <div>
-          <strong>Install Extension</strong>
-          <p>Chọn file .RBZ vừa tải và bấm cài đặt.</p>
-        </div>
-      </div>
-
-      <div class="install-step">
-        <span>4</span>
-        <div>
-          <strong>Vào menu Toolbar lỗi công cụ ra</strong>
-          <p>Nếu toolbar chưa hiện, tắt mở lại SketchUp.</p>
-        </div>
-      </div>
-
-      <div class="install-step">
-        <span>5</span>
-        <div>
-          <strong>Cập nhật bản mới</strong>
-          <p>Nếu lỗi do bản cũ, gỡ plugin cũ rồi cài bản mới.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-    
+    </section>
 
     <section id="support">
       <div class="wrap split">
         <div>
           <h2>Hỗ trợ & liên hệ</h2>
-          <p class="muted">Nếu gặp lỗi hoặc góp ý về Plugins vui lòng ib qua zalo: 0363525612.</p>
+          <p class="muted">Nếu gặp lỗi hoặc góp ý về Plugins, vui lòng liên hệ Betagon để được hỗ trợ.</p>
         </div>
+
         <div class="card">
-          <h3>Sun2T Group</h3>
-          <p>Email: sun2tsketchup@gmail.com</p>
+          <h3>Betagon</h3>
+          <p>Email hỗ trợ: sun2tsketchup@gmail.com</p>
           <a class="small-btn" href="https://www.youtube.com/@ThanhSketchUp" target="_blank">Kênh Youtube</a>
           <a class="small-btn" href="https://www.facebook.com/Sun2T.SketchUp" target="_blank">Fanpage Facebook</a>
-          <div class="plugin-actions">
-           
-          </div>
         </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <div class="wrap">© Sun2T Plugin Center. Bản quyền thuộc Sun2T Group. Cấm bán lậu Plugins dưới mọi hình thức. Tác giả: Nguyễn Văn Thanh </div>
+    <div class="wrap">© Betagon Plugin Center. Bản quyền thuộc Betagon. Cấm bán lậu Plugins dưới mọi hình thức. Tác giả: Nguyễn Văn Thanh.</div>
   </footer>
+
   <script>
-  // Dán link Web App Apps Script dạng /exec vào đây.
-  // Ví dụ: https://script.google.com/macros/s/AKfycbxxxxxxxxxxxxxxxx/exec
-  const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbywo3N5efyNePR8hBlOORsLcW5Xhg-JwY7A9ZvL6OUGkX42PJ59tlQAQ-3LRIW9cZ6SWA/exec';
+    const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbywo3N5efyNePR8hBlOORsLcW5Xhg-JwY7A9ZvL6OUGkX42PJ59tlQAQ-3LRIW9cZ6SWA/exec';
 
-  function hasStatsApi() {
-    return APPS_SCRIPT_URL &&
-      APPS_SCRIPT_URL.startsWith('https://script.google.com/macros/s/') &&
-      APPS_SCRIPT_URL.includes('/exec');
-  }
+    function hasStatsApi() {
+      return APPS_SCRIPT_URL &&
+        APPS_SCRIPT_URL.startsWith('https://script.google.com/macros/s/') &&
+        APPS_SCRIPT_URL.includes('/exec');
+    }
 
-  function renderDownloadStats(data) {
-    document.querySelectorAll('[data-download-count]').forEach(function (el) {
-      const key = el.getAttribute('data-download-count');
-      el.textContent = data && data[key] ? data[key] : 0;
-    });
-  }
+    function renderDownloadStats(data) {
+      document.querySelectorAll('[data-download-count]').forEach(function (el) {
+        const key = el.getAttribute('data-download-count');
+        el.textContent = data && data[key] ? data[key] : 0;
+      });
+    }
 
-  document.querySelectorAll('[data-download-plugin]').forEach(function (btn) {
-    btn.addEventListener('click', function (event) {
-      const plugin = btn.getAttribute('data-download-plugin');
+    document.querySelectorAll('[data-download-plugin]').forEach(function (btn) {
+      btn.addEventListener('click', function (event) {
+        const plugin = btn.getAttribute('data-download-plugin');
 
-      if (!hasStatsApi()) {
+        if (!hasStatsApi()) {
+          event.preventDefault();
+          alert('Anh chưa dán link Apps Script Web App /exec vào biến APPS_SCRIPT_URL trong file index.html.');
+          return;
+        }
+
         event.preventDefault();
-        alert('Anh chưa dán link Apps Script Web App /exec vào biến APPS_SCRIPT_URL trong file index.html.');
-        return;
-      }
-
-      event.preventDefault();
-      const url = APPS_SCRIPT_URL + '?action=download&plugin=' + encodeURIComponent(plugin);
-      window.open(url, '_blank');
+        const url = APPS_SCRIPT_URL + '?action=download&plugin=' + encodeURIComponent(plugin);
+        window.open(url, '_blank');
+      });
     });
-  });
 
-  if (hasStatsApi()) {
-    const statsScript = document.createElement('script');
-    statsScript.src = APPS_SCRIPT_URL + '?action=stats&callback=renderDownloadStats';
-    document.body.appendChild(statsScript);
-  }
-</script>
+    if (hasStatsApi()) {
+      const statsScript = document.createElement('script');
+      statsScript.src = APPS_SCRIPT_URL + '?action=stats&callback=renderDownloadStats';
+      document.body.appendChild(statsScript);
+    }
+  </script>
 </body>
 </html>
