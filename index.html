@@ -589,24 +589,61 @@
   <script>
     const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbywo3N5efyNePR8hBlOORsLcW5Xhg-JwY7A9ZvL6OUGkX42PJ59tlQAQ-3LRIW9cZ6SWA/exec';
 
-    /*
-      Bộ đếm chính thức được tăng trong Google Apps Script.
-      Mỗi nút tải chỉ gửi mã plugin cố định qua tham số ?plugin=...
-      Khi đổi sang bản plugin mới, chỉ cần thay download_url trong Google Sheet;
-      mã plugin và số lượt tải cũ vẫn được giữ nguyên.
-    */
+    function hasStatsApi() {
+      return APPS_SCRIPT_URL &&
+        APPS_SCRIPT_URL.startsWith('https://script.google.com/macros/s/') &&
+        APPS_SCRIPT_URL.includes('/exec');
+    }
+
+    // Hàm này được Google Apps Script gọi bằng JSONP.
+    function renderDownloadStats(data) {
+      document.querySelectorAll('[data-download-count]').forEach(function (el) {
+        const pluginId = el.getAttribute('data-download-count');
+
+        if (
+          data &&
+          Object.prototype.hasOwnProperty.call(data, pluginId)
+        ) {
+          el.textContent = String(Number(data[pluginId]) || 0);
+        }
+      });
+    }
+
+    window.renderDownloadStats = renderDownloadStats;
+
+    function loadDownloadStats() {
+      if (!hasStatsApi()) return;
+
+      const oldScript = document.getElementById('download-stats-jsonp');
+      if (oldScript) oldScript.remove();
+
+      const statsScript = document.createElement('script');
+      statsScript.id = 'download-stats-jsonp';
+      statsScript.async = true;
+      statsScript.src =
+        APPS_SCRIPT_URL +
+        '?action=stats&callback=renderDownloadStats&_=' +
+        Date.now();
+
+      statsScript.onerror = function () {
+        console.warn('Không tải được số lượt tải từ Google Apps Script.');
+      };
+
+      document.body.appendChild(statsScript);
+    }
+
     document.querySelectorAll('[data-download-plugin]').forEach(function (btn) {
       const pluginId = btn.getAttribute('data-download-plugin');
 
-      btn.href = APPS_SCRIPT_URL + '?plugin=' + encodeURIComponent(pluginId);
+      btn.href =
+        APPS_SCRIPT_URL +
+        '?plugin=' +
+        encodeURIComponent(pluginId);
       btn.target = '_blank';
       btn.rel = 'noopener noreferrer';
 
       btn.addEventListener('click', function () {
-        /*
-          Cập nhật tạm số hiển thị ngay trên trang.
-          Số chính xác vẫn do Google Sheet lưu và Apps Script tăng.
-        */
+        // Cộng tạm ngay trên giao diện để người dùng thấy phản hồi tức thì.
         const countEl = document.querySelector(
           '[data-download-count="' + pluginId + '"]'
         );
@@ -618,8 +655,14 @@
 
           countEl.textContent = String(current + 1);
         }
+
+        // Đồng bộ lại với số thật trong Google Sheet sau khi Apps Script xử lý.
+        window.setTimeout(loadDownloadStats, 1800);
       });
     });
+
+    // Mỗi lần mở hoặc F5 trang, lấy số thật đang lưu trong Google Sheet.
+    loadDownloadStats();
   </script>
 </body>
 </html>
