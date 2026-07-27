@@ -384,7 +384,7 @@
         <div>
           <span class="tag">SketchUp Plugins by Betagon</span>
           <h1>Kho tải Plugin SketchUp cho học viên và người dùng Betagon</h1>
-          <p class="lead">Tổng hợp link tải RBZ, video hướng dẫn HD, thông tin phiên bản và hướng dẫn sử dụng các plugin do Betagon phát triển.</p>
+          <p class="lead">Tổng hợp link tải RBZ, video hướng dẫn HD, thông tin phiên bản và hướng dẫn sử dụng các plugin do Betagon phát triển. Cần học SketchUp - D5 Render anh em liên hệ zalo: 0363525612</p>
 
           <div class="btns">
             <a class="btn primary" href="#plugins">Xem danh sách Plugin</a>
@@ -416,13 +416,13 @@
 
         <div class="grid">
           <div class="card">
-            <img class="plugin-preview" src="path-tools-preview2.png" alt="Betagon Path Tools Preview">
+            <img class="plugin-preview" src="images/betagon-path-tool-preview.png" alt="Betagon Path Tools Preview">
             <h3>Betagon Path Tools</h3>
             <p>Rải đối tượng theo đường dẫn, hỗ trợ random spacing, random rotate, random scale và offset path.</p>
-            <p><strong>Phiên bản:</strong> V0.6.3</p>
+            <p><strong>Phiên bản:</strong> V0.8.3</p>
 
             <p class="download-count">
-              Lượt tải: <span data-download-count="path-tools">0</span>
+              Lượt tải: <span data-download-count="path-tools">205</span>
             </p>
 
             <div class="plugin-actions">
@@ -432,13 +432,13 @@
           </div>
 
           <div class="card">
-            <img class="plugin-preview" src="images/smart-face-preview.png" alt="Betagon Smart Face Preview">
+            <img class="plugin-preview" src="images/betagon-smart-face-preview.png" alt="Betagon Smart Face Preview">
             <h3>Betagon Smart Face</h3>
             <p>Plugin hỗ trợ đảo mặt, tạo mặt từ line kín, chọn mặt theo vật liệu, kiểm tra khoảng hở và dọn rác hình học.</p>
-            <p><strong>Phiên bản:</strong> V1.2</p>
+            <p><strong>Phiên bản:</strong> V1.8</p>
 
             <p class="download-count">
-              Lượt tải: <span data-download-count="smart-face">0</span>
+              Lượt tải: <span data-download-count="smart-face">389</span>
             </p>
 
             <div class="plugin-actions">
@@ -448,13 +448,13 @@
           </div>
 
           <div class="card">
-            <img class="plugin-preview" src="images/rotate-tools-preview.png" alt="Betagon Rotate Preview">
+            <img class="plugin-preview" src="images/betagon-rotate-tool-preview.png" alt="Betagon Rotate Preview">
             <h3>Betagon Rotate</h3>
             <p>Plugin hỗ trợ xoay nhanh hàng loạt đối tượng trong SketchUp: xoay -90°, +90°, 180° và xoay theo góc ngẫu nhiên.</p>
             <p><strong>Phiên bản:</strong> V1.5</p>
 
             <p class="download-count">
-              Lượt tải: <span data-download-count="rotate-tools">0</span>
+              Lượt tải: <span data-download-count="rotate-tools">101</span>
             </p>
 
             <div class="plugin-actions">
@@ -464,13 +464,17 @@
           </div>
 
           <div class="card">
-            <div class="icon">🎨</div>
-            <h3>Betagon Materials Replace</h3>
-            <p>Thay nhanh vật liệu trên đối tượng, tăng tốc workflow khi dựng nội thất và kiến trúc.</p>
-            <p><strong>Phiên bản:</strong> Sắp ra mắt</p>
+            <img class="plugin-preview" src="images/betagon-auto-lam-preview.png" alt="Betagon Auto Lam Preview">
+            <h3>Betagon Auto Lam</h3>
+            <p>Tạo nhanh các lam gỗ trên bề mặt với các tùy chọn kích thước, số lượng, góc xoay,...</p>
+            <p><strong>Phiên bản:</strong> V2.2</p>
+
+            <p class="download-count">
+              Lượt tải: <span data-download-count="auto-lam">0</span>
+            </p>
 
             <div class="plugin-actions">
-              <a class="small-btn download" href="#">Tải Miễn Phí</a>
+              <a class="small-btn download" href="#" data-download-plugin="auto-lam">Tải Miễn Phí</a>
               <a class="small-btn" href="#">Video HD</a>
             </div>
           </div>
@@ -570,7 +574,7 @@
 
         <div class="card">
           <h3>Betagon</h3>
-          <p>Email hỗ trợ: sun2tsketchup@gmail.com</p>
+          <p>Email hỗ trợ: Betagon.sketchup@gmail.com</p>
           <a class="small-btn" href="https://www.youtube.com/@ThanhSketchUp" target="_blank">Kênh Youtube</a>
           <a class="small-btn" href="https://www.facebook.com/Sun2T.SketchUp" target="_blank">Fanpage Facebook</a>
         </div>
@@ -585,40 +589,37 @@
   <script>
     const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbywo3N5efyNePR8hBlOORsLcW5Xhg-JwY7A9ZvL6OUGkX42PJ59tlQAQ-3LRIW9cZ6SWA/exec';
 
-    function hasStatsApi() {
-      return APPS_SCRIPT_URL &&
-        APPS_SCRIPT_URL.startsWith('https://script.google.com/macros/s/') &&
-        APPS_SCRIPT_URL.includes('/exec');
-    }
-
-    function renderDownloadStats(data) {
-      document.querySelectorAll('[data-download-count]').forEach(function (el) {
-        const key = el.getAttribute('data-download-count');
-        el.textContent = data && data[key] ? data[key] : 0;
-      });
-    }
-
+    /*
+      Bộ đếm chính thức được tăng trong Google Apps Script.
+      Mỗi nút tải chỉ gửi mã plugin cố định qua tham số ?plugin=...
+      Khi đổi sang bản plugin mới, chỉ cần thay download_url trong Google Sheet;
+      mã plugin và số lượt tải cũ vẫn được giữ nguyên.
+    */
     document.querySelectorAll('[data-download-plugin]').forEach(function (btn) {
-      btn.addEventListener('click', function (event) {
-        const plugin = btn.getAttribute('data-download-plugin');
+      const pluginId = btn.getAttribute('data-download-plugin');
 
-        if (!hasStatsApi()) {
-          event.preventDefault();
-          alert('Anh chưa dán link Apps Script Web App /exec vào biến APPS_SCRIPT_URL trong file index.html.');
-          return;
+      btn.href = APPS_SCRIPT_URL + '?plugin=' + encodeURIComponent(pluginId);
+      btn.target = '_blank';
+      btn.rel = 'noopener noreferrer';
+
+      btn.addEventListener('click', function () {
+        /*
+          Cập nhật tạm số hiển thị ngay trên trang.
+          Số chính xác vẫn do Google Sheet lưu và Apps Script tăng.
+        */
+        const countEl = document.querySelector(
+          '[data-download-count="' + pluginId + '"]'
+        );
+
+        if (countEl) {
+          const current = Number(
+            String(countEl.textContent).replace(/[^0-9]/g, '')
+          ) || 0;
+
+          countEl.textContent = String(current + 1);
         }
-
-        event.preventDefault();
-        const url = APPS_SCRIPT_URL + '?action=download&plugin=' + encodeURIComponent(plugin);
-        window.open(url, '_blank');
       });
     });
-
-    if (hasStatsApi()) {
-      const statsScript = document.createElement('script');
-      statsScript.src = APPS_SCRIPT_URL + '?action=stats&callback=renderDownloadStats';
-      document.body.appendChild(statsScript);
-    }
   </script>
 </body>
 </html>
