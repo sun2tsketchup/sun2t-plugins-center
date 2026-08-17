@@ -49,7 +49,7 @@
     {
       "slug": "betagon_rotate_tools",
       "name": "Betagon Rotate Tools",
-      "category": "Utilities",
+      "category": "Modeling",
       "type": "free",
       "published": true,
       "loader_file": "betagon_rotate_tools.rb",
@@ -65,17 +65,16 @@
       "latest_version": "V1.6.6",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
-      "description": "Xoay nhanh nhiều đối tượng theo tâm, trục và góc định sẵn. V1.6.6 dùng để xác minh cập nhật RBZ qua Internet từ Betagon Center.",
+      "description": "Xoay nhanh nhiều đối tượng theo tâm, trục và góc định sẵn.",
       "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Rotate_Tools_V1.6.6.rbz",
       "checksum_sha256": "ff0633f44c432efa65976d02aa15e7ac40b205457fc9d4b957ee5036f9869209",
       "requires_restart": true,
-      "learn_more_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/",
-      "release_notes": "Online update test: xác minh manifest online → download HTTPS → SHA256 → backup → install."
+      "learn_more_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/"
     },
     {
       "slug": "betagon_auto_lam",
       "name": "Betagon Auto Lam",
-      "category": "Architecture",
+      "category": "Modeling",
       "type": "free",
       "published": true,
       "loader_file": "Betagon_AutoLam.rb",
@@ -91,7 +90,7 @@
     {
       "slug": "betagon_auto_door",
       "name": "Betagon Auto Door",
-      "category": "Architecture",
+      "category": "Interior",
       "type": "free",
       "published": true,
       "loader_file": "Betagon_AutoDoor.rb",
@@ -139,7 +138,7 @@
     {
       "slug": "betagon_faceme_2d",
       "name": "Betagon FaceMe 2D",
-      "category": "Utilities",
+      "category": "Modeling",
       "type": "free",
       "published": true,
       "loader_file": "Betagon_FaceMe2D.rb",
@@ -154,8 +153,8 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "0.6.1",
+  "manifest_version": "0.9.0",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
-  "generated_at": "2026-08-17T13:20:00+07:00",
-  "center_min_version": "0.6.0"
+  "generated_at": "2026-08-17T14:20:00+07:00",
+  "center_min_version": "0.8.0"
 }

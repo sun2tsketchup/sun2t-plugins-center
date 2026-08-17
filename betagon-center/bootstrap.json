@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "latest_version": "0.8.0",
-  "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Center_V0.8.0.rbz",
-  "checksum_sha256": "3a1c8da7be868675824c30da726fb3e400aacf64a0aa6e225d8923a3d8532e61",
+  "latest_version": "0.9.0",
+  "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Center_V0.9.0.rbz",
+  "checksum_sha256": "84b607394623e3d180d0f6698b39648e29ddbbfd601086689e14b78e73dacf74",
   "min_sketchup_version": 2021,
   "max_sketchup_version": 2026,
-  "release_notes": "V0.8.0: giao diện Betagon Center được tối giản và thiết kế lại chuyên nghiệp; chỉ giữ Tổng quan, Plugin và Cập nhật; lược bỏ các mục kỹ thuật, cài đặt và thao tác không cần thiết. Center tiếp tục tự đồng bộ và tự cập nhật ở nền.",
+  "release_notes": "V0.9.0: bổ sung thông tin tác giả và cộng đồng, popup QR mời cà phê, phân nhóm Modeling/Architecture/Interior, bộ lọc trạng thái + miễn phí/có phí, Settings VI-ENG + tự cập nhật Center, gỡ plugin, Cài tất cả/Cập nhật tất cả, Giới thiệu và thời gian kiểm tra cập nhật gần nhất.",
   "auto_install_supported": true
 }
