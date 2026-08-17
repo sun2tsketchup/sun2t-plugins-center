@@ -132,7 +132,7 @@
       "latest_version": "V0.1.0",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
-      "description": "Smart Roof trả phí – gói TEST để kiểm tra đăng nhập và quyền sử dụng.",
+      "description": "Smart Roof trả phí – Paid Test bằng đăng nhập Google thật. Hệ mua hàng/license server sẽ được nối ở bước tiếp theo.",
       "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Smart_Roof_V0.1.0_PaidTest.rbz",
       "checksum_sha256": "3ac61022b4e15ac4450cbff39e7df196653d9cdc7a67e8eb455799400a76325a",
       "requires_restart": true,
@@ -194,8 +194,8 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "0.12.0",
+  "manifest_version": "0.13.0",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
-  "center_min_version": "0.11.0",
+  "center_min_version": "0.13.0",
   "generated_at": "2026-08-17T15:09:00+07:00"
 }
