@@ -8,21 +8,24 @@
       "category": "Modeling",
       "type": "free",
       "published": true,
-      "loader_file": "Betagon_SmartFace.rb",
+      "loader_file": "betagon_smart_face.rb",
       "loader_candidates": [
+        "Betagon_SmartFace.rb",
         "Sun2T_SmartFace.rb"
       ],
-      "folder": "Betagon_SmartFace",
+      "folder": "betagon_smart_face",
       "folder_candidates": [
+        "Betagon_SmartFace",
         "Sun2T_SmartFace"
       ],
-      "latest_version": "",
+      "latest_version": "1.8.1",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
       "description": "Đảo mặt, tìm khoảng hở và dọn hình học SketchUp.",
-      "download_url": "",
-      "checksum_sha256": "",
-      "requires_restart": true
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Smart_Face_V1.8.1.rbz",
+      "checksum_sha256": "7ae7e19949026b6162b3b525bce9e44a6c1a5a1f3ce4f2bf67e58317143c3ced",
+      "requires_restart": true,
+      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_plugin_logo.png"
     },
     {
       "slug": "betagon_path_tools",
@@ -38,13 +41,14 @@
       "folder_candidates": [
         "Sun2T_PathTools"
       ],
-      "latest_version": "",
+      "latest_version": "0.8.4",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
       "description": "Rải đối tượng theo đường dẫn với nhiều chế độ khoảng cách và ngẫu nhiên.",
-      "download_url": "",
-      "checksum_sha256": "",
-      "requires_restart": true
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_PathTools_V0.8.4.rbz",
+      "checksum_sha256": "13c9f3ed5d3441058df7822bef8d55f2a73707341692d52006b8d99b464bb6cd",
+      "requires_restart": true,
+      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_plugin_logo.png"
     },
     {
       "slug": "betagon_rotate_tools",
@@ -68,8 +72,7 @@
       "description": "Xoay nhanh nhiều đối tượng theo tâm, trục và góc định sẵn.",
       "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Rotate_Tools_V1.6.6.rbz",
       "checksum_sha256": "ff0633f44c432efa65976d02aa15e7ac40b205457fc9d4b957ee5036f9869209",
-      "requires_restart": true,
-      "learn_more_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/"
+      "requires_restart": true
     },
     {
       "slug": "betagon_auto_lam",
@@ -77,28 +80,41 @@
       "category": "Modeling",
       "type": "free",
       "published": true,
-      "loader_file": "Betagon_AutoLam.rb",
-      "folder": "Betagon_AutoLam",
-      "latest_version": "",
+      "loader_file": "betagon_auto_lam.rb",
+      "loader_candidates": [
+        "Betagon_AutoLam.rb"
+      ],
+      "folder": "betagon_auto_lam",
+      "folder_candidates": [
+        "Betagon_AutoLam"
+      ],
+      "latest_version": "3.8.1",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
       "description": "Tạo hệ lam theo bề mặt, cạnh định hướng và tiết diện tùy chọn.",
-      "download_url": "",
-      "checksum_sha256": "",
-      "requires_restart": true
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Auto_Lam_V3.8.1.rbz",
+      "checksum_sha256": "d06b747cded3c031b3f9e547c603dbf66c03ca16aec4371574abef88893fbc66",
+      "requires_restart": true,
+      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_plugin_logo.png"
     },
     {
-      "slug": "betagon_auto_door",
-      "name": "Betagon Auto Door",
-      "category": "Interior",
+      "slug": "betagon_door_and_window",
+      "name": "Betagon Door And Window",
+      "category": "Architecture",
       "type": "free",
       "published": true,
-      "loader_file": "Betagon_AutoDoor.rb",
-      "folder": "Betagon_AutoDoor",
+      "loader_file": "Betagon_DoorAndWindow.rb",
+      "loader_candidates": [
+        "Betagon_AutoDoor.rb"
+      ],
+      "folder": "Betagon_DoorAndWindow",
+      "folder_candidates": [
+        "Betagon_AutoDoor"
+      ],
       "latest_version": "",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
-      "description": "Tạo nhanh cửa nhôm kính mở, lùa và các cấu hình cánh/fix.",
+      "description": "Tạo nhanh hệ cửa đi và cửa sổ cho mô hình kiến trúc.",
       "download_url": "",
       "checksum_sha256": "",
       "requires_restart": true
@@ -130,7 +146,7 @@
       "latest_version": "",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
-      "description": "Bộ công cụ dựng kiến trúc Betagon, bắt đầu với hệ tường nhiều lớp và ô cửa.",
+      "description": "Bộ công cụ dựng kiến trúc Betagon.",
       "download_url": "",
       "checksum_sha256": "",
       "requires_restart": true
@@ -150,11 +166,27 @@
       "download_url": "",
       "checksum_sha256": "",
       "requires_restart": true
+    },
+    {
+      "slug": "betagon_cabinet_door",
+      "name": "Betagon Cabinet Door",
+      "category": "Interior",
+      "type": "free",
+      "published": true,
+      "loader_file": "Betagon_CabinetDoor.rb",
+      "folder": "Betagon_CabinetDoor",
+      "latest_version": "",
+      "min_sketchup_version": 2021,
+      "max_sketchup_version": 2026,
+      "description": "Công cụ tạo và quản lý cánh tủ nội thất.",
+      "download_url": "",
+      "checksum_sha256": "",
+      "requires_restart": true
     }
   ],
   "channel": "stable",
-  "manifest_version": "0.9.0",
+  "manifest_version": "0.10.0",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
-  "generated_at": "2026-08-17T14:20:00+07:00",
-  "center_min_version": "0.8.0"
+  "center_min_version": "0.10.0",
+  "generated_at": "2026-08-17T14:50:00+07:00"
 }

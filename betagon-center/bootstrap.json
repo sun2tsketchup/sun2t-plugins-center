@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "latest_version": "0.9.0",
-  "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Center_V0.9.0.rbz",
-  "checksum_sha256": "84b607394623e3d180d0f6698b39648e29ddbbfd601086689e14b78e73dacf74",
+  "latest_version": "0.10.0",
+  "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Center_V0.10.0.rbz",
+  "checksum_sha256": "3c43ba45ecb9f195228239d375ed4ad65546974d21f663beedc888fa56d603a1",
   "min_sketchup_version": 2021,
   "max_sketchup_version": 2026,
-  "release_notes": "V0.9.0: bổ sung thông tin tác giả và cộng đồng, popup QR mời cà phê, phân nhóm Modeling/Architecture/Interior, bộ lọc trạng thái + miễn phí/có phí, Settings VI-ENG + tự cập nhật Center, gỡ plugin, Cài tất cả/Cập nhật tất cả, Giới thiệu và thời gian kiểm tra cập nhật gần nhất.",
+  "release_notes": "V0.10.0: logo Betagon chính thức + toolbar Center, VIE-ENG, QR nhóm Zalo, nút đăng ký học SketchUp & D5 Render, icon plugin trong Center, phát hành Smart Face 1.8.1 / Path Tools 0.8.4 / Auto Lam 3.8.1, đổi tên Door And Window và thêm Cabinet Door sắp ra mắt.",
   "auto_install_supported": true
 }
