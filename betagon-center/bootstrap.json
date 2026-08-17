@@ -1,11 +1,7 @@
 {
-  "schema_version": 1,
-  "latest_version": "0.11.0",
-  "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Center_V0.11.0.rbz",
-  "checksum_sha256": "0347fece8be36bf975099916293c9cb54d0b329d573fed27c5817e8512eaaf12",
+  "latest_version": "0.12.0",
+  "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Center_V0.12.0.rbz",
+  "checksum_sha256": "44ba45d39f28a64824d327626d816215c5d0ef6850ea7c52d99fca01724acf2f",
   "min_sketchup_version": 2021,
-  "max_sketchup_version": 2026,
-  "release_notes": "V0.11.0: bộ icon riêng cho toàn bộ plugin; icon toolbar mới cho Smart Face, Path Tools và Auto Lam; thêm nút Update Center và cơ chế hot reload để các bản Center từ V0.11 trở đi có thể cập nhật mà không cần đóng SketchUp.",
-  "auto_install_supported": true,
-  "hot_reload_supported": true
+  "max_sketchup_version": 2026
 }

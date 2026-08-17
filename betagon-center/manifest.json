@@ -66,12 +66,12 @@
         "Betagon_RotateTools",
         "Sun2T_RotateTools"
       ],
-      "latest_version": "V1.6.6",
+      "latest_version": "V1.6.7",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
-      "description": "Xoay nhanh nhiều đối tượng theo tâm, trục và góc định sẵn.",
-      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Rotate_Tools_V1.6.6.rbz",
-      "checksum_sha256": "ff0633f44c432efa65976d02aa15e7ac40b205457fc9d4b957ee5036f9869209",
+      "description": "Xoay nhanh nhiều đối tượng theo tâm, trục và góc định sẵn. Toolbar dùng cùng icon với Betagon Center.",
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Rotate_Tools_V1.6.7.rbz",
+      "checksum_sha256": "9602c242f6ae5bd1cc2fc9fac644ffd6f559a4742cf85d5fdbfbc95b0861cab4",
       "requires_restart": true,
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_rotate_tools_128.png"
     },
@@ -125,18 +125,21 @@
       "slug": "betagon_smart_roof",
       "name": "Betagon Smart Roof",
       "category": "Architecture",
-      "type": "test",
+      "type": "paid",
       "published": true,
       "loader_file": "Betagon_SmartRoof.rb",
       "folder": "Betagon_SmartRoof",
-      "latest_version": "",
+      "latest_version": "V0.1.0",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
-      "description": "Lợp ngói, cắt biên, úp nóc/úp rìa và thống kê mái tự động.",
-      "download_url": "",
-      "checksum_sha256": "",
+      "description": "Smart Roof trả phí – gói TEST để kiểm tra đăng nhập và quyền sử dụng.",
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Smart_Roof_V0.1.0_PaidTest.rbz",
+      "checksum_sha256": "3ac61022b4e15ac4450cbff39e7df196653d9cdc7a67e8eb455799400a76325a",
       "requires_restart": true,
-      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_smart_roof_128.png"
+      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_smart_roof_128.png",
+      "requires_purchase": true,
+      "paid_test": true,
+      "purchase_url": "https://www.facebook.com/Betagon.SketchUp"
     },
     {
       "slug": "betagon_architect",
@@ -191,7 +194,7 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "0.11.0",
+  "manifest_version": "0.12.0",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.11.0",
   "generated_at": "2026-08-17T15:09:00+07:00"

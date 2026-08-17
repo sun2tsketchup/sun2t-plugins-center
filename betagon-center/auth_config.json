@@ -1,0 +1,4 @@
+{
+  "google_desktop_client_id": "YOUR_GOOGLE_DESKTOP_CLIENT_ID.apps.googleusercontent.com",
+  "note": "Create a Google OAuth 2.0 Client ID of type Desktop app, then replace this value."
+}
