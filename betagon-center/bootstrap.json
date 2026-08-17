@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "latest_version": "0.6.0",
+  "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Center_V0.6.0.rbz",
+  "checksum_sha256": "977ebae95da9cf741f49814132e11ebed39bb6d06c5dd5b37034eaf1eec6ebbf",
+  "min_sketchup_version": 2021,
+  "max_sketchup_version": 2026,
+  "release_notes": "Betagon Center V0.6.0 Online Ready: manifest online, auto-sync, cache offline, SHA256, backup/rollback."
+}

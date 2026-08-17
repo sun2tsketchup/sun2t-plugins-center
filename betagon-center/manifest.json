@@ -1,0 +1,160 @@
+{
+  "schema_version": 2,
+  "brand": "Betagon",
+  "plugins": [
+    {
+      "slug": "betagon_smart_face",
+      "name": "Betagon Smart Face",
+      "category": "Modeling",
+      "type": "free",
+      "published": true,
+      "loader_file": "Betagon_SmartFace.rb",
+      "loader_candidates": [
+        "Sun2T_SmartFace.rb"
+      ],
+      "folder": "Betagon_SmartFace",
+      "folder_candidates": [
+        "Sun2T_SmartFace"
+      ],
+      "latest_version": "",
+      "min_sketchup_version": 2021,
+      "max_sketchup_version": 2026,
+      "description": "Đảo mặt, tìm khoảng hở và dọn hình học SketchUp.",
+      "download_url": "",
+      "checksum_sha256": "",
+      "requires_restart": true
+    },
+    {
+      "slug": "betagon_path_tools",
+      "name": "Betagon Path Tools",
+      "category": "Modeling",
+      "type": "free",
+      "published": true,
+      "loader_file": "Betagon_PathTools.rb",
+      "loader_candidates": [
+        "Sun2T_PathTools.rb"
+      ],
+      "folder": "Betagon_PathTools",
+      "folder_candidates": [
+        "Sun2T_PathTools"
+      ],
+      "latest_version": "",
+      "min_sketchup_version": 2021,
+      "max_sketchup_version": 2026,
+      "description": "Rải đối tượng theo đường dẫn với nhiều chế độ khoảng cách và ngẫu nhiên.",
+      "download_url": "",
+      "checksum_sha256": "",
+      "requires_restart": true
+    },
+    {
+      "slug": "betagon_rotate_tools",
+      "name": "Betagon Rotate Tools",
+      "category": "Utilities",
+      "type": "free",
+      "published": true,
+      "loader_file": "betagon_rotate_tools.rb",
+      "loader_candidates": [
+        "Betagon_RotateTools.rb",
+        "Sun2T_RotateTools.rb"
+      ],
+      "folder": "betagon_rotate_tools",
+      "folder_candidates": [
+        "Betagon_RotateTools",
+        "Sun2T_RotateTools"
+      ],
+      "latest_version": "V1.6.4",
+      "min_sketchup_version": 2021,
+      "max_sketchup_version": 2026,
+      "description": "Xoay nhanh nhiều đối tượng theo tâm, trục và góc định sẵn. Gói đầu tiên được phát hành qua Betagon Center online.",
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Rotate_Tools_V1.6.4.rbz",
+      "checksum_sha256": "b4af9ce0dba8f6d11285495600a302fcefa69c95858752ab4fe1bc136852e365",
+      "requires_restart": true,
+      "learn_more_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/"
+    },
+    {
+      "slug": "betagon_auto_lam",
+      "name": "Betagon Auto Lam",
+      "category": "Architecture",
+      "type": "free",
+      "published": true,
+      "loader_file": "Betagon_AutoLam.rb",
+      "folder": "Betagon_AutoLam",
+      "latest_version": "",
+      "min_sketchup_version": 2021,
+      "max_sketchup_version": 2026,
+      "description": "Tạo hệ lam theo bề mặt, cạnh định hướng và tiết diện tùy chọn.",
+      "download_url": "",
+      "checksum_sha256": "",
+      "requires_restart": true
+    },
+    {
+      "slug": "betagon_auto_door",
+      "name": "Betagon Auto Door",
+      "category": "Architecture",
+      "type": "free",
+      "published": true,
+      "loader_file": "Betagon_AutoDoor.rb",
+      "folder": "Betagon_AutoDoor",
+      "latest_version": "",
+      "min_sketchup_version": 2021,
+      "max_sketchup_version": 2026,
+      "description": "Tạo nhanh cửa nhôm kính mở, lùa và các cấu hình cánh/fix.",
+      "download_url": "",
+      "checksum_sha256": "",
+      "requires_restart": true
+    },
+    {
+      "slug": "betagon_smart_roof",
+      "name": "Betagon Smart Roof",
+      "category": "Architecture",
+      "type": "test",
+      "published": true,
+      "loader_file": "Betagon_SmartRoof.rb",
+      "folder": "Betagon_SmartRoof",
+      "latest_version": "",
+      "min_sketchup_version": 2021,
+      "max_sketchup_version": 2026,
+      "description": "Lợp ngói, cắt biên, úp nóc/úp rìa và thống kê mái tự động.",
+      "download_url": "",
+      "checksum_sha256": "",
+      "requires_restart": true
+    },
+    {
+      "slug": "betagon_architect",
+      "name": "Betagon Architect",
+      "category": "Architecture",
+      "type": "test",
+      "published": true,
+      "loader_file": "Betagon_Architect.rb",
+      "folder": "Betagon_Architect",
+      "latest_version": "",
+      "min_sketchup_version": 2021,
+      "max_sketchup_version": 2026,
+      "description": "Bộ công cụ dựng kiến trúc Betagon, bắt đầu với hệ tường nhiều lớp và ô cửa.",
+      "download_url": "",
+      "checksum_sha256": "",
+      "requires_restart": true
+    },
+    {
+      "slug": "betagon_faceme_2d",
+      "name": "Betagon FaceMe 2D",
+      "category": "Utilities",
+      "type": "free",
+      "published": true,
+      "loader_file": "Betagon_FaceMe2D.rb",
+      "folder": "Betagon_FaceMe2D",
+      "latest_version": "",
+      "min_sketchup_version": 2021,
+      "max_sketchup_version": 2026,
+      "description": "Chuẩn hóa đối tượng FaceMe 2D và trục component theo quy ước Betagon.",
+      "download_url": "",
+      "checksum_sha256": "",
+      "requires_restart": true
+    }
+  ],
+  "channel": "stable",
+  "manifest_version": "0.6.0",
+  "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
+  "generated_at": "2026-08-17T13:15:00+07:00",
+  "center_min_version": "0.6.0"
+}
