@@ -1,9 +1,10 @@
 {
   "schema_version": 1,
-  "latest_version": "0.6.0",
-  "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Center_V0.6.0.rbz",
-  "checksum_sha256": "977ebae95da9cf741f49814132e11ebed39bb6d06c5dd5b37034eaf1eec6ebbf",
+  "latest_version": "0.7.0",
+  "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Center_V0.7.0.rbz",
+  "checksum_sha256": "776c56167c02d64290da8d0a340b6eb2f5f02e9679f6941299638cd7c108d80c",
   "min_sketchup_version": 2021,
   "max_sketchup_version": 2026,
-  "release_notes": "Betagon Center V0.6.0 Online Ready: manifest online, auto-sync, cache offline, SHA256, backup/rollback."
+  "release_notes": "V0.7.0: các ô thống kê Tổng quan có thể bấm để mở danh sách tương ứng; thêm bộ lọc trạng thái trong trang Plugin; UpdateBridge hỗ trợ tự động tải và cài bản Betagon Center mới.",
+  "auto_install_supported": true
 }
