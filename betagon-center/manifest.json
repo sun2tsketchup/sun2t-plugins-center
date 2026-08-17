@@ -62,14 +62,15 @@
         "Betagon_RotateTools",
         "Sun2T_RotateTools"
       ],
-      "latest_version": "V1.6.4",
+      "latest_version": "V1.6.6",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
-      "description": "Xoay nhanh nhiều đối tượng theo tâm, trục và góc định sẵn. Gói đầu tiên được phát hành qua Betagon Center online.",
-      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Rotate_Tools_V1.6.4.rbz",
-      "checksum_sha256": "b4af9ce0dba8f6d11285495600a302fcefa69c95858752ab4fe1bc136852e365",
+      "description": "Xoay nhanh nhiều đối tượng theo tâm, trục và góc định sẵn. V1.6.6 dùng để xác minh cập nhật RBZ qua Internet từ Betagon Center.",
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Rotate_Tools_V1.6.6.rbz",
+      "checksum_sha256": "ff0633f44c432efa65976d02aa15e7ac40b205457fc9d4b957ee5036f9869209",
       "requires_restart": true,
-      "learn_more_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/"
+      "learn_more_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/",
+      "release_notes": "Online update test: xác minh manifest online → download HTTPS → SHA256 → backup → install."
     },
     {
       "slug": "betagon_auto_lam",
@@ -153,8 +154,8 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "0.6.0",
+  "manifest_version": "0.6.1",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
-  "generated_at": "2026-08-17T13:15:00+07:00",
+  "generated_at": "2026-08-17T13:20:00+07:00",
   "center_min_version": "0.6.0"
 }
