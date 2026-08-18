@@ -199,33 +199,11 @@
       "checksum_sha256": "",
       "requires_restart": true,
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_cabinet_door_128.png"
-    },
-    {
-      "slug": "Test_Mua",
-      "name": "Test Mua",
-      "category": "Modeling",
-      "type": "paid",
-      "published": false,
-      "loader_file": "",
-      "folder": "",
-      "latest_version": "1.0.0",
-      "min_sketchup_version": 2021,
-      "max_sketchup_version": 2026,
-      "description": "",
-      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/Test_Mua_128.png",
-      "requires_restart": true,
-      "hot_reload": false,
-      "requires_purchase": true,
-      "server_managed": true,
-      "price_vnd": 20000,
-      "max_devices": 2,
-      "download_url": "",
-      "checksum_sha256": ""
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1787073848449",
+  "manifest_version": "admin-v2-1787074780546",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-08-18T17:24:08.449Z"
+  "generated_at": "2026-08-18T17:39:40.546Z"
 }
