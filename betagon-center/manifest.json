@@ -129,7 +129,7 @@
       "published": true,
       "loader_file": "Betagon_SmartRoof.rb",
       "folder": "Betagon_SmartRoof",
-      "latest_version": "V0.2.0",
+      "latest_version": "V0.2.1",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
       "description": "Smart Roof trả phí – thanh toán tự động qua payOS. License thuộc email và khóa cứng tối đa 2 thiết bị.",
