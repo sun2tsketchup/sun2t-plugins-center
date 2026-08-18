@@ -18,12 +18,12 @@
         "Betagon_SmartFace",
         "Sun2T_SmartFace"
       ],
-      "latest_version": "1.8.2",
+      "latest_version": "1.8.3",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
       "description": "Đảo mặt, tìm khoảng hở và dọn hình học SketchUp.",
-      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Smart_Face_V1.8.2.rbz",
-      "checksum_sha256": "56440aed74be90ecdac763e7da4a7c6a4c4c789e1d78b51799d846cefb75c479",
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Smart_Face_V1.8.3_AdminReleaseTest.rbz",
+      "checksum_sha256": "f0d9092f0b067e5eee7604d9ec02810df6ba6de1a08d2e8280275d739af3146a",
       "requires_restart": true,
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_smart_face_128.png"
     },
@@ -66,7 +66,7 @@
         "Betagon_RotateTools",
         "Sun2T_RotateTools"
       ],
-      "latest_version": "V1.6.7",
+      "latest_version": "1.6.7",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
       "description": "Xoay nhanh nhiều đối tượng theo tâm, trục và góc định sẵn. Toolbar dùng cùng icon với Betagon Center.",
@@ -129,7 +129,7 @@
       "published": true,
       "loader_file": "Betagon_SmartRoof.rb",
       "folder": "Betagon_SmartRoof",
-      "latest_version": "V0.2.4",
+      "latest_version": "0.2.4",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
       "description": "Smart Roof trả phí – thanh toán tự động qua payOS. Hỗ trợ cập nhật nóng trong SketchUp, license theo email và khóa cứng tối đa 2 thiết bị.",
@@ -150,7 +150,7 @@
       "slug": "betagon_architect",
       "name": "Betagon Architect",
       "category": "Architecture",
-      "type": "test",
+      "type": "free",
       "published": true,
       "loader_file": "Betagon_Architect.rb",
       "folder": "Betagon_Architect",
@@ -199,8 +199,8 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "0.2.4-admin",
+  "manifest_version": "admin-v2-1787038986937",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-08-18T07:06:46.868Z"
+  "generated_at": "2026-08-18T07:43:06.937Z"
 }
