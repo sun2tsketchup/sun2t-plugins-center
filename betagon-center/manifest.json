@@ -210,7 +210,7 @@
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
       "description": "",
-      "icon_url": "",
+      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/Test_Mua_128.png",
       "requires_restart": true,
       "hot_reload": false,
       "requires_purchase": true,
@@ -222,8 +222,8 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1787039535022",
+  "manifest_version": "admin-v2-1787039538429",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-08-18T07:52:15.022Z"
+  "generated_at": "2026-08-18T07:52:18.429Z"
 }
