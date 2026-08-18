@@ -140,7 +140,7 @@
       "requires_purchase": true,
       "paid_test": false,
       "server_managed": true,
-      "price_vnd": 10000,
+      "price_vnd": 99000,
       "max_devices": 2,
       "hot_reload": true,
       "hot_reload_entry": "main.rb",
@@ -222,8 +222,8 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1787039892211",
+  "manifest_version": "admin-v2-1787071113056",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-08-18T07:58:12.211Z"
+  "generated_at": "2026-08-18T16:38:33.056Z"
 }
