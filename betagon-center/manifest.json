@@ -18,16 +18,16 @@
         "Betagon_SmartFace",
         "Sun2T_SmartFace"
       ],
-      "latest_version": "1.8.3",
+      "latest_version": "1.8.4",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
       "description": "Đảo mặt, tìm khoảng hở và dọn hình học SketchUp.",
-      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Smart_Face_V1.8.3_AdminReleaseTest.rbz",
-      "checksum_sha256": "f0d9092f0b067e5eee7604d9ec02810df6ba6de1a08d2e8280275d739af3146a",
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Smart_Face_V1.8.4_RollbackTest.rbz",
+      "checksum_sha256": "08f7a646c464879fddcdfb14a3f9122562259a95f7c58441d2dc1787ff558e80",
       "requires_restart": true,
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_smart_face_128.png",
-      "release_notes": "Test cập nhật plugin Free bằng Betagon Admin V2",
-      "release_notes_version": "1.8.3"
+      "release_notes": "back",
+      "release_notes_version": "1.8.4"
     },
     {
       "slug": "betagon_path_tools",
@@ -224,8 +224,8 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1787073768628",
+  "manifest_version": "admin-v2-1787073848449",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-08-18T17:22:48.628Z"
+  "generated_at": "2026-08-18T17:24:08.449Z"
 }
