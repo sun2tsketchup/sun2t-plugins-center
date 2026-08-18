@@ -129,7 +129,7 @@
       "published": true,
       "loader_file": "Betagon_SmartRoof.rb",
       "folder": "Betagon_SmartRoof",
-      "latest_version": "V0.2.1",
+      "latest_version": "V0.2.2",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
       "description": "Smart Roof trả phí – thanh toán tự động qua payOS. License thuộc email và khóa cứng tối đa 2 thiết bị.",
@@ -196,8 +196,8 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "0.17.0",
+  "manifest_version": "0.2.2-test-update",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.0",
-  "generated_at": "2026-08-18T02:30:00+07:00"
+  "generated_at": "2026-08-18T12:32:00+07:00"
 }
