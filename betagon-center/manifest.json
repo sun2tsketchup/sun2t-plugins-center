@@ -168,7 +168,7 @@
       "name": "Betagon FaceMe 2D",
       "category": "Modeling",
       "type": "free",
-      "published": true,
+      "published": false,
       "loader_file": "Betagon_FaceMe2D.rb",
       "folder": "Betagon_FaceMe2D",
       "latest_version": "",
@@ -178,7 +178,8 @@
       "download_url": "",
       "checksum_sha256": "",
       "requires_restart": true,
-      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_faceme_2d_128.png"
+      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_faceme_2d_128.png",
+      "hot_reload": false
     },
     {
       "slug": "betagon_cabinet_door",
@@ -199,8 +200,8 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1787038986937",
+  "manifest_version": "admin-v2-1787039285110",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-08-18T07:43:06.937Z"
+  "generated_at": "2026-08-18T07:48:05.110Z"
 }
