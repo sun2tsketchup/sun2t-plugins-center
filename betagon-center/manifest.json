@@ -72,11 +72,12 @@
       "latest_version": "1.6.7",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
-      "description": "Xoay nhanh nhiều đối tượng theo tâm, trục và góc định sẵn. Toolbar dùng cùng icon với Betagon Center.",
+      "description": "Xoay nhanh nhiều đối tượng theo tâm, trục và góc định sẵn, hỗ trợ nhiều chế độ xoay đa dạng",
       "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Rotate_Tools_V1.6.7.rbz",
       "checksum_sha256": "9602c242f6ae5bd1cc2fc9fac644ffd6f559a4742cf85d5fdbfbc95b0861cab4",
       "requires_restart": true,
-      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_rotate_tools_128.png"
+      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_rotate_tools_128.png",
+      "hot_reload": false
     },
     {
       "slug": "betagon_auto_lam",
@@ -205,8 +206,8 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1787159203570",
+  "manifest_version": "admin-v2-1787159234859",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-08-19T17:06:43.570Z"
+  "generated_at": "2026-08-19T17:07:14.859Z"
 }
