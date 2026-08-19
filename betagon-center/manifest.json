@@ -137,7 +137,7 @@
       "latest_version": "0.2.5",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
-      "description": "Smart Roof trả phí – thanh toán tự động qua payOS. Hỗ trợ cập nhật nóng trong SketchUp, license theo email và khóa cứng tối đa 2 thiết bị.",
+      "description": "Tự động lợp các loại mái ngói, tùy chỉnh chủng loại, kích thước, màu sắc.",
       "download_url": "",
       "checksum_sha256": "",
       "requires_restart": false,
@@ -207,8 +207,8 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1787159279378",
+  "manifest_version": "admin-v2-1787159357046",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-08-19T17:07:59.378Z"
+  "generated_at": "2026-08-19T17:09:17.046Z"
 }
