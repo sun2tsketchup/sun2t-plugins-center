@@ -1,7 +1,7 @@
 {
-  "latest_version": "0.19.0",
-  "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Center_V0.19.0_AccountLogin.rbz",
-  "checksum_sha256": "63a0bc73c790b0bf8274cbb8eb8d99d6de40064722f58c84aeecc4082c3796d6",
+  "latest_version": "0.19.1",
+  "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Center_V0.19.1_AccountFix_ForgotPassword.rbz",
+  "checksum_sha256": "2454eb0002a050fcea45f71709ac967e9a93c094c8fe2d5bec80f3a0a6b9cc84",
   "min_sketchup_version": 2021,
   "max_sketchup_version": 2026
 }
