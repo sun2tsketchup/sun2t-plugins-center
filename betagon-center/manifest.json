@@ -83,7 +83,9 @@
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_rotate_tools_128.png",
       "hot_reload": false,
       "release_notes": "Update xoay hàng loạt nhiều vật thể",
-      "release_notes_version": "1.7.0"
+      "release_notes_version": "1.7.0",
+      "video_intro_url": "https://youtube.com/shorts/eSXSJOWcVrk",
+      "video_update_url": ""
     },
     {
       "slug": "betagon_auto_lam",
@@ -215,10 +217,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1787418481552",
+  "manifest_version": "admin-v2-1787418510303",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-08-22T17:08:01.552Z",
+  "generated_at": "2026-08-22T17:08:30.303Z",
   "guides": [
     {
       "id": 3,
