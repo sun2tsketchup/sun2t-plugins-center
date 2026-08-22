@@ -168,7 +168,7 @@
       "release_notes": "Update ra mắt chính thức V2.0 hoàn thiện",
       "release_notes_version": "2.0",
       "video_update_url": "",
-      "video_intro_url": ""
+      "video_intro_url": "https://youtube.com/shorts/IcVYBWga4DY"
     },
     {
       "slug": "betagon_architect",
@@ -224,10 +224,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1787426497103",
+  "manifest_version": "admin-v2-1787429619834",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-08-22T19:21:37.103Z",
+  "generated_at": "2026-08-22T20:13:39.834Z",
   "guides": [
     {
       "id": 3,
