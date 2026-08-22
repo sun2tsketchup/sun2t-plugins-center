@@ -216,5 +216,16 @@
   "manifest_version": "admin-v2-1787414471459",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-08-22T16:01:11.459Z"
+  "generated_at": "2026-08-22T16:25:09.726Z",
+  "guides": [
+    {
+      "id": 1,
+      "title": "Hướng dẫn sử dụng Betagon Center,",
+      "category": "Center",
+      "description": "Tại Center ae có thể cài đặt, cập nhật, mua, tất cả plugin của Betagon chỉ với vài click chuột rất tiện lợi. \nNếu anh em đang có các phiên bản cũ của các plugin thì gỡ hết đi rồi cài đặt lại từ center cho đỡ lỗi plugin nha.",
+      "youtube_url": "https://youtube.com/shorts/cdBfKkztm84",
+      "published": true,
+      "sort_order": 1
+    }
+  ]
 }
