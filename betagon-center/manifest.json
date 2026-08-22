@@ -160,14 +160,15 @@
       "requires_purchase": true,
       "paid_test": false,
       "server_managed": true,
-      "price_vnd": 99000,
+      "price_vnd": 149000,
       "max_devices": 2,
       "hot_reload": true,
       "hot_reload_entry": "main.rb",
       "hot_reload_hook": "Betagon::SmartRoofPaidTest",
       "release_notes": "Update ra mắt chính thức V2.0 hoàn thiện",
       "release_notes_version": "2.0",
-      "video_update_url": ""
+      "video_update_url": "",
+      "video_intro_url": ""
     },
     {
       "slug": "betagon_architect",
@@ -223,10 +224,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1787425121234",
+  "manifest_version": "admin-v2-1787426497103",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-08-22T18:58:41.234Z",
+  "generated_at": "2026-08-22T19:21:37.103Z",
   "guides": [
     {
       "id": 3,
