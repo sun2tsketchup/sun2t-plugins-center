@@ -104,19 +104,19 @@
       "folder_candidates": [
         "Betagon_AutoLam"
       ],
-      "latest_version": "3.9.0",
+      "latest_version": "3.9.1",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
       "description": "Tạo hệ lam theo bề mặt, cạnh định hướng và tiết diện tùy chọn. Hỗ trợ tạo trên mặt cong",
-      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Auto_Lam_V3.9.0_Center_Protected.rbz",
-      "checksum_sha256": "13b4d6e9df48533696da54cd55d8e41db15cb51188d6ca31c75b62b29f9c7276",
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Auto_Lam_V3.9.1_Center_Protected.rbz",
+      "checksum_sha256": "ce436cec2b8cf3969aedfbc5972da539ac7b9f36cc0e43fec7f18f2fdf9fc648",
       "requires_restart": true,
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_auto_lam_128.png",
       "hot_reload": false,
-      "release_notes": "Update tạo lam trên mặt cong",
-      "release_notes_version": "3.9.0",
+      "release_notes": "update icon",
+      "release_notes_version": "3.9.1",
       "video_intro_url": "https://youtube.com/shorts/fyQfaQJQoJ0",
-      "video_update_url": "https://youtube.com/shorts/h_PmI1Ovyos"
+      "video_update_url": ""
     },
     {
       "slug": "betagon_door_and_window",
@@ -222,10 +222,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1787419976301",
+  "manifest_version": "admin-v2-1787420021642",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-08-22T17:32:56.301Z",
+  "generated_at": "2026-08-22T17:33:41.642Z",
   "guides": [
     {
       "id": 3,
