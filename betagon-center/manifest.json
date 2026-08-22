@@ -216,7 +216,7 @@
   "manifest_version": "admin-v2-1787414471459",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-08-22T16:25:09.726Z",
+  "generated_at": "2026-08-22T16:30:20.330Z",
   "guides": [
     {
       "id": 1,
@@ -226,6 +226,15 @@
       "youtube_url": "https://youtube.com/shorts/cdBfKkztm84",
       "published": true,
       "sort_order": 1
+    },
+    {
+      "id": 2,
+      "title": "Hướng dẫn đăng kí tài khoản và mua plugin trả phí",
+      "category": "Tài khoản & Mua hàng",
+      "description": "Mọi người đăng kí tài khoản bằng gmail, bản quyền sẽ đi theo gmail và id máy kích hoạt",
+      "youtube_url": "https://youtube.com/shorts/cdBfKkztm84",
+      "published": true,
+      "sort_order": 2
     }
   ]
 }
