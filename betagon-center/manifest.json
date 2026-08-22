@@ -225,30 +225,21 @@
   "manifest_version": "admin-v2-1787418668718",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-08-22T17:11:08.718Z",
+  "generated_at": "2026-08-22T17:25:39.385Z",
   "guides": [
     {
       "id": 3,
       "title": "Hướng dẫn sử dụng Betagon Center",
-      "category": "Center",
+      "category": "Hướng dẫn",
       "description": "",
       "youtube_url": "https://youtube.com/shorts/cdBfKkztm84",
       "published": true,
       "sort_order": 0
     },
     {
-      "id": 1,
-      "title": "Hướng dẫn sử dụng Betagon Center,",
-      "category": "Center",
-      "description": "Tại Center ae có thể cài đặt, cập nhật, mua, tất cả plugin của Betagon chỉ với vài click chuột rất tiện lợi. \nNếu anh em đang có các phiên bản cũ của các plugin thì gỡ hết đi rồi cài đặt lại từ center cho đỡ lỗi plugin nha.",
-      "youtube_url": "https://youtube.com/shorts/cdBfKkztm84",
-      "published": true,
-      "sort_order": 1
-    },
-    {
       "id": 2,
       "title": "Hướng dẫn đăng kí tài khoản và mua plugin trả phí",
-      "category": "Tài khoản & Mua hàng",
+      "category": "Hướng dẫn",
       "description": "Mọi người đăng kí tài khoản bằng gmail, bản quyền sẽ đi theo gmail và id máy kích hoạt",
       "youtube_url": "https://youtube.com/shorts/cdBfKkztm84",
       "published": true,
