@@ -18,16 +18,16 @@
         "Betagon_SmartFace",
         "Sun2T_SmartFace"
       ],
-      "latest_version": "3.9.0",
+      "latest_version": "1.9.0",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
       "description": "Đảo mặt, tìm khoảng hở và tạo mặt, dọn hình học SketchUp.",
-      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Auto_Lam_V3.9.0_Center_Protected.rbz",
-      "checksum_sha256": "13b4d6e9df48533696da54cd55d8e41db15cb51188d6ca31c75b62b29f9c7276",
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Smart_Face_V1.9.0_Center_Protected.rbz",
+      "checksum_sha256": "d53934116b204fe8cabefbc4a894c1bd203341c494f1206724eb5b7f8540a9f0",
       "requires_restart": true,
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_smart_face_128.png",
-      "release_notes": "Update tạo lam trên mặt cong",
-      "release_notes_version": "3.9.0",
+      "release_notes": "Update cải thiện thuật toán đảo mặt",
+      "release_notes_version": "1.9.0",
       "hot_reload": false
     },
     {
@@ -213,8 +213,8 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1787397608150",
+  "manifest_version": "admin-v2-1787397623015",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-08-22T11:20:08.150Z"
+  "generated_at": "2026-08-22T11:20:23.015Z"
 }
