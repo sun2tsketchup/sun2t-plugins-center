@@ -71,15 +71,17 @@
         "Betagon_RotateTools",
         "Sun2T_RotateTools"
       ],
-      "latest_version": "1.6.7",
+      "latest_version": "1.7.0",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
       "description": "Xoay nhanh nhiều đối tượng theo tâm, trục và góc định sẵn, hỗ trợ nhiều chế độ xoay đa dạng",
-      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Rotate_Tools_V1.6.7.rbz",
-      "checksum_sha256": "9602c242f6ae5bd1cc2fc9fac644ffd6f559a4742cf85d5fdbfbc95b0861cab4",
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Rotate_Tools_V1.7.0_Center_Protected.rbz",
+      "checksum_sha256": "2a542ad0f0d114d75d102b34898a5cce818b5ad8b44eccbd567be391a794b7fd",
       "requires_restart": true,
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_rotate_tools_128.png",
-      "hot_reload": false
+      "hot_reload": false,
+      "release_notes": "Update xoay hàng loạt nhiều vật thể",
+      "release_notes_version": "1.7.0"
     },
     {
       "slug": "betagon_auto_lam",
@@ -209,8 +211,8 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1787397500570",
+  "manifest_version": "admin-v2-1787397534474",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-08-22T11:18:20.570Z"
+  "generated_at": "2026-08-22T11:18:54.474Z"
 }
