@@ -149,7 +149,7 @@
       "published": true,
       "loader_file": "Betagon_SmartRoof.rb",
       "folder": "Betagon_SmartRoof",
-      "latest_version": "2015",
+      "latest_version": "2.1.3",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
       "description": "Tự động lợp các loại mái ngói, tùy chỉnh chủng loại, kích thước, màu sắc.",
@@ -165,8 +165,8 @@
       "hot_reload": true,
       "hot_reload_entry": "main.rb",
       "hot_reload_hook": "Betagon::SmartRoofPaidTest",
-      "release_notes": "Đồng bộ phiên bản từ 21-26, fix bug bản test",
-      "release_notes_version": "2015",
+      "release_notes": "update tính năng, fix lỗi, tạo ngói mặt mái cong (beta) , tính năng dùng thử cho ae chưa mua. AE mua rồi bấm cập nhật bình thường",
+      "release_notes_version": "2.1.3",
       "video_update_url": "",
       "video_intro_url": "https://youtube.com/shorts/IcVYBWga4DY"
     },
@@ -224,10 +224,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1787589925209",
+  "manifest_version": "admin-v2-1787592827489",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-08-24T16:45:25.209Z",
+  "generated_at": "2026-08-24T17:33:47.489Z",
   "guides": [
     {
       "id": 3,
