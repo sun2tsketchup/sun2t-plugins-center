@@ -46,16 +46,16 @@
       "folder_candidates": [
         "Sun2T_PathTools"
       ],
-      "latest_version": "0.9.1",
+      "latest_version": "1.0",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
       "description": "Rải đối tượng theo đường dẫn với nhiều chế độ khoảng cách và ngẫu nhiên.",
-      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_PathTools_V0.9.1_Center_Protected.rbz",
-      "checksum_sha256": "66d1d40c6ae3c1a66ce3e265ff50bb6a483f167aacc21bcc08581448f829b325",
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_PathTools_V1.0_Center_Protected.rbz",
+      "checksum_sha256": "a71989d73c6c2382c9ca984c5558d2fb376af2c5b99b9f87660f6ac732fea576",
       "requires_restart": true,
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_path_tools_128.png",
-      "release_notes": "update icon",
-      "release_notes_version": "0.9.1",
+      "release_notes": "fix update",
+      "release_notes_version": "1.0",
       "video_intro_url": "https://youtu.be/D1J7MkevNnA",
       "video_update_url": "",
       "hot_reload": false
@@ -224,10 +224,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1787635263992",
+  "manifest_version": "admin-v2-1787635294683",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-08-25T05:21:03.992Z",
+  "generated_at": "2026-08-25T05:21:34.683Z",
   "guides": [
     {
       "id": 3,
