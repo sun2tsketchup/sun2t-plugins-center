@@ -150,7 +150,7 @@
       "loader_file": "Betagon_SmartRoof.rb",
       "folder": "Betagon_SmartRoof",
       "latest_version": "2.3.50",
-      "min_sketchup_version": 2024,
+      "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
       "description": "Tự động lợp các loại mái ngói, tùy chỉnh chủng loại, kích thước, màu sắc.",
       "download_url": "",
@@ -243,10 +243,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1791450205734",
+  "manifest_version": "admin-v2-1791450688981",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-08T09:03:25.734Z",
+  "generated_at": "2026-10-08T09:11:28.981Z",
   "guides": [
     {
       "id": 3,
