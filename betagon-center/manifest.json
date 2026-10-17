@@ -167,7 +167,7 @@
       "hot_reload_hook": "Betagon::SmartRoofPaidTest",
       "release_notes": "",
       "release_notes_version": "2.3.93",
-      "video_update_url": "",
+      "video_update_url": "https://www.youtube.com/shorts/P3bWpl8cphw",
       "video_intro_url": "https://youtube.com/shorts/IcVYBWga4DY",
       "trial_minutes": 4320,
       "trial_hours": 72,
@@ -243,10 +243,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1792257212663",
+  "manifest_version": "admin-v2-1792258837065",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-17T17:13:32.663Z",
+  "generated_at": "2026-10-17T17:40:37.065Z",
   "guides": [
     {
       "id": 3,
