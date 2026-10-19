@@ -215,25 +215,6 @@
       "sort_order": 6
     },
     {
-      "slug": "betagon_faceme_2d",
-      "name": "Betagon FaceMe 2D",
-      "category": "Modeling",
-      "type": "free",
-      "published": false,
-      "loader_file": "Betagon_FaceMe2D.rb",
-      "folder": "Betagon_FaceMe2D",
-      "latest_version": "",
-      "min_sketchup_version": 2021,
-      "max_sketchup_version": 2026,
-      "description": "Chuẩn hóa đối tượng FaceMe 2D và trục component theo quy ước Betagon.",
-      "download_url": "",
-      "checksum_sha256": "",
-      "requires_restart": true,
-      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_faceme_2d_128.png",
-      "hot_reload": false,
-      "sort_order": 7
-    },
-    {
       "slug": "betagon_converter",
       "name": "Betagon Converter",
       "category": "Modeling",
@@ -262,7 +243,7 @@
       "checksum_sha256": "",
       "release_notes": "",
       "release_notes_version": "1.0.0",
-      "sort_order": 8,
+      "sort_order": 7,
       "purchase_plans": [
         {
           "key": "converter_1",
@@ -279,6 +260,25 @@
       ],
       "account_device_cap": 3,
       "default_plan_key": "converter_2"
+    },
+    {
+      "slug": "betagon_faceme_2d",
+      "name": "Betagon FaceMe 2D",
+      "category": "Modeling",
+      "type": "free",
+      "published": false,
+      "loader_file": "Betagon_FaceMe2D.rb",
+      "folder": "Betagon_FaceMe2D",
+      "latest_version": "",
+      "min_sketchup_version": 2021,
+      "max_sketchup_version": 2026,
+      "description": "Chuẩn hóa đối tượng FaceMe 2D và trục component theo quy ước Betagon.",
+      "download_url": "",
+      "checksum_sha256": "",
+      "requires_restart": true,
+      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_faceme_2d_128.png",
+      "hot_reload": false,
+      "sort_order": 8
     },
     {
       "slug": "betagon_cabinet_door",
@@ -300,10 +300,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1792440577595",
+  "manifest_version": "admin-v2-1792440583943",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-19T20:09:37.595Z",
+  "generated_at": "2026-10-19T20:09:43.943Z",
   "guides": [
     {
       "id": 3,
