@@ -15,7 +15,7 @@
       "max_sketchup_version": 2026,
       "description": "Import trực tiếp các định dạng file 3D như .max ; .rtv ; .fbx ; .3ds,.... Vào SketchUp, Giảm lưới model, quản lí thư viện thông minh",
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_converter_128.png",
-      "video_intro_url": "",
+      "video_intro_url": "https://youtu.be/72jLDuTl2cg",
       "video_update_url": "",
       "trial_enabled": false,
       "trial_minutes": 60,
@@ -300,10 +300,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1792441360649",
+  "manifest_version": "admin-v2-1792451048427",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-19T20:22:40.649Z",
+  "generated_at": "2026-10-19T23:04:08.427Z",
   "guides": [
     {
       "id": 3,
