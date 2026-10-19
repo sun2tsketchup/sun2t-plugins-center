@@ -3,6 +3,35 @@
   "brand": "Betagon",
   "plugins": [
     {
+      "slug": "betagon_path_tools",
+      "name": "Betagon Path Tools",
+      "category": "Modeling",
+      "type": "free",
+      "published": true,
+      "loader_file": "Betagon_PathTools.rb",
+      "loader_candidates": [
+        "Sun2T_PathTools.rb"
+      ],
+      "folder": "Betagon_PathTools",
+      "folder_candidates": [
+        "Sun2T_PathTools"
+      ],
+      "latest_version": "1.0",
+      "min_sketchup_version": 2021,
+      "max_sketchup_version": 2026,
+      "description": "Rải đối tượng theo đường dẫn với nhiều chế độ khoảng cách và ngẫu nhiên.",
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_PathTools_V1.0_Center_Protected.rbz",
+      "checksum_sha256": "a71989d73c6c2382c9ca984c5558d2fb376af2c5b99b9f87660f6ac732fea576",
+      "requires_restart": true,
+      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_path_tools_128.png",
+      "release_notes": "fix update",
+      "release_notes_version": "1.0",
+      "video_intro_url": "https://youtu.be/D1J7MkevNnA",
+      "video_update_url": "",
+      "hot_reload": false,
+      "sort_order": 0
+    },
+    {
       "slug": "betagon_smart_face",
       "name": "Betagon Smart Face",
       "category": "Modeling",
@@ -30,35 +59,8 @@
       "release_notes_version": "2.0",
       "hot_reload": false,
       "video_intro_url": "https://youtube.com/shorts/hnWMcJkXb8c",
-      "video_update_url": ""
-    },
-    {
-      "slug": "betagon_path_tools",
-      "name": "Betagon Path Tools",
-      "category": "Modeling",
-      "type": "free",
-      "published": true,
-      "loader_file": "Betagon_PathTools.rb",
-      "loader_candidates": [
-        "Sun2T_PathTools.rb"
-      ],
-      "folder": "Betagon_PathTools",
-      "folder_candidates": [
-        "Sun2T_PathTools"
-      ],
-      "latest_version": "1.0",
-      "min_sketchup_version": 2021,
-      "max_sketchup_version": 2026,
-      "description": "Rải đối tượng theo đường dẫn với nhiều chế độ khoảng cách và ngẫu nhiên.",
-      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_PathTools_V1.0_Center_Protected.rbz",
-      "checksum_sha256": "a71989d73c6c2382c9ca984c5558d2fb376af2c5b99b9f87660f6ac732fea576",
-      "requires_restart": true,
-      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_path_tools_128.png",
-      "release_notes": "fix update",
-      "release_notes_version": "1.0",
-      "video_intro_url": "https://youtu.be/D1J7MkevNnA",
       "video_update_url": "",
-      "hot_reload": false
+      "sort_order": 1
     },
     {
       "slug": "betagon_rotate_tools",
@@ -88,7 +90,8 @@
       "release_notes": "Update ra mắt chính thức V2.0 hoàn thiện",
       "release_notes_version": "1.8",
       "video_intro_url": "https://youtube.com/shorts/eSXSJOWcVrk",
-      "video_update_url": ""
+      "video_update_url": "",
+      "sort_order": 2
     },
     {
       "slug": "betagon_auto_lam",
@@ -116,7 +119,8 @@
       "release_notes": "Update ra mắt chính thức V4.0 hoàn thiện",
       "release_notes_version": "4.0",
       "video_intro_url": "https://youtube.com/shorts/fyQfaQJQoJ0",
-      "video_update_url": ""
+      "video_update_url": "",
+      "sort_order": 3
     },
     {
       "slug": "betagon_door_and_window",
@@ -139,7 +143,8 @@
       "download_url": "",
       "checksum_sha256": "",
       "requires_restart": true,
-      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_door_and_window_128.png"
+      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_door_and_window_128.png",
+      "sort_order": 4
     },
     {
       "slug": "betagon_smart_roof",
@@ -173,6 +178,7 @@
       "trial_hours": 72,
       "trial_policy_version": "2.9",
       "trial_enabled": true,
+      "sort_order": 5,
       "purchase_plans": [
         {
           "key": "smart_roof_1",
@@ -205,7 +211,8 @@
       "download_url": "",
       "checksum_sha256": "",
       "requires_restart": true,
-      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_architect_128.png"
+      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_architect_128.png",
+      "sort_order": 6
     },
     {
       "slug": "betagon_faceme_2d",
@@ -223,7 +230,8 @@
       "checksum_sha256": "",
       "requires_restart": true,
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_faceme_2d_128.png",
-      "hot_reload": false
+      "hot_reload": false,
+      "sort_order": 7
     },
     {
       "slug": "betagon_cabinet_door",
@@ -240,7 +248,8 @@
       "download_url": "",
       "checksum_sha256": "",
       "requires_restart": true,
-      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_cabinet_door_128.png"
+      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_cabinet_door_128.png",
+      "sort_order": 8
     },
     {
       "slug": "betagon_converter",
@@ -271,6 +280,7 @@
       "checksum_sha256": "",
       "release_notes": "",
       "release_notes_version": "1.0.0",
+      "sort_order": 9,
       "purchase_plans": [
         {
           "key": "converter_1",
@@ -290,10 +300,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1792440365325",
+  "manifest_version": "admin-v2-1792440570916",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-19T20:06:05.325Z",
+  "generated_at": "2026-10-19T20:09:30.916Z",
   "guides": [
     {
       "id": 3,
