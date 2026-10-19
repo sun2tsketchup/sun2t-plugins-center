@@ -63,37 +63,6 @@
       "sort_order": 1
     },
     {
-      "slug": "betagon_rotate_tools",
-      "name": "Betagon Rotate Tools",
-      "category": "Modeling",
-      "type": "free",
-      "published": true,
-      "loader_file": "betagon_rotate_tools.rb",
-      "loader_candidates": [
-        "Betagon_RotateTools.rb",
-        "Sun2T_RotateTools.rb"
-      ],
-      "folder": "betagon_rotate_tools",
-      "folder_candidates": [
-        "Betagon_RotateTools",
-        "Sun2T_RotateTools"
-      ],
-      "latest_version": "1.8",
-      "min_sketchup_version": 2021,
-      "max_sketchup_version": 2026,
-      "description": "Xoay nhanh nhiều đối tượng theo tâm, trục và góc định sẵn, hỗ trợ nhiều chế độ xoay đa dạng",
-      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Rotate_Tools_V1.8_Center_Protected.rbz",
-      "checksum_sha256": "04c237325b41bbfdb81801a0eb6273cc2404c53f4ce8367a8db7d056ad624670",
-      "requires_restart": true,
-      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_rotate_tools_128.png",
-      "hot_reload": false,
-      "release_notes": "Update ra mắt chính thức V2.0 hoàn thiện",
-      "release_notes_version": "1.8",
-      "video_intro_url": "https://youtube.com/shorts/eSXSJOWcVrk",
-      "video_update_url": "",
-      "sort_order": 2
-    },
-    {
       "slug": "betagon_converter",
       "name": "Betagon Converter",
       "category": "Modeling",
@@ -122,7 +91,7 @@
       "checksum_sha256": "",
       "release_notes": "",
       "release_notes_version": "1.0.0",
-      "sort_order": 3,
+      "sort_order": 2,
       "purchase_plans": [
         {
           "key": "converter_1",
@@ -139,6 +108,37 @@
       ],
       "account_device_cap": 3,
       "default_plan_key": "converter_2"
+    },
+    {
+      "slug": "betagon_rotate_tools",
+      "name": "Betagon Rotate Tools",
+      "category": "Modeling",
+      "type": "free",
+      "published": true,
+      "loader_file": "betagon_rotate_tools.rb",
+      "loader_candidates": [
+        "Betagon_RotateTools.rb",
+        "Sun2T_RotateTools.rb"
+      ],
+      "folder": "betagon_rotate_tools",
+      "folder_candidates": [
+        "Betagon_RotateTools",
+        "Sun2T_RotateTools"
+      ],
+      "latest_version": "1.8",
+      "min_sketchup_version": 2021,
+      "max_sketchup_version": 2026,
+      "description": "Xoay nhanh nhiều đối tượng theo tâm, trục và góc định sẵn, hỗ trợ nhiều chế độ xoay đa dạng",
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Rotate_Tools_V1.8_Center_Protected.rbz",
+      "checksum_sha256": "04c237325b41bbfdb81801a0eb6273cc2404c53f4ce8367a8db7d056ad624670",
+      "requires_restart": true,
+      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_rotate_tools_128.png",
+      "hot_reload": false,
+      "release_notes": "Update ra mắt chính thức V2.0 hoàn thiện",
+      "release_notes_version": "1.8",
+      "video_intro_url": "https://youtube.com/shorts/eSXSJOWcVrk",
+      "video_update_url": "",
+      "sort_order": 3
     },
     {
       "slug": "betagon_auto_lam",
@@ -300,10 +300,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1792440602806",
+  "manifest_version": "admin-v2-1792440607621",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-19T20:10:02.806Z",
+  "generated_at": "2026-10-19T20:10:07.621Z",
   "guides": [
     {
       "id": 3,
