@@ -170,30 +170,6 @@
       "sort_order": 4
     },
     {
-      "slug": "betagon_door_and_window",
-      "name": "Betagon Door And Window",
-      "category": "Architecture",
-      "type": "free",
-      "published": true,
-      "loader_file": "Betagon_DoorAndWindow.rb",
-      "loader_candidates": [
-        "Betagon_AutoDoor.rb"
-      ],
-      "folder": "Betagon_DoorAndWindow",
-      "folder_candidates": [
-        "Betagon_AutoDoor"
-      ],
-      "latest_version": "",
-      "min_sketchup_version": 2021,
-      "max_sketchup_version": 2026,
-      "description": "Tạo nhanh hệ cửa đi và cửa sổ cho mô hình kiến trúc.",
-      "download_url": "",
-      "checksum_sha256": "",
-      "requires_restart": true,
-      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_door_and_window_128.png",
-      "sort_order": 5
-    },
-    {
       "slug": "betagon_smart_roof",
       "name": "Betagon Smart Roof",
       "category": "Architecture",
@@ -225,7 +201,7 @@
       "trial_hours": 72,
       "trial_policy_version": "2.9",
       "trial_enabled": true,
-      "sort_order": 6,
+      "sort_order": 5,
       "purchase_plans": [
         {
           "key": "smart_roof_1",
@@ -242,6 +218,30 @@
       ],
       "account_device_cap": 3,
       "default_plan_key": "smart_roof_2"
+    },
+    {
+      "slug": "betagon_door_and_window",
+      "name": "Betagon Door And Window",
+      "category": "Architecture",
+      "type": "free",
+      "published": true,
+      "loader_file": "Betagon_DoorAndWindow.rb",
+      "loader_candidates": [
+        "Betagon_AutoDoor.rb"
+      ],
+      "folder": "Betagon_DoorAndWindow",
+      "folder_candidates": [
+        "Betagon_AutoDoor"
+      ],
+      "latest_version": "",
+      "min_sketchup_version": 2021,
+      "max_sketchup_version": 2026,
+      "description": "Tạo nhanh hệ cửa đi và cửa sổ cho mô hình kiến trúc.",
+      "download_url": "",
+      "checksum_sha256": "",
+      "requires_restart": true,
+      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_door_and_window_128.png",
+      "sort_order": 6
     },
     {
       "slug": "betagon_architect",
@@ -300,10 +300,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1792440700411",
+  "manifest_version": "admin-v2-1792440707711",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-19T20:11:40.411Z",
+  "generated_at": "2026-10-19T20:11:47.711Z",
   "guides": [
     {
       "id": 3,
