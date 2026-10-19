@@ -234,24 +234,6 @@
       "sort_order": 7
     },
     {
-      "slug": "betagon_cabinet_door",
-      "name": "Betagon Cabinet Door",
-      "category": "Interior",
-      "type": "free",
-      "published": true,
-      "loader_file": "Betagon_CabinetDoor.rb",
-      "folder": "Betagon_CabinetDoor",
-      "latest_version": "",
-      "min_sketchup_version": 2021,
-      "max_sketchup_version": 2026,
-      "description": "Công cụ tạo và quản lý cánh tủ nội thất.",
-      "download_url": "",
-      "checksum_sha256": "",
-      "requires_restart": true,
-      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_cabinet_door_128.png",
-      "sort_order": 8
-    },
-    {
       "slug": "betagon_converter",
       "name": "Betagon Converter",
       "category": "Modeling",
@@ -280,7 +262,7 @@
       "checksum_sha256": "",
       "release_notes": "",
       "release_notes_version": "1.0.0",
-      "sort_order": 9,
+      "sort_order": 8,
       "purchase_plans": [
         {
           "key": "converter_1",
@@ -297,13 +279,31 @@
       ],
       "account_device_cap": 3,
       "default_plan_key": "converter_2"
+    },
+    {
+      "slug": "betagon_cabinet_door",
+      "name": "Betagon Cabinet Door",
+      "category": "Interior",
+      "type": "free",
+      "published": true,
+      "loader_file": "Betagon_CabinetDoor.rb",
+      "folder": "Betagon_CabinetDoor",
+      "latest_version": "",
+      "min_sketchup_version": 2021,
+      "max_sketchup_version": 2026,
+      "description": "Công cụ tạo và quản lý cánh tủ nội thất.",
+      "download_url": "",
+      "checksum_sha256": "",
+      "requires_restart": true,
+      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_cabinet_door_128.png",
+      "sort_order": 9
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1792440570916",
+  "manifest_version": "admin-v2-1792440577595",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-19T20:09:30.916Z",
+  "generated_at": "2026-10-19T20:09:37.595Z",
   "guides": [
     {
       "id": 3,
