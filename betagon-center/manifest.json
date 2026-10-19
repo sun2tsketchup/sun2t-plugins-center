@@ -79,37 +79,6 @@
       "sort_order": 1
     },
     {
-      "slug": "betagon_smart_face",
-      "name": "Betagon Smart Face",
-      "category": "Modeling",
-      "type": "free",
-      "published": true,
-      "loader_file": "betagon_smart_face.rb",
-      "loader_candidates": [
-        "Betagon_SmartFace.rb",
-        "Sun2T_SmartFace.rb"
-      ],
-      "folder": "betagon_smart_face",
-      "folder_candidates": [
-        "Betagon_SmartFace",
-        "Sun2T_SmartFace"
-      ],
-      "latest_version": "2.0",
-      "min_sketchup_version": 2021,
-      "max_sketchup_version": 2026,
-      "description": "Đảo mặt, tìm khoảng hở và tạo mặt, dọn hình học SketchUp.",
-      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Smart_Face_V2.0_Center_Protected.rbz",
-      "checksum_sha256": "32683356daeceb8b576ca25fde4ea3cffbd217a4c6b8966b235dcbf6f7a83a1d",
-      "requires_restart": true,
-      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_smart_face_128.png",
-      "release_notes": "Update ra mắt chính thức V2.0 hoàn thiện",
-      "release_notes_version": "2.0",
-      "hot_reload": false,
-      "video_intro_url": "https://youtube.com/shorts/hnWMcJkXb8c",
-      "video_update_url": "",
-      "sort_order": 2
-    },
-    {
       "slug": "betagon_smart_roof",
       "name": "Betagon Smart Roof",
       "category": "Architecture",
@@ -141,7 +110,7 @@
       "trial_hours": 72,
       "trial_policy_version": "2.9",
       "trial_enabled": true,
-      "sort_order": 3,
+      "sort_order": 2,
       "purchase_plans": [
         {
           "key": "smart_roof_1",
@@ -158,6 +127,37 @@
       ],
       "account_device_cap": 3,
       "default_plan_key": "smart_roof_2"
+    },
+    {
+      "slug": "betagon_smart_face",
+      "name": "Betagon Smart Face",
+      "category": "Modeling",
+      "type": "free",
+      "published": true,
+      "loader_file": "betagon_smart_face.rb",
+      "loader_candidates": [
+        "Betagon_SmartFace.rb",
+        "Sun2T_SmartFace.rb"
+      ],
+      "folder": "betagon_smart_face",
+      "folder_candidates": [
+        "Betagon_SmartFace",
+        "Sun2T_SmartFace"
+      ],
+      "latest_version": "2.0",
+      "min_sketchup_version": 2021,
+      "max_sketchup_version": 2026,
+      "description": "Đảo mặt, tìm khoảng hở và tạo mặt, dọn hình học SketchUp.",
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Smart_Face_V2.0_Center_Protected.rbz",
+      "checksum_sha256": "32683356daeceb8b576ca25fde4ea3cffbd217a4c6b8966b235dcbf6f7a83a1d",
+      "requires_restart": true,
+      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_smart_face_128.png",
+      "release_notes": "Update ra mắt chính thức V2.0 hoàn thiện",
+      "release_notes_version": "2.0",
+      "hot_reload": false,
+      "video_intro_url": "https://youtube.com/shorts/hnWMcJkXb8c",
+      "video_update_url": "",
+      "sort_order": 3
     },
     {
       "slug": "betagon_rotate_tools",
@@ -300,10 +300,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1792440717804",
+  "manifest_version": "admin-v2-1792440722749",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-19T20:11:57.804Z",
+  "generated_at": "2026-10-19T20:12:02.749Z",
   "guides": [
     {
       "id": 3,
