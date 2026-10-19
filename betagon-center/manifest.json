@@ -141,35 +141,6 @@
       "sort_order": 3
     },
     {
-      "slug": "betagon_auto_lam",
-      "name": "Betagon Auto Lam",
-      "category": "Modeling",
-      "type": "free",
-      "published": true,
-      "loader_file": "betagon_auto_lam.rb",
-      "loader_candidates": [
-        "Betagon_AutoLam.rb"
-      ],
-      "folder": "betagon_auto_lam",
-      "folder_candidates": [
-        "Betagon_AutoLam"
-      ],
-      "latest_version": "4.0",
-      "min_sketchup_version": 2021,
-      "max_sketchup_version": 2026,
-      "description": "Tạo hệ lam theo bề mặt, cạnh định hướng và tiết diện tùy chọn. Hỗ trợ tạo trên mặt cong",
-      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Auto_Lam_V4.0_Center_Protected.rbz",
-      "checksum_sha256": "e99b9d41913dde1188c07a596d7aebb379aa024c6d60611623986f6c8f6bcee4",
-      "requires_restart": true,
-      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_auto_lam_128.png",
-      "hot_reload": false,
-      "release_notes": "Update ra mắt chính thức V4.0 hoàn thiện",
-      "release_notes_version": "4.0",
-      "video_intro_url": "https://youtube.com/shorts/fyQfaQJQoJ0",
-      "video_update_url": "",
-      "sort_order": 4
-    },
-    {
       "slug": "betagon_smart_roof",
       "name": "Betagon Smart Roof",
       "category": "Architecture",
@@ -201,7 +172,7 @@
       "trial_hours": 72,
       "trial_policy_version": "2.9",
       "trial_enabled": true,
-      "sort_order": 5,
+      "sort_order": 4,
       "purchase_plans": [
         {
           "key": "smart_roof_1",
@@ -218,6 +189,35 @@
       ],
       "account_device_cap": 3,
       "default_plan_key": "smart_roof_2"
+    },
+    {
+      "slug": "betagon_auto_lam",
+      "name": "Betagon Auto Lam",
+      "category": "Modeling",
+      "type": "free",
+      "published": true,
+      "loader_file": "betagon_auto_lam.rb",
+      "loader_candidates": [
+        "Betagon_AutoLam.rb"
+      ],
+      "folder": "betagon_auto_lam",
+      "folder_candidates": [
+        "Betagon_AutoLam"
+      ],
+      "latest_version": "4.0",
+      "min_sketchup_version": 2021,
+      "max_sketchup_version": 2026,
+      "description": "Tạo hệ lam theo bề mặt, cạnh định hướng và tiết diện tùy chọn. Hỗ trợ tạo trên mặt cong",
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Auto_Lam_V4.0_Center_Protected.rbz",
+      "checksum_sha256": "e99b9d41913dde1188c07a596d7aebb379aa024c6d60611623986f6c8f6bcee4",
+      "requires_restart": true,
+      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_auto_lam_128.png",
+      "hot_reload": false,
+      "release_notes": "Update ra mắt chính thức V4.0 hoàn thiện",
+      "release_notes_version": "4.0",
+      "video_intro_url": "https://youtube.com/shorts/fyQfaQJQoJ0",
+      "video_update_url": "",
+      "sort_order": 5
     },
     {
       "slug": "betagon_door_and_window",
@@ -300,10 +300,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1792440707711",
+  "manifest_version": "admin-v2-1792440711969",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-19T20:11:47.711Z",
+  "generated_at": "2026-10-19T20:11:51.969Z",
   "guides": [
     {
       "id": 3,
