@@ -300,10 +300,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1792440607621",
+  "manifest_version": "admin-v2-1792440613738",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-19T20:10:07.621Z",
+  "generated_at": "2026-10-19T20:10:13.738Z",
   "guides": [
     {
       "id": 3,
