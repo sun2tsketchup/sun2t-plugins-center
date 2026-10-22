@@ -60,7 +60,7 @@
       "latest_version": "3.0.1",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
-      "description": "Tự động lợp các loại mái ngói, tùy chỉnh chủng loại, kích thước, màu sắc.",
+      "description": "Tự động tạo mái, tạo khung mái và lợp mái ( Nhật, Thái, Mansard, Đình chùa)",
       "download_url": "",
       "checksum_sha256": "",
       "requires_restart": false,
@@ -301,10 +301,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1792660188281",
+  "manifest_version": "admin-v2-1792664455456",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-22T09:09:48.281Z",
+  "generated_at": "2026-10-22T10:20:55.456Z",
   "guides": [
     {
       "id": 3,
