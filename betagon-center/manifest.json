@@ -75,12 +75,13 @@
       "hot_reload_hook": "Betagon::SmartRoofPaidTest",
       "release_notes": "Thêm tạo mái Thái, Mansard cổ điển,mái chùa, Tạo khung và thống kê khung mái. Thêm loại ngói địa trung hải",
       "release_notes_version": "3.0.1",
-      "video_update_url": "https://www.youtube.com/shorts/P3bWpl8cphw",
-      "video_intro_url": "https://youtube.com/shorts/IcVYBWga4DY",
+      "video_update_url": "https://youtu.be/QDaSIqTz1BE",
+      "video_intro_url": "https://youtu.be/QDaSIqTz1BE",
       "trial_minutes": 4320,
       "trial_hours": 72,
       "trial_policy_version": "2.9",
       "trial_enabled": true,
+      "freemium": true,
       "sort_order": 1,
       "purchase_plans": [
         {
@@ -300,10 +301,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1792656372461",
+  "manifest_version": "admin-v2-1792660188281",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-22T08:06:12.461Z",
+  "generated_at": "2026-10-22T09:09:48.281Z",
   "guides": [
     {
       "id": 3,
