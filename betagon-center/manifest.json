@@ -47,7 +47,8 @@
         }
       ],
       "account_device_cap": 3,
-      "default_plan_key": "converter_2"
+      "default_plan_key": "converter_2",
+      "freemium": false
     },
     {
       "slug": "betagon_smart_roof",
@@ -82,6 +83,71 @@
       "trial_policy_version": "2.9",
       "trial_enabled": true,
       "freemium": true,
+      "web": {
+        "badge": "hot",
+        "tagline": "Tạo mái, lợp ngói và dựng khung thép mái chỉ với vài cú click.",
+        "tagline_en": "Create roofs, lay tiles and build steel roof frames in a few clicks.",
+        "free_note": "Tạo mái miễn phí trọn đời. Lợp ngói và Tạo khung mái có license. Có thể dùng thử 3 ngày",
+        "free_note_en": "Create a free roof for life. Tile roofing and create roof frames with a license. You can try it for 3 days",
+        "features": [
+          [
+            "Tạo mái đa dạng",
+            "Mái Nhật, mái Thái, Mansard thẳng hoặc cong, mái dốc bê tông, mái đình chùa 1 hoặc 2 tầng.",
+            "Many roof types",
+            "Japanese, Thai (with walls), straight or curved Mansard, sloped concrete, 1- or 2-tier temple roofs."
+          ],
+          [
+            "Lợp ngói tự động",
+            "Ngói 22, âm dương, mũi hài, vảy cá, Địa Trung Hải, Fuji và tôn sóng. Tự cắt theo nóc, mái và khe.",
+            "Automatic tiling",
+            "Type-22, yin-yang, fishscale, Mediterranean, Fuji tiles and metal sheets, trimmed at ridges, hips and valleys."
+          ],
+          [
+            "Khung thép mái",
+            "Dựng kèo, xà gồ, cầu phong, li tô theo mặt mái; thống kê thép, đơn giá và xuất CSV.",
+            "Steel roof frame",
+            "Rafters, purlins and battens follow the roof; steel take-off with prices and CSV export."
+          ],
+          [
+            "Giao diện dễ dùng",
+            "Giao diện tối, tiếng Việt và tiếng Anh, có video hướng dẫn ngay trong plugin.",
+            "Easy to use",
+            "Dark UI in Vietnamese and English, with tutorial videos right inside the plugin."
+          ]
+        ],
+        "gallery": [
+          [
+            "assets/img/web/sr_cover.jpg",
+            "Betagon Smart Roof V3.0",
+            "Betagon Smart Roof V3.0"
+          ],
+          [
+            "video:intro",
+            "Video giới thiệu",
+            "Intro video"
+          ],
+          [
+            "assets/img/web/sr_tab_roof.jpg",
+            "Tab Tạo mái",
+            "Roof tab"
+          ],
+          [
+            "assets/img/web/sr_tab_dinh.jpg",
+            "Mái đình chùa",
+            "Temple roofs"
+          ],
+          [
+            "assets/img/web/sr_tab_tile.jpg",
+            "Tab Lợp ngói",
+            "Tiling tab"
+          ],
+          [
+            "assets/img/web/sr_tab_frame.jpg",
+            "Tab Tạo khung",
+            "Frame tab"
+          ]
+        ]
+      },
       "sort_order": 1,
       "purchase_plans": [
         {
@@ -301,10 +367,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1792729346857",
+  "manifest_version": "admin-v2-1792732850140",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-23T04:22:26.857Z",
+  "generated_at": "2026-10-23T05:20:50.140Z",
   "guides": [
     {
       "id": 3,
