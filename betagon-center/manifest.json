@@ -117,9 +117,9 @@
         ],
         "gallery": [
           [
-            "assets/img/web/sr_cover.jpg",
-            "Betagon Smart Roof V3.0",
-            "Betagon Smart Roof V3.0"
+            "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/web/betagon_smart_roof/mvn38ern_AC7EE720-3C82-4ABC-9703-D9BB6847DF53.png",
+            "",
+            ""
           ],
           [
             "video:intro",
@@ -145,11 +145,6 @@
             "assets/img/web/sr_tab_frame.jpg",
             "Tab Tạo khung",
             "Frame tab"
-          ],
-          [
-            "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/web/betagon_smart_roof/mvn38ern_AC7EE720-3C82-4ABC-9703-D9BB6847DF53.png",
-            "",
-            ""
           ]
         ]
       },
@@ -372,10 +367,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1792888093599",
+  "manifest_version": "admin-v2-1792892588125",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-25T00:28:13.599Z",
+  "generated_at": "2026-10-25T01:43:08.125Z",
   "guides": [
     {
       "id": 3,
