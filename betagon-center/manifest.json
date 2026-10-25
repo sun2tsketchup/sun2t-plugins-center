@@ -10,7 +10,7 @@
       "published": true,
       "loader_file": "betagon_converter.rb",
       "folder": "betagon_converter",
-      "latest_version": "1.1.1",
+      "latest_version": "1.2.1",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
       "description": "Import trực tiếp các định dạng file 3D như .max ; .rvt ; .fbx ; .3ds,.... Vào SketchUp, Giảm lưới model, quản lí thư viện thông minh",
@@ -29,8 +29,8 @@
       "max_devices": 2,
       "download_url": "",
       "checksum_sha256": "",
-      "release_notes": "Update fix load file revit 2025",
-      "release_notes_version": "1.1.1",
+      "release_notes": "",
+      "release_notes_version": "1.2.1",
       "sort_order": 0,
       "purchase_plans": [
         {
@@ -367,10 +367,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1792892588125",
+  "manifest_version": "admin-v2-1792917687305",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-25T01:43:08.125Z",
+  "generated_at": "2026-10-25T08:41:27.305Z",
   "guides": [
     {
       "id": 3,
