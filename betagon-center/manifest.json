@@ -3,54 +3,6 @@
   "brand": "Betagon",
   "plugins": [
     {
-      "slug": "betagon_converter",
-      "name": "Betagon Converter",
-      "category": "Modeling",
-      "type": "paid",
-      "published": true,
-      "loader_file": "betagon_converter.rb",
-      "folder": "betagon_converter",
-      "latest_version": "1.2.4",
-      "min_sketchup_version": 2021,
-      "max_sketchup_version": 2026,
-      "description": "Import trực tiếp các định dạng file 3D như .max ; .rvt ; .fbx ; .3ds,.... Vào SketchUp, Giảm lưới model, quản lí thư viện thông minh",
-      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_converter_128.png",
-      "video_intro_url": "https://youtu.be/72jLDuTl2cg",
-      "video_update_url": "",
-      "trial_enabled": true,
-      "trial_minutes": 4320,
-      "trial_hours": 72,
-      "trial_policy_version": "2.9",
-      "requires_restart": false,
-      "hot_reload": true,
-      "requires_purchase": true,
-      "server_managed": true,
-      "price_vnd": 249000,
-      "max_devices": 2,
-      "download_url": "",
-      "checksum_sha256": "",
-      "release_notes": "update fix file RVT",
-      "release_notes_version": "1.2.4",
-      "sort_order": 0,
-      "purchase_plans": [
-        {
-          "key": "converter_1",
-          "name": "Gói 1 máy",
-          "price_vnd": 149000,
-          "device_slots": 1
-        },
-        {
-          "key": "converter_2",
-          "name": "Gói 2 máy",
-          "price_vnd": 249000,
-          "device_slots": 2
-        }
-      ],
-      "account_device_cap": 3,
-      "default_plan_key": "converter_2",
-      "freemium": false
-    },
-    {
       "slug": "betagon_smart_roof",
       "name": "Betagon Smart Roof",
       "category": "Architecture",
@@ -148,7 +100,7 @@
           ]
         ]
       },
-      "sort_order": 1,
+      "sort_order": 0,
       "purchase_plans": [
         {
           "key": "smart_roof_1",
@@ -165,95 +117,6 @@
       ],
       "account_device_cap": 3,
       "default_plan_key": "smart_roof_2"
-    },
-    {
-      "slug": "betagon_auto_lam",
-      "name": "Betagon Auto Lam",
-      "category": "Modeling",
-      "type": "free",
-      "published": true,
-      "loader_file": "betagon_auto_lam.rb",
-      "loader_candidates": [
-        "Betagon_AutoLam.rb"
-      ],
-      "folder": "betagon_auto_lam",
-      "folder_candidates": [
-        "Betagon_AutoLam"
-      ],
-      "latest_version": "4.0",
-      "min_sketchup_version": 2021,
-      "max_sketchup_version": 2026,
-      "description": "Tạo hệ lam theo bề mặt, cạnh định hướng và tiết diện tùy chọn. Hỗ trợ tạo trên mặt cong",
-      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Auto_Lam_V4.0_Center_Protected.rbz",
-      "checksum_sha256": "e99b9d41913dde1188c07a596d7aebb379aa024c6d60611623986f6c8f6bcee4",
-      "requires_restart": true,
-      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_auto_lam_128.png",
-      "hot_reload": false,
-      "release_notes": "Update ra mắt chính thức V4.0 hoàn thiện",
-      "release_notes_version": "4.0",
-      "video_intro_url": "https://youtube.com/shorts/fyQfaQJQoJ0",
-      "video_update_url": "",
-      "sort_order": 2
-    },
-    {
-      "slug": "betagon_path_tools",
-      "name": "Betagon Path Tools",
-      "category": "Modeling",
-      "type": "free",
-      "published": true,
-      "loader_file": "Betagon_PathTools.rb",
-      "loader_candidates": [
-        "Sun2T_PathTools.rb"
-      ],
-      "folder": "Betagon_PathTools",
-      "folder_candidates": [
-        "Sun2T_PathTools"
-      ],
-      "latest_version": "1.0",
-      "min_sketchup_version": 2021,
-      "max_sketchup_version": 2026,
-      "description": "Rải đối tượng theo đường dẫn với nhiều chế độ khoảng cách và ngẫu nhiên.",
-      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_PathTools_V1.0_Center_Protected.rbz",
-      "checksum_sha256": "a71989d73c6c2382c9ca984c5558d2fb376af2c5b99b9f87660f6ac732fea576",
-      "requires_restart": true,
-      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_path_tools_128.png",
-      "release_notes": "fix update",
-      "release_notes_version": "1.0",
-      "video_intro_url": "https://youtu.be/D1J7MkevNnA",
-      "video_update_url": "",
-      "hot_reload": false,
-      "sort_order": 3
-    },
-    {
-      "slug": "betagon_smart_face",
-      "name": "Betagon Smart Face",
-      "category": "Modeling",
-      "type": "free",
-      "published": true,
-      "loader_file": "betagon_smart_face.rb",
-      "loader_candidates": [
-        "Betagon_SmartFace.rb",
-        "Sun2T_SmartFace.rb"
-      ],
-      "folder": "betagon_smart_face",
-      "folder_candidates": [
-        "Betagon_SmartFace",
-        "Sun2T_SmartFace"
-      ],
-      "latest_version": "2.0",
-      "min_sketchup_version": 2021,
-      "max_sketchup_version": 2026,
-      "description": "Đảo mặt, tìm khoảng hở và tạo mặt, dọn hình học SketchUp.",
-      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Smart_Face_V2.0_Center_Protected.rbz",
-      "checksum_sha256": "32683356daeceb8b576ca25fde4ea3cffbd217a4c6b8966b235dcbf6f7a83a1d",
-      "requires_restart": true,
-      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_smart_face_128.png",
-      "release_notes": "Update ra mắt chính thức V2.0 hoàn thiện",
-      "release_notes_version": "2.0",
-      "hot_reload": false,
-      "video_intro_url": "https://youtube.com/shorts/hnWMcJkXb8c",
-      "video_update_url": "",
-      "sort_order": 4
     },
     {
       "slug": "betagon_layout",
@@ -287,7 +150,7 @@
       "icon_url": "",
       "video_intro_url": "",
       "freemium": false,
-      "sort_order": 5,
+      "sort_order": 1,
       "purchase_plans": [
         {
           "key": "layout_1",
@@ -304,6 +167,143 @@
       ],
       "account_device_cap": 3,
       "default_plan_key": "layout_2"
+    },
+    {
+      "slug": "betagon_converter",
+      "name": "Betagon Converter",
+      "category": "Modeling",
+      "type": "paid",
+      "published": true,
+      "loader_file": "betagon_converter.rb",
+      "folder": "betagon_converter",
+      "latest_version": "1.2.4",
+      "min_sketchup_version": 2021,
+      "max_sketchup_version": 2026,
+      "description": "Import trực tiếp các định dạng file 3D như .max ; .rvt ; .fbx ; .3ds,.... Vào SketchUp, Giảm lưới model, quản lí thư viện thông minh",
+      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_converter_128.png",
+      "video_intro_url": "https://youtu.be/72jLDuTl2cg",
+      "video_update_url": "",
+      "trial_enabled": true,
+      "trial_minutes": 4320,
+      "trial_hours": 72,
+      "trial_policy_version": "2.9",
+      "requires_restart": false,
+      "hot_reload": true,
+      "requires_purchase": true,
+      "server_managed": true,
+      "price_vnd": 249000,
+      "max_devices": 2,
+      "download_url": "",
+      "checksum_sha256": "",
+      "release_notes": "update fix file RVT",
+      "release_notes_version": "1.2.4",
+      "sort_order": 2,
+      "purchase_plans": [
+        {
+          "key": "converter_1",
+          "name": "Gói 1 máy",
+          "price_vnd": 149000,
+          "device_slots": 1
+        },
+        {
+          "key": "converter_2",
+          "name": "Gói 2 máy",
+          "price_vnd": 249000,
+          "device_slots": 2
+        }
+      ],
+      "account_device_cap": 3,
+      "default_plan_key": "converter_2",
+      "freemium": false
+    },
+    {
+      "slug": "betagon_auto_lam",
+      "name": "Betagon Auto Lam",
+      "category": "Modeling",
+      "type": "free",
+      "published": true,
+      "loader_file": "betagon_auto_lam.rb",
+      "loader_candidates": [
+        "Betagon_AutoLam.rb"
+      ],
+      "folder": "betagon_auto_lam",
+      "folder_candidates": [
+        "Betagon_AutoLam"
+      ],
+      "latest_version": "4.0",
+      "min_sketchup_version": 2021,
+      "max_sketchup_version": 2026,
+      "description": "Tạo hệ lam theo bề mặt, cạnh định hướng và tiết diện tùy chọn. Hỗ trợ tạo trên mặt cong",
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Auto_Lam_V4.0_Center_Protected.rbz",
+      "checksum_sha256": "e99b9d41913dde1188c07a596d7aebb379aa024c6d60611623986f6c8f6bcee4",
+      "requires_restart": true,
+      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_auto_lam_128.png",
+      "hot_reload": false,
+      "release_notes": "Update ra mắt chính thức V4.0 hoàn thiện",
+      "release_notes_version": "4.0",
+      "video_intro_url": "https://youtube.com/shorts/fyQfaQJQoJ0",
+      "video_update_url": "",
+      "sort_order": 3
+    },
+    {
+      "slug": "betagon_path_tools",
+      "name": "Betagon Path Tools",
+      "category": "Modeling",
+      "type": "free",
+      "published": true,
+      "loader_file": "Betagon_PathTools.rb",
+      "loader_candidates": [
+        "Sun2T_PathTools.rb"
+      ],
+      "folder": "Betagon_PathTools",
+      "folder_candidates": [
+        "Sun2T_PathTools"
+      ],
+      "latest_version": "1.0",
+      "min_sketchup_version": 2021,
+      "max_sketchup_version": 2026,
+      "description": "Rải đối tượng theo đường dẫn với nhiều chế độ khoảng cách và ngẫu nhiên.",
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_PathTools_V1.0_Center_Protected.rbz",
+      "checksum_sha256": "a71989d73c6c2382c9ca984c5558d2fb376af2c5b99b9f87660f6ac732fea576",
+      "requires_restart": true,
+      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_path_tools_128.png",
+      "release_notes": "fix update",
+      "release_notes_version": "1.0",
+      "video_intro_url": "https://youtu.be/D1J7MkevNnA",
+      "video_update_url": "",
+      "hot_reload": false,
+      "sort_order": 4
+    },
+    {
+      "slug": "betagon_smart_face",
+      "name": "Betagon Smart Face",
+      "category": "Modeling",
+      "type": "free",
+      "published": true,
+      "loader_file": "betagon_smart_face.rb",
+      "loader_candidates": [
+        "Betagon_SmartFace.rb",
+        "Sun2T_SmartFace.rb"
+      ],
+      "folder": "betagon_smart_face",
+      "folder_candidates": [
+        "Betagon_SmartFace",
+        "Sun2T_SmartFace"
+      ],
+      "latest_version": "2.0",
+      "min_sketchup_version": 2021,
+      "max_sketchup_version": 2026,
+      "description": "Đảo mặt, tìm khoảng hở và tạo mặt, dọn hình học SketchUp.",
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Smart_Face_V2.0_Center_Protected.rbz",
+      "checksum_sha256": "32683356daeceb8b576ca25fde4ea3cffbd217a4c6b8966b235dcbf6f7a83a1d",
+      "requires_restart": true,
+      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_smart_face_128.png",
+      "release_notes": "Update ra mắt chính thức V2.0 hoàn thiện",
+      "release_notes_version": "2.0",
+      "hot_reload": false,
+      "video_intro_url": "https://youtube.com/shorts/hnWMcJkXb8c",
+      "video_update_url": "",
+      "sort_order": 5
     },
     {
       "slug": "betagon_rotate_tools",
@@ -334,7 +334,7 @@
       "release_notes_version": "1.8",
       "video_intro_url": "https://youtube.com/shorts/eSXSJOWcVrk",
       "video_update_url": "",
-      "sort_order": 5
+      "sort_order": 6
     },
     {
       "slug": "betagon_door_and_window",
@@ -358,7 +358,7 @@
       "checksum_sha256": "",
       "requires_restart": true,
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_door_and_window_128.png",
-      "sort_order": 6
+      "sort_order": 7
     },
     {
       "slug": "betagon_architect",
@@ -376,7 +376,7 @@
       "checksum_sha256": "",
       "requires_restart": true,
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_architect_128.png",
-      "sort_order": 7
+      "sort_order": 8
     },
     {
       "slug": "betagon_faceme_2d",
@@ -395,7 +395,7 @@
       "requires_restart": true,
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_faceme_2d_128.png",
       "hot_reload": false,
-      "sort_order": 8
+      "sort_order": 9
     },
     {
       "slug": "betagon_cabinet_door",
@@ -413,14 +413,14 @@
       "checksum_sha256": "",
       "requires_restart": true,
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_cabinet_door_128.png",
-      "sort_order": 9
+      "sort_order": 10
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1792995633637",
+  "manifest_version": "admin-v2-1792995675940",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-26T06:20:33.637Z",
+  "generated_at": "2026-10-26T06:21:15.940Z",
   "guides": [
     {
       "id": 3,
