@@ -176,10 +176,10 @@
             "Layers, dimension and text styles, TCVN title block; opens straight in AutoCAD."
           ],
           [
-            "In PDF đúng tỉ lệ",
-            "In hoặc lưu PDF với khổ giấy và tỉ lệ thật.",
-            "True-scale PDF",
-            "Print or save PDF at real paper size and scale."
+            "Hỗ trợ thống kê",
+            "Hỗ trợ thống kê cấu kiện theo đồ đạc, diện tích, vật liệu,..",
+            "Support component statistics",
+            "Support component statistics by furniture, area, materials, etc."
           ]
         ],
         "gallery": [
@@ -490,10 +490,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793009699111",
+  "manifest_version": "admin-v2-1793009807360",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-26T10:14:59.111Z",
+  "generated_at": "2026-10-26T10:16:47.360Z",
   "guides": [
     {
       "id": 3,
