@@ -143,9 +143,9 @@
       "checksum_sha256": "",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
-      "latest_version": "1.0.0",
-      "release_notes": "",
-      "release_notes_version": "1.0.0",
+      "latest_version": "1.0.1",
+      "release_notes": "fix load trên sketchuo 2023",
+      "release_notes_version": "1.0.1",
       "video_update_url": "https://youtu.be/LvrpEiOEnF4",
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_layout_128.png",
       "video_intro_url": "https://youtu.be/LvrpEiOEnF4",
@@ -490,10 +490,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793009807360",
+  "manifest_version": "admin-v2-1793018072152",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-26T10:16:47.360Z",
+  "generated_at": "2026-10-26T12:34:32.152Z",
   "guides": [
     {
       "id": 3,
