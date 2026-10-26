@@ -1,7 +1,7 @@
 {
-  "latest_version": "2.9.2",
-  "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Center_V2.9.2_Protected.rbz",
-  "checksum_sha256": "38bbe0b77edb1f0e28275ef9d6daf1d0a62ef0ebb4e6521405fe76138a81e558",
+  "latest_version": "2.9.3",
+  "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Center_V2.9.3_Protected.rbz",
+  "checksum_sha256": "e74b32dcd9db45fddf65c4c5dad3404205cc4c066ee1a3195dbee36a234821a6",
   "min_sketchup_version": 2021,
   "max_sketchup_version": 2026
 }
