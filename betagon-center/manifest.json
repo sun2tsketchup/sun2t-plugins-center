@@ -182,9 +182,9 @@
         ],
         "gallery": [
           [
-            "video:intro",
-            "Video giới thiệu",
-            "Intro video"
+            "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/web/betagon_layout/mvoz0kmh_Betagon_Layout_V1.0_Cover_16x9.png",
+            "Plugin giúp tự động dàn trang, tự động dim và ghi chú trong 1 click chuột trong thời gian siêu nhanh. Hỗ trợ xuất PDF ho",
+            "This plugin automates page layout, dimensioning, and annotation with a single click, all in a very short time. It suppor"
           ],
           [
             "video:intro",
@@ -205,11 +205,6 @@
             "assets/img/web/bl_tab_layer.jpg",
             "Layer và kiểu chữ",
             "Layers and styles"
-          ],
-          [
-            "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/web/betagon_layout/mvoz0kmh_Betagon_Layout_V1.0_Cover_16x9.png",
-            "",
-            ""
           ]
         ]
       },
@@ -480,10 +475,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793001908154",
+  "manifest_version": "admin-v2-1793001953646",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-26T08:05:08.154Z",
+  "generated_at": "2026-10-26T08:05:53.646Z",
   "guides": [
     {
       "id": 3,
