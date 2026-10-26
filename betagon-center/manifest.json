@@ -150,6 +150,69 @@
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_layout_128.png",
       "video_intro_url": "https://youtu.be/LvrpEiOEnF4",
       "freemium": false,
+      "web": {
+        "badge": "new",
+        "tagline": "Plugin giúp tự động dàn trang, tự động dim và ghi chú trong 1 click chuột trong thời gian siêu nhanh. Hỗ trợ xuất PDF hoặc DXF Auto Cad",
+        "tagline_en": "This plugin automates page layout, dimensioning, and annotation with a single click, all in a very short time. It supports exporting to PDF or DXF AutoCAD.",
+        "features": [
+          [
+            "Dàn trang như LayOut",
+            "Trang giấy, khung nhìn, công cụ vẽ, ghi chú và đo kích thước.",
+            "LayOut-style pages",
+            "Sheets, viewports, drawing, notes and dimension tools."
+          ],
+          [
+            "Mặt cắt kéo thả",
+            "Kéo đường cắt trên trang, bản vẽ tự cập nhật.",
+            "Draggable sections",
+            "Drag section lines on the sheet; drawings update automatically."
+          ],
+          [
+            "Xuất DXF/DWG chuẩn",
+            "Layer, kiểu dim, kiểu chữ, khung tên TCVN; mở thẳng trong AutoCAD.",
+            "Clean DXF/DWG",
+            "Layers, dimension and text styles, TCVN title block; opens straight in AutoCAD."
+          ],
+          [
+            "In PDF đúng tỉ lệ",
+            "In hoặc lưu PDF với khổ giấy và tỉ lệ thật.",
+            "True-scale PDF",
+            "Print or save PDF at real paper size and scale."
+          ]
+        ],
+        "gallery": [
+          [
+            "video:intro",
+            "Video giới thiệu",
+            "Intro video"
+          ],
+          [
+            "video:intro",
+            "Video giới thiệu",
+            "Intro video"
+          ],
+          [
+            "assets/img/web/bl_cover.jpg",
+            "Betagon Layout",
+            "Betagon Layout"
+          ],
+          [
+            "assets/img/web/bl_tab_view.jpg",
+            "Khung nhìn và mặt cắt",
+            "Views and sections"
+          ],
+          [
+            "assets/img/web/bl_tab_layer.jpg",
+            "Layer và kiểu chữ",
+            "Layers and styles"
+          ],
+          [
+            "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/web/betagon_layout/mvoz0kmh_Betagon_Layout_V1.0_Cover_16x9.png",
+            "",
+            ""
+          ]
+        ]
+      },
       "sort_order": 1,
       "purchase_plans": [
         {
@@ -417,10 +480,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793000630523",
+  "manifest_version": "admin-v2-1793001908154",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-26T07:43:50.523Z",
+  "generated_at": "2026-10-26T08:05:08.154Z",
   "guides": [
     {
       "id": 3,
