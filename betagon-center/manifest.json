@@ -154,18 +154,20 @@
         "badge": "new",
         "tagline": "Plugin giúp tự động dàn trang, tự động dim và ghi chú trong 1 click chuột trong thời gian siêu nhanh. Hỗ trợ xuất PDF hoặc DXF Auto Cad",
         "tagline_en": "This plugin automates page layout, dimensioning, and annotation with a single click, all in a very short time. It supports exporting to PDF or DXF AutoCAD.",
+        "free_note": "Trải nghệm miễn phí, bản quyền sở hữu vĩnh viễn, update trọn đời",
+        "free_note_en": "Free trial, lifetime ownership, free updates forever",
         "features": [
+          [
+            "Tự động triển khai",
+            "Tự động triển khai 100% bản vẽ phối cảnh, mặt bằng, mặt đứng, mặt cắt, chi tiết,..",
+            "Automatic deployment",
+            "Automatically deploy 100% of perspective drawings, floor plans, elevations, sections, details, etc."
+          ],
           [
             "Dàn trang như LayOut",
             "Trang giấy, khung nhìn, công cụ vẽ, ghi chú và đo kích thước.",
             "LayOut-style pages",
             "Sheets, viewports, drawing, notes and dimension tools."
-          ],
-          [
-            "Mặt cắt kéo thả",
-            "Kéo đường cắt trên trang, bản vẽ tự cập nhật.",
-            "Draggable sections",
-            "Drag section lines on the sheet; drawings update automatically."
           ],
           [
             "Xuất DXF/DWG chuẩn",
@@ -475,10 +477,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793002280268",
+  "manifest_version": "admin-v2-1793009463257",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-26T08:11:20.268Z",
+  "generated_at": "2026-10-26T10:11:03.257Z",
   "guides": [
     {
       "id": 3,
