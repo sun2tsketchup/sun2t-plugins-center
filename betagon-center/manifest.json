@@ -257,6 +257,19 @@
       "checksum_sha256": "",
       "release_notes": "update fix file RVT",
       "release_notes_version": "1.2.4",
+      "web": {
+        "tagline": "Convert hàng loạt file định dạng 3D khác nhau ( Hỗ trợ ~20 định dạng file khác bao gồm cả file nén ), đặc biệt là các định dạng khó chuyển đổi trực tiếp như .max (3dsmax) và .rvt ( Revit).",
+        "tagline_en": "Batch convert different 3D file formats (Supports ~20 other file formats including compressed files), especially formats that are hard to convert directly like .max (3ds Max) and .rvt (Revit).",
+        "free_note": "Trải nghiệm miễn phí, Bản quyền sở hữu vĩnh viễn, update trọn đời.",
+        "free_note_en": "Free trial, lifetime ownership, free updates forever.",
+        "gallery": [
+          [
+            "video:intro",
+            "Video giới thiệu",
+            "Intro video"
+          ]
+        ]
+      },
       "sort_order": 2,
       "purchase_plans": [
         {
@@ -477,10 +490,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793009530127",
+  "manifest_version": "admin-v2-1793009699111",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-26T10:12:10.127Z",
+  "generated_at": "2026-10-26T10:14:59.111Z",
   "guides": [
     {
       "id": 3,
