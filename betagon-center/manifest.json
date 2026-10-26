@@ -256,6 +256,55 @@
       "sort_order": 4
     },
     {
+      "slug": "betagon_layout",
+      "name": "Betagon Layout",
+      "category": "Interior",
+      "type": "paid",
+      "published": true,
+      "loader_file": "Betagon_Layout.rb",
+      "folder": "Betagon_Layout",
+      "description": "Dàn trang bản vẽ đồ nội thất từ SketchUp: hình chiếu, mặt cắt, dim, ghi chú, hatch, khung tên; xuất DXF, PDF, Excel thống kê.",
+      "trial_enabled": true,
+      "trial_minutes": 4320,
+      "trial_hours": 72,
+      "trial_policy_version": "2.9",
+      "requires_restart": false,
+      "hot_reload": true,
+      "hot_reload_entry": "main.rb",
+      "hot_reload_hook": "Betagon::BgLayout",
+      "requires_purchase": true,
+      "server_managed": true,
+      "price_vnd": 199000,
+      "max_devices": 2,
+      "download_url": "",
+      "checksum_sha256": "",
+      "min_sketchup_version": 2021,
+      "max_sketchup_version": 2026,
+      "latest_version": "1.0.0",
+      "release_notes": "",
+      "release_notes_version": "1.0.0",
+      "video_update_url": "",
+      "sort_order": 5,
+      "icon_url": "",
+      "purchase_plans": [
+        {
+          "key": "layout_1",
+          "name": "1 máy",
+          "price_vnd": 129000,
+          "device_slots": 1
+        },
+        {
+          "key": "layout_2",
+          "name": "2 máy",
+          "price_vnd": 199000,
+          "device_slots": 2
+        }
+      ],
+      "account_device_cap": 3,
+      "default_plan_key": "layout_2",
+      "freemium": false
+    },
+    {
       "slug": "betagon_rotate_tools",
       "name": "Betagon Rotate Tools",
       "category": "Modeling",
@@ -367,10 +416,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1792940616667",
+  "manifest_version": "admin-v2-1792995471525",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-25T15:03:36.667Z",
+  "generated_at": "2026-10-26T06:17:51.525Z",
   "guides": [
     {
       "id": 3,
