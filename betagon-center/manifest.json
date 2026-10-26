@@ -266,8 +266,20 @@
           [
             "Đưa trực tiếp các file định dạng 3D vào Sketchup",
             "hỗ trợ chuyển ~20 định dạng file 3D khác nhau như: .Fbx .Max .3Ds .Rvt ....",
-            "",
-            ""
+            "Import 3D files directly into SketchUp",
+            "supports converting about 20 different 3D file formats like: .Fbx .Max .3Ds .Rvt ...."
+          ],
+          [
+            "Quản lí thư viện",
+            "Quản lí hệ thống thư viện trên máy thông minh",
+            "Library management",
+            "Managing the library system on a smart device"
+          ],
+          [
+            "Giảm nhẹ lưới model",
+            "Tính toán lưới, giảm nhẹ model",
+            "Slightly reduce the model grid",
+            "Mesh calculation, model simplification"
           ]
         ],
         "gallery": [
@@ -518,10 +530,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793038348361",
+  "manifest_version": "admin-v2-1793038442198",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-26T18:12:28.361Z",
+  "generated_at": "2026-10-26T18:14:02.198Z",
   "guides": [
     {
       "id": 3,
