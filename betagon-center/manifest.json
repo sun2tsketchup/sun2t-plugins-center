@@ -126,7 +126,7 @@
       "published": true,
       "loader_file": "Betagon_Layout.rb",
       "folder": "Betagon_Layout",
-      "description": "Tự động dàn trang bản vẽ từ model SketchUp: Phối cảnh, mặt cắt, dim, ghi chú, hatch, khung tên; xuất DXF, PDF, Excel thống kê. Có chế độ DIM thủ công và tùy chỉnh bản vẽ chuyên sâu",
+      "description": "Tự động dàn trang bản vẽ từ model SketchUp: Phối cảnh, mặt bằng, mặt đứng, mặt cắt, dim, ghi chú, hatch; xuất DXF, PDF, Excel thống kê. Có chế độ DIM thủ công và tùy chỉnh bản vẽ chuyên sâu",
       "trial_enabled": true,
       "trial_minutes": 4320,
       "trial_hours": 72,
@@ -417,10 +417,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793000351631",
+  "manifest_version": "admin-v2-1793000630523",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-26T07:39:11.631Z",
+  "generated_at": "2026-10-26T07:43:50.523Z",
   "guides": [
     {
       "id": 3,
