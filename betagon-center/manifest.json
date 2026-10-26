@@ -263,7 +263,7 @@
       "published": true,
       "loader_file": "Betagon_Layout.rb",
       "folder": "Betagon_Layout",
-      "description": "Dàn trang bản vẽ đồ nội thất từ SketchUp: hình chiếu, mặt cắt, dim, ghi chú, hatch, khung tên; xuất DXF, PDF, Excel thống kê.",
+      "description": "Tự động dàn trang bản vẽ từ model SketchUp: Phối cảnh, mặt cắt, dim, ghi chú, hatch, khung tên; xuất DXF, PDF, Excel thống kê. Có chế độ DIM thủ công và tùy chỉnh bản vẽ chuyên sâu",
       "trial_enabled": true,
       "trial_minutes": 4320,
       "trial_hours": 72,
@@ -284,8 +284,10 @@
       "release_notes": "",
       "release_notes_version": "1.0.0",
       "video_update_url": "",
-      "sort_order": 5,
       "icon_url": "",
+      "video_intro_url": "",
+      "freemium": false,
+      "sort_order": 5,
       "purchase_plans": [
         {
           "key": "layout_1",
@@ -301,8 +303,7 @@
         }
       ],
       "account_device_cap": 3,
-      "default_plan_key": "layout_2",
-      "freemium": false
+      "default_plan_key": "layout_2"
     },
     {
       "slug": "betagon_rotate_tools",
@@ -416,10 +417,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1792995471525",
+  "manifest_version": "admin-v2-1792995633637",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-26T06:17:51.525Z",
+  "generated_at": "2026-10-26T06:20:33.637Z",
   "guides": [
     {
       "id": 3,
