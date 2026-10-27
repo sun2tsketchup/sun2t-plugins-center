@@ -143,9 +143,9 @@
       "checksum_sha256": "",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
-      "latest_version": "1.0.5",
-      "release_notes": "fix UI su21-26",
-      "release_notes_version": "1.0.5",
+      "latest_version": "1.0.6",
+      "release_notes": "fix lỗi k bấm đc thêm model trong bản su 21",
+      "release_notes_version": "1.0.6",
       "video_update_url": "https://youtu.be/LvrpEiOEnF4",
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_layout_128.png",
       "video_intro_url": "https://youtu.be/LvrpEiOEnF4",
@@ -530,10 +530,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793068515080",
+  "manifest_version": "admin-v2-1793078192874",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-27T02:35:15.080Z",
+  "generated_at": "2026-10-27T05:16:32.874Z",
   "guides": [
     {
       "id": 3,
