@@ -137,7 +137,7 @@
       "hot_reload_hook": "Betagon::BgLayout",
       "requires_purchase": true,
       "server_managed": true,
-      "price_vnd": 199000,
+      "price_vnd": 229000,
       "max_devices": 2,
       "download_url": "",
       "checksum_sha256": "",
@@ -214,14 +214,14 @@
       "purchase_plans": [
         {
           "key": "layout_1",
-          "name": "1 máy",
-          "price_vnd": 129000,
+          "name": "Gói 1 máy",
+          "price_vnd": 159000,
           "device_slots": 1
         },
         {
           "key": "layout_2",
-          "name": "2 máy",
-          "price_vnd": 199000,
+          "name": "Gói 2 máy",
+          "price_vnd": 229000,
           "device_slots": 2
         }
       ],
@@ -530,10 +530,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793081083474",
+  "manifest_version": "admin-v2-1793081395326",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-27T06:04:43.474Z",
+  "generated_at": "2026-10-27T06:09:55.326Z",
   "guides": [
     {
       "id": 3,
