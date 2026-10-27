@@ -372,16 +372,16 @@
       "folder_candidates": [
         "Sun2T_PathTools"
       ],
-      "latest_version": "1.02",
+      "latest_version": "1.3.0",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
       "description": "Rải đối tượng theo đường dẫn với nhiều chế độ khoảng cách và ngẫu nhiên.",
-      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_PathTools_V1.0.2.rbz",
-      "checksum_sha256": "eba083e53834370235c79271d42a9b00d794d215d9e06d87259068f1affb0309",
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_PathTools_V1.3.0.rbz",
+      "checksum_sha256": "0ee1f821ec4019dac71949e3e41a2cf9f03598326f86890f3e6de88ab1c7e318",
       "requires_restart": true,
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_path_tools_128.png",
-      "release_notes": "Big update giao diện, hệ thống tính năng và thêm \"sách hướng dẫn\" trên toolbar",
-      "release_notes_version": "1.02",
+      "release_notes": "Fix lỗi icon",
+      "release_notes_version": "1.3.0",
       "video_intro_url": "https://youtu.be/D1J7MkevNnA",
       "video_update_url": "",
       "hot_reload": false,
@@ -530,10 +530,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793092950569",
+  "manifest_version": "admin-v2-1793092996819",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-27T09:22:30.569Z",
+  "generated_at": "2026-10-27T09:23:16.819Z",
   "guides": [
     {
       "id": 3,
