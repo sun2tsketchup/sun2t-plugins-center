@@ -143,9 +143,9 @@
       "checksum_sha256": "",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
-      "latest_version": "1.2.1",
-      "release_notes": "Update tính năng tạo khung tùy chỉnh",
-      "release_notes_version": "1.2.1",
+      "latest_version": "1.2.3",
+      "release_notes": "Fix lỗi mặt cắt chi tiết, thêm công cụ Rotate, Move, Scale",
+      "release_notes_version": "1.2.3",
       "video_update_url": "https://youtu.be/LvrpEiOEnF4",
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_layout_128.png",
       "video_intro_url": "https://youtu.be/LvrpEiOEnF4",
@@ -530,10 +530,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793096395473",
+  "manifest_version": "admin-v2-1793105690756",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-27T10:19:55.473Z",
+  "generated_at": "2026-10-27T12:54:50.756Z",
   "guides": [
     {
       "id": 3,
