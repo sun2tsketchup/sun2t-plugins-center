@@ -21,7 +21,7 @@
       "requires_purchase": true,
       "paid_test": false,
       "server_managed": true,
-      "price_vnd": 149000,
+      "price_vnd": 199000,
       "max_devices": 2,
       "hot_reload": true,
       "hot_reload_entry": "main.rb",
@@ -104,14 +104,14 @@
       "purchase_plans": [
         {
           "key": "smart_roof_1",
-          "name": "1 máy",
-          "price_vnd": 99000,
+          "name": "Gói 1 máy",
+          "price_vnd": 129000,
           "device_slots": 1
         },
         {
           "key": "smart_roof_2",
-          "name": "2 máy",
-          "price_vnd": 149000,
+          "name": "Gói 2 máy",
+          "price_vnd": 199000,
           "device_slots": 2
         }
       ],
@@ -530,10 +530,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793078192874",
+  "manifest_version": "admin-v2-1793081083474",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-27T05:16:32.874Z",
+  "generated_at": "2026-10-27T06:04:43.474Z",
   "guides": [
     {
       "id": 3,
