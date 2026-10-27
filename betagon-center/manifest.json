@@ -143,9 +143,9 @@
       "checksum_sha256": "",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2026,
-      "latest_version": "1.0.3",
-      "release_notes": "Bổ xung giao diện, bản vẽ tiếng anh",
-      "release_notes_version": "1.0.3",
+      "latest_version": "1.0.4",
+      "release_notes": "Fix lỗi export PDF spam UI của su 2022",
+      "release_notes_version": "1.0.4",
       "video_update_url": "https://youtu.be/LvrpEiOEnF4",
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_layout_128.png",
       "video_intro_url": "https://youtu.be/LvrpEiOEnF4",
@@ -530,10 +530,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793038442198",
+  "manifest_version": "admin-v2-1793064867285",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-26T18:14:02.198Z",
+  "generated_at": "2026-10-27T01:34:27.285Z",
   "guides": [
     {
       "id": 3,
