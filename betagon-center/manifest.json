@@ -100,6 +100,10 @@
           ]
         ]
       },
+      "guide_pdf": {
+        "vi": "https://betagon-plugins.pages.dev/docs/Betagon_Smart_Roof_3.0.1_Huong_dan_su_dung.pdf",
+        "en": "https://betagon-plugins.pages.dev/docs/Betagon_Smart_Roof_3.0.1_User_Guide_EN.pdf"
+      },
       "sort_order": 0,
       "purchase_plans": [
         {
@@ -212,7 +216,7 @@
       },
       "guide_pdf": {
         "vi": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/guides/betagon_layout/betagon_layout_vi_mvtea5ar.pdf",
-        "en": ""
+        "en": "https://betagon-plugins.pages.dev/docs/Betagon_Layout_1.3.15_User_Guide_EN.pdf"
       },
       "sort_order": 1,
       "purchase_plans": [
@@ -314,6 +318,10 @@
           ]
         ]
       },
+      "guide_pdf": {
+        "vi": "https://betagon-plugins.pages.dev/docs/Betagon_Converter_Huong_dan_VI.pdf",
+        "en": "https://betagon-plugins.pages.dev/docs/Betagon_Converter_User_Guide_EN.pdf"
+      },
       "sort_order": 2,
       "purchase_plans": [
         {
@@ -360,6 +368,10 @@
       "release_notes_version": "5.0.8",
       "video_intro_url": "https://youtube.com/shorts/fyQfaQJQoJ0",
       "video_update_url": "",
+      "guide_pdf": {
+        "vi": "https://betagon-plugins.pages.dev/docs/Betagon_Auto_Lam_5.0.7_Huong_dan_su_dung_VI.pdf",
+        "en": "https://betagon-plugins.pages.dev/docs/Betagon_Auto_Lam_5.0.7_User_guide_EN.pdf"
+      },
       "sort_order": 3
     },
     {
@@ -389,6 +401,10 @@
       "video_intro_url": "https://youtu.be/D1J7MkevNnA",
       "video_update_url": "",
       "hot_reload": false,
+      "guide_pdf": {
+        "vi": "https://betagon-plugins.pages.dev/docs/Betagon_PathTools_Huong_dan_VI_V1.0.2.pdf",
+        "en": "https://betagon-plugins.pages.dev/docs/Betagon_PathTools_User_Guide_EN_V1.0.2.pdf"
+      },
       "sort_order": 4
     },
     {
@@ -420,6 +436,10 @@
       "hot_reload": false,
       "video_intro_url": "https://youtube.com/shorts/hnWMcJkXb8c",
       "video_update_url": "",
+      "guide_pdf": {
+        "vi": "https://betagon-plugins.pages.dev/docs/Betagon_Smart_Face_V2.0.1_Huong_dan_su_dung.pdf",
+        "en": "https://betagon-plugins.pages.dev/docs/Betagon_Smart_Face_V2.0.1_User_Guide_EN.pdf"
+      },
       "sort_order": 5
     },
     {
@@ -451,6 +471,10 @@
       "release_notes_version": "2.0.5",
       "video_intro_url": "https://youtube.com/shorts/eSXSJOWcVrk",
       "video_update_url": "",
+      "guide_pdf": {
+        "vi": "https://betagon-plugins.pages.dev/docs/Betagon_Rotate_Tools_V2.0.1_Huong_dan_su_dung.pdf",
+        "en": "https://betagon-plugins.pages.dev/docs/Betagon_Rotate_Tools_V2.0.1_User_Guide_EN.pdf"
+      },
       "sort_order": 6
     },
     {
@@ -534,10 +558,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793293616934",
+  "manifest_version": "admin-v2-1793293905073",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-29T17:06:56.934Z",
+  "generated_at": "2026-10-29T17:11:45.073Z",
   "guides": [
     {
       "id": 3,
