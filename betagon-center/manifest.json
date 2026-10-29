@@ -438,17 +438,17 @@
         "Betagon_RotateTools",
         "Sun2T_RotateTools"
       ],
-      "latest_version": "2.0.4",
+      "latest_version": "2.0.5",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2027,
       "description": "Xoay nhanh nhiều đối tượng theo tâm, trục và góc định sẵn, hỗ trợ nhiều chế độ xoay đa dạng",
-      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Rotate_Tools_V2.0.4.rbz",
-      "checksum_sha256": "bae6d01c566bc7419541cc11864f8bab6f3cb243482774160827b6d5435a1f13",
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Rotate_Tools_V2.0.5.rbz",
+      "checksum_sha256": "c775b5f66f90f059075790c036516e32aeab70c4280f8b7a3526d010e3f4656a",
       "requires_restart": true,
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_rotate_tools_128.png",
       "hot_reload": false,
-      "release_notes": "Fix lỗi icon trên toolbar",
-      "release_notes_version": "2.0.4",
+      "release_notes": "update hỗ trợ từ SU 2021-2027",
+      "release_notes_version": "2.0.5",
       "video_intro_url": "https://youtube.com/shorts/eSXSJOWcVrk",
       "video_update_url": "",
       "sort_order": 6
@@ -534,10 +534,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793293295161",
+  "manifest_version": "admin-v2-1793293355851",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-29T17:01:35.161Z",
+  "generated_at": "2026-10-29T17:02:35.851Z",
   "guides": [
     {
       "id": 3,
