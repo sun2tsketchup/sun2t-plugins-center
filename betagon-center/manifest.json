@@ -423,7 +423,7 @@
         "Betagon_SmartFace",
         "Sun2T_SmartFace"
       ],
-      "latest_version": "2.03",
+      "latest_version": "2.0.3",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2027,
       "description": "Đảo mặt, tìm khoảng hở và tạo mặt, dọn hình học SketchUp.",
@@ -440,6 +440,10 @@
         "vi": "https://betagon-plugins.pages.dev/docs/Betagon_Smart_Face_V2.0.1_Huong_dan_su_dung.pdf",
         "en": "https://betagon-plugins.pages.dev/docs/Betagon_Smart_Face_V2.0.1_User_Guide_EN.pdf"
       },
+      "trial_enabled": false,
+      "trial_minutes": 0,
+      "trial_hours": 0,
+      "trial_policy_version": "2.9",
       "sort_order": 5
     },
     {
@@ -558,10 +562,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793293905073",
+  "manifest_version": "admin-v2-1793295233137",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-29T17:11:45.073Z",
+  "generated_at": "2026-10-29T17:33:53.137Z",
   "guides": [
     {
       "id": 3,
