@@ -210,6 +210,10 @@
           ]
         ]
       },
+      "guide_pdf": {
+        "vi": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/guides/betagon_layout/betagon_layout_vi_mvtea5ar.pdf",
+        "en": ""
+      },
       "sort_order": 1,
       "purchase_plans": [
         {
@@ -530,10 +534,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793269366748",
+  "manifest_version": "admin-v2-1793269376335",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-29T10:22:46.748Z",
+  "generated_at": "2026-10-29T10:22:56.335Z",
   "guides": [
     {
       "id": 3,
