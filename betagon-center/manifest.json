@@ -12,7 +12,7 @@
       "folder": "Betagon_SmartRoof",
       "latest_version": "3.0.1",
       "min_sketchup_version": 2021,
-      "max_sketchup_version": 2026,
+      "max_sketchup_version": 2027,
       "description": "Tự động tạo mái, tạo khung mái và lợp mái ( Nhật, Thái, Mansard, Đình chùa)",
       "download_url": "",
       "checksum_sha256": "",
@@ -115,7 +115,7 @@
           "device_slots": 2
         }
       ],
-      "account_device_cap": 3,
+      "account_device_cap": 9999,
       "default_plan_key": "smart_roof_2"
     },
     {
@@ -142,7 +142,7 @@
       "download_url": "",
       "checksum_sha256": "",
       "min_sketchup_version": 2021,
-      "max_sketchup_version": 2026,
+      "max_sketchup_version": 2027,
       "latest_version": "1.3.15",
       "release_notes": "Thêm tự động trích - thống kê vật liệu, fix lỗi led trong suốt che bản vẽ, thêm tính năng import cad",
       "release_notes_version": "1.3.15",
@@ -229,7 +229,7 @@
           "device_slots": 2
         }
       ],
-      "account_device_cap": 3,
+      "account_device_cap": 9999,
       "default_plan_key": "layout_2"
     },
     {
@@ -242,7 +242,7 @@
       "folder": "betagon_converter",
       "latest_version": "1.2.12",
       "min_sketchup_version": 2021,
-      "max_sketchup_version": 2026,
+      "max_sketchup_version": 2027,
       "description": "Import trực tiếp các định dạng file 3D như .max ; .rvt ; .fbx ; .3ds,.... Vào SketchUp, Giảm lưới model, quản lí thư viện thông minh",
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_converter_128.png",
       "video_intro_url": "https://youtu.be/72jLDuTl2cg",
@@ -329,7 +329,7 @@
           "device_slots": 2
         }
       ],
-      "account_device_cap": 3,
+      "account_device_cap": 9999,
       "default_plan_key": "converter_2",
       "freemium": false
     },
@@ -347,17 +347,17 @@
       "folder_candidates": [
         "Betagon_AutoLam"
       ],
-      "latest_version": "5.0.7",
+      "latest_version": "5.0.8",
       "min_sketchup_version": 2021,
-      "max_sketchup_version": 2026,
+      "max_sketchup_version": 2027,
       "description": "Tạo hệ lam theo bề mặt, cạnh định hướng và tiết diện tùy chọn. Hỗ trợ tạo trên mặt cong",
-      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Auto_Lam_V5.0.7.rbz",
-      "checksum_sha256": "59e53164525fd9c94975592a23160a9b6a54f5499522fbcd818d73dc0af3bebd",
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Auto_Lam_V5.0.8.rbz",
+      "checksum_sha256": "df0b71cd9a28b8239195a7fc7264de9047e67f96f645bf76b175bb13bdbae3e1",
       "requires_restart": true,
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_auto_lam_128.png",
       "hot_reload": false,
-      "release_notes": "Fix lỗi icon",
-      "release_notes_version": "5.0.7",
+      "release_notes": "update hỗ trợ từ SU 2021-2027",
+      "release_notes_version": "5.0.8",
       "video_intro_url": "https://youtube.com/shorts/fyQfaQJQoJ0",
       "video_update_url": "",
       "sort_order": 3
@@ -378,7 +378,7 @@
       ],
       "latest_version": "1.3.0",
       "min_sketchup_version": 2021,
-      "max_sketchup_version": 2026,
+      "max_sketchup_version": 2027,
       "description": "Rải đối tượng theo đường dẫn với nhiều chế độ khoảng cách và ngẫu nhiên.",
       "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_PathTools_V1.3.0.rbz",
       "checksum_sha256": "0ee1f821ec4019dac71949e3e41a2cf9f03598326f86890f3e6de88ab1c7e318",
@@ -409,7 +409,7 @@
       ],
       "latest_version": "2.0.2",
       "min_sketchup_version": 2021,
-      "max_sketchup_version": 2026,
+      "max_sketchup_version": 2027,
       "description": "Đảo mặt, tìm khoảng hở và tạo mặt, dọn hình học SketchUp.",
       "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Smart_Face_V2.0.2.rbz",
       "checksum_sha256": "3238df5dd0adaf3a172aa686799399cd39ae53ae9c98bce777df843ee7746eb9",
@@ -440,7 +440,7 @@
       ],
       "latest_version": "2.0.4",
       "min_sketchup_version": 2021,
-      "max_sketchup_version": 2026,
+      "max_sketchup_version": 2027,
       "description": "Xoay nhanh nhiều đối tượng theo tâm, trục và góc định sẵn, hỗ trợ nhiều chế độ xoay đa dạng",
       "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Rotate_Tools_V2.0.4.rbz",
       "checksum_sha256": "bae6d01c566bc7419541cc11864f8bab6f3cb243482774160827b6d5435a1f13",
@@ -469,7 +469,7 @@
       ],
       "latest_version": "",
       "min_sketchup_version": 2021,
-      "max_sketchup_version": 2026,
+      "max_sketchup_version": 2027,
       "description": "Tạo nhanh hệ cửa đi và cửa sổ cho mô hình kiến trúc.",
       "download_url": "",
       "checksum_sha256": "",
@@ -487,7 +487,7 @@
       "folder": "Betagon_Architect",
       "latest_version": "",
       "min_sketchup_version": 2021,
-      "max_sketchup_version": 2026,
+      "max_sketchup_version": 2027,
       "description": "Bộ công cụ dựng kiến trúc Betagon.",
       "download_url": "",
       "checksum_sha256": "",
@@ -505,7 +505,7 @@
       "folder": "Betagon_FaceMe2D",
       "latest_version": "",
       "min_sketchup_version": 2021,
-      "max_sketchup_version": 2026,
+      "max_sketchup_version": 2027,
       "description": "Chuẩn hóa đối tượng FaceMe 2D và trục component theo quy ước Betagon.",
       "download_url": "",
       "checksum_sha256": "",
@@ -524,7 +524,7 @@
       "folder": "Betagon_CabinetDoor",
       "latest_version": "",
       "min_sketchup_version": 2021,
-      "max_sketchup_version": 2026,
+      "max_sketchup_version": 2027,
       "description": "Công cụ tạo và quản lý cánh tủ nội thất.",
       "download_url": "",
       "checksum_sha256": "",
@@ -534,10 +534,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793269376335",
+  "manifest_version": "admin-v2-1793293181034",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-29T10:22:56.335Z",
+  "generated_at": "2026-10-29T16:59:41.034Z",
   "guides": [
     {
       "id": 3,
