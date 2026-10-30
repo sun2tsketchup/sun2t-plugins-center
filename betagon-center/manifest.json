@@ -147,9 +147,9 @@
       "checksum_sha256": "",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2027,
-      "latest_version": "1.3.23",
-      "release_notes": "fix DIM dày ván gọn gàng và \"khôn\" hơn",
-      "release_notes_version": "1.3.23",
+      "latest_version": "1.3.25",
+      "release_notes": "Fix lỗi PDF che Dim nhỏ, thêm tính năng tùy chọn giữ bố cục Layout khi cập nhật model",
+      "release_notes_version": "1.3.25",
       "video_update_url": "https://www.youtube.com/watch?v=qqTPlOeLH04&list=PLbrvCkjkAoR8&index=1&t=4s",
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_layout_128.png",
       "video_intro_url": "https://youtu.be/LvrpEiOEnF4",
@@ -562,10 +562,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793343357646",
+  "manifest_version": "admin-v2-1793363525083",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-30T06:55:57.646Z",
+  "generated_at": "2026-10-30T12:32:05.083Z",
   "guides": [
     {
       "id": 3,
