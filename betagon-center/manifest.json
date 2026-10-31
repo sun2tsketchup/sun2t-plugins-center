@@ -147,9 +147,9 @@
       "checksum_sha256": "",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2027,
-      "latest_version": "1.3.25",
-      "release_notes": "Fix lỗi PDF che Dim nhỏ, thêm tính năng tùy chọn giữ bố cục Layout khi cập nhật model",
-      "release_notes_version": "1.3.25",
+      "latest_version": "1.3.29",
+      "release_notes": "- Update cho phép sửa nhiều bản vẽ khi chọn hàng loạt\n- Fix lỗi hiển thị phối cảnh khi xuất sang Cad, tăng tốc xuất cad 50%\n- Tối ưu giao diện, thông báo,...",
+      "release_notes_version": "1.3.29",
       "video_update_url": "https://www.youtube.com/watch?v=qqTPlOeLH04&list=PLbrvCkjkAoR8&index=1&t=4s",
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_layout_128.png",
       "video_intro_url": "https://youtu.be/LvrpEiOEnF4",
@@ -562,10 +562,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793364097196",
+  "manifest_version": "admin-v2-1793425062635",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-30T12:41:37.196Z",
+  "generated_at": "2026-10-31T05:37:42.635Z",
   "guides": [
     {
       "id": 3,
