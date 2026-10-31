@@ -153,9 +153,9 @@
       "checksum_sha256": "",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2027,
-      "latest_version": "1.3.29",
-      "release_notes": "- Update cho phép sửa nhiều bản vẽ khi chọn hàng loạt\n- Fix lỗi hiển thị phối cảnh khi xuất sang Cad, tăng tốc xuất cad 50%\n- Tối ưu giao diện, thông báo,...",
-      "release_notes_version": "1.3.29",
+      "latest_version": "1.3.38",
+      "release_notes": "- Thêm lưu file mẫu (template)\n- Ghim tab chức năng, tùy chọn ẩn/hiện và kích thước 2 tab công cụ 2 bên\n- Wraptext cho các ô thống kê vật liệu, tùy chọn tên, kích thước, số lượng cột trong ô.\n- Thêm bảng well come to Betagon Layout ( Chọn file mẫu, chọn dự án đang làm hoặc file cũ) khi khởi động Layout",
+      "release_notes_version": "1.3.38",
       "video_update_url": "https://www.youtube.com/watch?v=qqTPlOeLH04&list=PLbrvCkjkAoR8&index=1&t=4s",
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_layout_128.png",
       "video_intro_url": "https://youtu.be/LvrpEiOEnF4",
@@ -580,10 +580,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793440352544",
+  "manifest_version": "admin-v2-1793466044258",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-31T09:52:32.544Z",
+  "generated_at": "2026-10-31T17:00:44.258Z",
   "guides": [
     {
       "id": 3,
