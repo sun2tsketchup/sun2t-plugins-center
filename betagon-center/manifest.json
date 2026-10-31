@@ -155,7 +155,7 @@
       "video_intro_url": "https://youtu.be/LvrpEiOEnF4",
       "freemium": false,
       "web": {
-        "badge": "new",
+        "badge": "hot",
         "tagline": "Plugin giúp tự động dàn trang, tự động dim và ghi chú trong 1 click chuột trong thời gian siêu nhanh. Hỗ trợ xuất PDF hoặc DXF Auto Cad",
         "tagline_en": "This plugin automates page layout, dimensioning, and annotation with a single click, all in a very short time. It supports exporting to PDF or DXF AutoCAD.",
         "free_note": "Trải nghệm miễn phí, bản quyền sở hữu vĩnh viễn, update trọn đời",
@@ -562,10 +562,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793425062635",
+  "manifest_version": "admin-v2-1793429230330",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-31T05:37:42.635Z",
+  "generated_at": "2026-10-31T06:47:10.330Z",
   "guides": [
     {
       "id": 3,
