@@ -117,6 +117,12 @@
           "name": "Gói 2 máy",
           "price_vnd": 199000,
           "device_slots": 2
+        },
+        {
+          "key": "smart_roof_3",
+          "name": "Gói 3 máy",
+          "price_vnd": 269000,
+          "device_slots": 3
         }
       ],
       "account_device_cap": 9999,
@@ -568,10 +574,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793440245182",
+  "manifest_version": "admin-v2-1793440330117",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-10-31T09:50:45.182Z",
+  "generated_at": "2026-10-31T09:52:10.117Z",
   "guides": [
     {
       "id": 3,
