@@ -153,9 +153,9 @@
       "checksum_sha256": "",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2027,
-      "latest_version": "1.3.40",
-      "release_notes": "- Update file mẫu, tùy chọn lưu file mẫu\n- Chế độ tùy chỉnh kích thước/ ẩn hiện tab menu\n- Tính năng ghim tab menu\n- Tối ưu bảng thống kê vật liệu\n- Thêm bảng thống kê đồ đạc\n- Cải thiện tốc độ và fix 1001 lỗi lặt vặt",
-      "release_notes_version": "1.3.40",
+      "latest_version": "1.3.41",
+      "release_notes": "fix sửa logo cho khung riêng",
+      "release_notes_version": "1.3.41",
       "video_update_url": "https://www.youtube.com/watch?v=qqTPlOeLH04&list=PLbrvCkjkAoR8&index=1&t=4s",
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_layout_128.png",
       "video_intro_url": "https://youtu.be/LvrpEiOEnF4",
@@ -580,10 +580,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793516710085",
+  "manifest_version": "admin-v2-1793554786476",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-11-01T07:05:10.085Z",
+  "generated_at": "2026-11-01T17:39:46.476Z",
   "guides": [
     {
       "id": 3,
