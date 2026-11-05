@@ -223,6 +223,8 @@
         "vi": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/guides/betagon_layout/betagon_layout_vi_mvtea5ar.pdf",
         "en": "https://betagon-plugins.pages.dev/docs/Betagon_Layout_1.3.15_User_Guide_EN.pdf"
       },
+      "video_guide_url": "https://www.youtube.com/playlist?list=PLbrvCkjkAoR8",
+      "video_guide_url_en": "https://www.youtube.com/playlist?list=PLbrvCkjkAoR8",
       "sort_order": 1,
       "purchase_plans": [
         {
@@ -583,10 +585,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793871620442",
+  "manifest_version": "admin-v2-1793901715974",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-11-05T09:40:20.442Z",
+  "generated_at": "2026-11-05T18:01:55.974Z",
   "guides": [
     {
       "id": 2,
