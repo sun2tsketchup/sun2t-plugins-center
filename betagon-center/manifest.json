@@ -152,9 +152,9 @@
       "checksum_sha256": "",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2027,
-      "latest_version": "1.3.52",
-      "release_notes": "- Thêm tính năng tạo bảng trống ( các bác thích làm gì thì làm ^^)\n- Thêm menu thêm hàng ngang cho bảng auto thống kê\n- Thêm tùy chọn, tách/gộp/... cho hàng và cột. Giữ Shift để chọn nhiều ô hơn nhé",
-      "release_notes_version": "1.3.52",
+      "latest_version": "1.3.56",
+      "release_notes": "- Update thêm trợ lí ảo, hỏi đáp câu hỏi và trò chuyện\n- Cải thiện phần dim chi tiết đỡ pick điểm sai hơn",
+      "release_notes_version": "1.3.56",
       "video_update_url": "https://www.youtube.com/watch?v=qqTPlOeLH04&list=PLbrvCkjkAoR8&index=1&t=4s",
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_layout_128.png",
       "video_intro_url": "https://youtu.be/LvrpEiOEnF4",
@@ -583,10 +583,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1793862864584",
+  "manifest_version": "admin-v2-1793871620442",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-11-05T07:14:24.584Z",
+  "generated_at": "2026-11-05T09:40:20.442Z",
   "guides": [
     {
       "id": 2,
