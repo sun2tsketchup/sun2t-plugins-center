@@ -582,21 +582,8 @@
   "manifest_version": "admin-v2-1793818550525",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-11-05T04:17:33.029Z",
+  "generated_at": "2026-11-05T04:17:50.439Z",
   "guides": [
-    {
-      "id": 3,
-      "title": "Hướng dẫn sử dụng Betagon Center",
-      "category": "Hướng dẫn",
-      "description": "",
-      "youtube_url": "https://youtube.com/shorts/cdBfKkztm84",
-      "youtube_url_vi": "https://youtube.com/shorts/cdBfKkztm84",
-      "youtube_url_en": "",
-      "title_en": "",
-      "description_en": "",
-      "published": true,
-      "sort_order": 0
-    },
     {
       "id": 2,
       "title": "Hướng dẫn mua và cài đặt tất cả Plugin của Betagon",
@@ -609,6 +596,19 @@
       "description_en": "The account on the web and the center is shared, the plugin is purchased per account, activated for a fixed number of computers purchased",
       "published": true,
       "sort_order": 1
+    },
+    {
+      "id": 3,
+      "title": "Hướng dẫn sử dụng Betagon Center",
+      "category": "Hướng dẫn",
+      "description": "",
+      "youtube_url": "https://youtube.com/shorts/cdBfKkztm84",
+      "youtube_url_vi": "https://youtube.com/shorts/cdBfKkztm84",
+      "youtube_url_en": "",
+      "title_en": "",
+      "description_en": "",
+      "published": true,
+      "sort_order": 2
     }
   ],
   "website": {
