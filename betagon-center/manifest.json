@@ -582,7 +582,7 @@
   "manifest_version": "admin-v2-1793818550525",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-11-04T18:55:50.525Z",
+  "generated_at": "2026-11-05T04:07:23.690Z",
   "guides": [
     {
       "id": 3,
@@ -602,5 +602,22 @@
       "published": true,
       "sort_order": 2
     }
-  ]
+  ],
+  "website": {
+    "hero_lead": "Hệ thống Plugin SketchUp do Betagon phát triển, nhằm xử lí những tác vụ phức tạp cho người dùng. Mang đến trải nghiệm sử dụng phần mềm hoàn hảo cho công việc của bạn. Tiêu chí cốt lõi của Betagon là mang tới những công cụ ưu việt cho mọi người dùng với chi phí thấp.",
+    "hero_lead_en": "A system of SketchUp plugins built by Betagon to handle complex tasks for you, for a smooth software experience in your daily work. Betagon's core goal is to bring excellent tools to every user at a low cost.",
+    "author": "Nguyễn Văn Thanh",
+    "donate_text": "Nếu plugin giúp ích cho công việc của bạn, hãy ủng hộ Betagon một ly cà phê để chúng mình có thêm động lực phát triển. Cảm ơn bạn!",
+    "donate_text_en": "If the plugins help your work, buy Betagon a coffee to keep development going. Thank you!",
+    "hero_image": "assets/img/web/hero_system.jpg",
+    "contact_qr": "assets/img/qr_zalo_thanh.png",
+    "donate_qr": "assets/img/qr_donate.png",
+    "zalo_url": "https://zalo.me/g/rkagf7cvowt17pmlo0f9",
+    "featured": [
+      "betagon_layout"
+    ],
+    "hidden_slugs": [
+      "betagon_su_to_cad"
+    ]
+  }
 }
