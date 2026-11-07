@@ -152,9 +152,9 @@
       "checksum_sha256": "",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2027,
-      "latest_version": "1.3.62",
-      "release_notes": "- Thêm quản lí xóa/load file dự án và file mẫu\n- Thêm tính năng cập nhật riêng từng model\n- Thêm tính năng khóa đối tượng/bản vẽ/trang giấy\n- Thêm tùy chọn ẩn cánh cho bản vẽ bất kì\n- Thêm tùy chọn hiển thị kí hiệu mặt cắt trên các bản vẽ\n- Update thêm nhiều câu hỏi về lỗi và khả năng trò chuyện của trợ lí ảo\n- Và 1001 update tính năng và fix lỗi vặt khác mời ae trải nghiệm",
-      "release_notes_version": "1.3.62",
+      "latest_version": "1.3.63",
+      "release_notes": "Update bắt điểm trung diểm cho DIM và lệnh vẽ 2d",
+      "release_notes_version": "1.3.63",
       "video_update_url": "https://www.youtube.com/watch?v=qqTPlOeLH04&list=PLbrvCkjkAoR8&index=1&t=4s",
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_layout_128.png",
       "video_intro_url": "https://youtu.be/LvrpEiOEnF4",
@@ -585,10 +585,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1794018745027",
+  "manifest_version": "admin-v2-1794061634716",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-11-07T02:32:25.027Z",
+  "generated_at": "2026-11-07T14:27:14.716Z",
   "guides": [
     {
       "id": 2,
