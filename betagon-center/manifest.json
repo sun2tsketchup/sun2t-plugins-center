@@ -198,6 +198,11 @@
             "This plugin automates page layout, dimensioning, and annotation with a single click, all in a very short time. It suppor"
           ],
           [
+            "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/web/betagon_layout/mwbpmdc4_Betagon_Layout_Mat_bang_Concept_poster_16x9.png",
+            "Tính năng lên Layout Concept mặt bằng thông minh",
+            "Layout Concept Floor Plane"
+          ],
+          [
             "video:intro",
             "Video giới thiệu",
             "Intro video"
@@ -585,10 +590,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1794376742740",
+  "manifest_version": "admin-v2-1794376882331",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-11-11T05:59:02.740Z",
+  "generated_at": "2026-11-11T06:01:22.331Z",
   "guides": [
     {
       "id": 2,
