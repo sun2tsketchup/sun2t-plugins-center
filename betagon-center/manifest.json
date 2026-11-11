@@ -225,6 +225,18 @@
       },
       "video_guide_url": "https://www.youtube.com/playlist?list=PLbrvCkjkAoR8",
       "video_guide_url_en": "https://www.youtube.com/playlist?list=PLbrvCkjkAoR8",
+      "video_intro_list": [
+        {
+          "vi": "https://youtu.be/LvrpEiOEnF4",
+          "en": "",
+          "title": "Giới thiệu Betagon Layout triển khai bản vẽ"
+        },
+        {
+          "vi": "https://youtu.be/wnQJM55dOWg",
+          "en": "",
+          "title": "Giới thiệu Betagon Layout concept mặt bằng"
+        }
+      ],
       "sort_order": 1,
       "purchase_plans": [
         {
@@ -585,10 +597,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1794378994379",
+  "manifest_version": "admin-v2-1794431494724",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-11-11T06:36:34.379Z",
+  "generated_at": "2026-11-11T21:11:34.724Z",
   "guides": [
     {
       "id": 2,
@@ -633,5 +645,37 @@
     "hidden_slugs": [
       "betagon_su_to_cad"
     ]
-  }
+  },
+  "external_plugins": [
+    {
+      "slug": "betagon_layout_blender",
+      "name": "Betagon Layout for Blender",
+      "category": "Interior",
+      "type": "paid",
+      "published": true,
+      "platform": "blender",
+      "external": true,
+      "host_app": "Blender",
+      "min_host_version": "4.2",
+      "buy_url": "https://betagonplugin.com/#plugin/betagon_layout_blender",
+      "description": "Dàn trang bản vẽ đồ nội thất ngay trong Blender: hình chiếu, mặt cắt, dim, ghi chú, khung tên; xuất DXF, PDF, Excel thống kê. Bản quyền riêng, không dùng chung với Betagon Layout cho SketchUp.",
+      "description_en": "Furniture shop drawings inside Blender: views, sections, dimensions, notes, title block; DXF, PDF and Excel export. Separate licence from Betagon Layout for SketchUp.",
+      "trial_enabled": true,
+      "trial_minutes": 4320,
+      "trial_hours": 72,
+      "trial_policy_version": "2.9",
+      "requires_restart": false,
+      "hot_reload": false,
+      "requires_purchase": true,
+      "server_managed": true,
+      "download_url": "",
+      "checksum_sha256": "",
+      "latest_version": "1.0.0",
+      "sort_order": 50,
+      "icon_url": "",
+      "price_vnd": 0,
+      "max_devices": 1,
+      "freemium": false
+    }
+  ]
 }
