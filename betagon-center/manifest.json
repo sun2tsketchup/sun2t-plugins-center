@@ -208,11 +208,6 @@
             "Intro video"
           ],
           [
-            "assets/img/web/bl_cover.jpg",
-            "Betagon Layout",
-            "Betagon Layout"
-          ],
-          [
             "assets/img/web/bl_tab_view.jpg",
             "Khung nhìn và mặt cắt",
             "Views and sections"
@@ -590,10 +585,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1794377092053",
+  "manifest_version": "admin-v2-1794377115028",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-11-11T06:04:52.053Z",
+  "generated_at": "2026-11-11T06:05:15.028Z",
   "guides": [
     {
       "id": 2,
