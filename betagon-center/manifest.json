@@ -391,17 +391,17 @@
       "folder_candidates": [
         "Betagon_AutoLam"
       ],
-      "latest_version": "5.0.8",
+      "latest_version": "5.0.9",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2027,
       "description": "Tạo hệ lam theo bề mặt, cạnh định hướng và tiết diện tùy chọn. Hỗ trợ tạo trên mặt cong",
-      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Auto_Lam_V5.0.8.rbz",
-      "checksum_sha256": "df0b71cd9a28b8239195a7fc7264de9047e67f96f645bf76b175bb13bdbae3e1",
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Auto_Lam_V5.0.9.rbz",
+      "checksum_sha256": "d2f907ce756f414c8008b22f1c5b600760b1d4bcebe8da170a465ccdde119c09",
       "requires_restart": true,
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_auto_lam_128.png",
       "hot_reload": false,
-      "release_notes": "update hỗ trợ từ SU 2021-2027",
-      "release_notes_version": "5.0.8",
+      "release_notes": "- Update fix lỗi bay kết quả sai vị trí khi làm lam ở trong group",
+      "release_notes_version": "5.0.9",
       "video_intro_url": "https://youtu.be/MkCL-oAztFc",
       "video_update_url": "",
       "guide_pdf": {
@@ -602,10 +602,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1794554785963",
+  "manifest_version": "admin-v2-1794555612577",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-11-13T07:26:25.963Z",
+  "generated_at": "2026-11-13T07:40:12.577Z",
   "guides": [
     {
       "id": 2,
