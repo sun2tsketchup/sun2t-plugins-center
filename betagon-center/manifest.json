@@ -3,131 +3,6 @@
   "brand": "Betagon",
   "plugins": [
     {
-      "slug": "betagon_smart_roof",
-      "name": "Betagon Smart Roof",
-      "category": "Architecture",
-      "type": "paid",
-      "published": true,
-      "loader_file": "Betagon_SmartRoof.rb",
-      "folder": "Betagon_SmartRoof",
-      "latest_version": "3.0.23",
-      "min_sketchup_version": 2021,
-      "max_sketchup_version": 2027,
-      "description": "Tự động tạo mái, tạo khung mái và lợp mái ( Nhật, Thái, Mansard, Đình chùa)",
-      "download_url": "",
-      "checksum_sha256": "",
-      "requires_restart": false,
-      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_smart_roof_128.png",
-      "requires_purchase": true,
-      "paid_test": false,
-      "server_managed": true,
-      "price_vnd": 199000,
-      "max_devices": 2,
-      "hot_reload": true,
-      "hot_reload_entry": "main.rb",
-      "hot_reload_hook": "Betagon::SmartRoofPaidTest",
-      "release_notes": "tối ưu tốc độ",
-      "release_notes_version": "3.0.23",
-      "video_update_url": "https://youtu.be/QDaSIqTz1BE",
-      "video_intro_url": "https://youtu.be/QDaSIqTz1BE",
-      "trial_minutes": 4320,
-      "trial_hours": 72,
-      "trial_policy_version": "2.9",
-      "trial_enabled": true,
-      "freemium": true,
-      "web": {
-        "tagline": "Tạo mái, lợp ngói và dựng khung thép mái chỉ với vài cú click.",
-        "tagline_en": "Create roofs, lay tiles and build steel roof frames in a few clicks.",
-        "free_note": "Tạo mái miễn phí. Lợp ngói và Tạo khung mái trải nghệm miễn phí, bản quyền sở hữu vĩnh viễn, update trọn đời",
-        "free_note_en": "Create roofs for free. Tile roofing and create roof frames to try for free, permanent ownership copyright, lifetime updates",
-        "features": [
-          [
-            "Tạo mái đa dạng",
-            "Mái Nhật, mái Thái, Mansard thẳng hoặc cong, mái dốc bê tông, mái đình chùa 1 hoặc 2 tầng.",
-            "Many roof types",
-            "Japanese, Thai (with walls), straight or curved Mansard, sloped concrete, 1- or 2-tier temple roofs."
-          ],
-          [
-            "Lợp ngói tự động",
-            "Ngói 22, âm dương, mũi hài, vảy cá, Địa Trung Hải, Fuji và tôn sóng. Tự cắt theo nóc, mái và khe.",
-            "Automatic tiling",
-            "Type-22, yin-yang, fishscale, Mediterranean, Fuji tiles and metal sheets, trimmed at ridges, hips and valleys."
-          ],
-          [
-            "Khung thép mái",
-            "Dựng kèo, xà gồ, cầu phong, li tô theo mặt mái; thống kê thép, đơn giá và xuất CSV.",
-            "Steel roof frame",
-            "Rafters, purlins and battens follow the roof; steel take-off with prices and CSV export."
-          ],
-          [
-            "Giao diện dễ dùng",
-            "Giao diện tối, tiếng Việt và tiếng Anh, có video hướng dẫn ngay trong plugin.",
-            "Easy to use",
-            "Dark UI in Vietnamese and English, with tutorial videos right inside the plugin."
-          ]
-        ],
-        "gallery": [
-          [
-            "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/web/betagon_smart_roof/mvn38ern_AC7EE720-3C82-4ABC-9703-D9BB6847DF53.png",
-            "",
-            ""
-          ],
-          [
-            "video:intro",
-            "Video giới thiệu",
-            "Intro video"
-          ],
-          [
-            "assets/img/web/sr_tab_roof.jpg",
-            "Tab Tạo mái",
-            "Roof tab"
-          ],
-          [
-            "assets/img/web/sr_tab_dinh.jpg",
-            "Mái đình chùa",
-            "Temple roofs"
-          ],
-          [
-            "assets/img/web/sr_tab_tile.jpg",
-            "Tab Lợp ngói",
-            "Tiling tab"
-          ],
-          [
-            "assets/img/web/sr_tab_frame.jpg",
-            "Tab Tạo khung",
-            "Frame tab"
-          ]
-        ]
-      },
-      "guide_pdf": {
-        "vi": "https://betagon-plugins.pages.dev/docs/Betagon_Smart_Roof_3.0.1_Huong_dan_su_dung.pdf",
-        "en": "https://betagon-plugins.pages.dev/docs/Betagon_Smart_Roof_3.0.1_User_Guide_EN.pdf"
-      },
-      "sort_order": 0,
-      "purchase_plans": [
-        {
-          "key": "smart_roof_1",
-          "name": "Gói 1 máy",
-          "price_vnd": 129000,
-          "device_slots": 1
-        },
-        {
-          "key": "smart_roof_2",
-          "name": "Gói 2 máy",
-          "price_vnd": 199000,
-          "device_slots": 2
-        },
-        {
-          "key": "smart_roof_3",
-          "name": "Gói 3 máy",
-          "price_vnd": 269000,
-          "device_slots": 3
-        }
-      ],
-      "account_device_cap": 9999,
-      "default_plan_key": "smart_roof_2"
-    },
-    {
       "slug": "betagon_layout",
       "name": "Betagon Layout",
       "category": "Interior",
@@ -242,7 +117,7 @@
           "title": "Giới thiệu Betagon Layout concept mặt bằng"
         }
       ],
-      "sort_order": 1,
+      "sort_order": 0,
       "purchase_plans": [
         {
           "key": "layout_1",
@@ -265,6 +140,176 @@
       ],
       "account_device_cap": 9999,
       "default_plan_key": "layout_2"
+    },
+    {
+      "slug": "betagon_smart_roof",
+      "name": "Betagon Smart Roof",
+      "category": "Architecture",
+      "type": "paid",
+      "published": true,
+      "loader_file": "Betagon_SmartRoof.rb",
+      "folder": "Betagon_SmartRoof",
+      "latest_version": "3.0.23",
+      "min_sketchup_version": 2021,
+      "max_sketchup_version": 2027,
+      "description": "Tự động tạo mái, tạo khung mái và lợp mái ( Nhật, Thái, Mansard, Đình chùa)",
+      "download_url": "",
+      "checksum_sha256": "",
+      "requires_restart": false,
+      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_smart_roof_128.png",
+      "requires_purchase": true,
+      "paid_test": false,
+      "server_managed": true,
+      "price_vnd": 199000,
+      "max_devices": 2,
+      "hot_reload": true,
+      "hot_reload_entry": "main.rb",
+      "hot_reload_hook": "Betagon::SmartRoofPaidTest",
+      "release_notes": "tối ưu tốc độ",
+      "release_notes_version": "3.0.23",
+      "video_update_url": "https://youtu.be/QDaSIqTz1BE",
+      "video_intro_url": "https://youtu.be/QDaSIqTz1BE",
+      "trial_minutes": 4320,
+      "trial_hours": 72,
+      "trial_policy_version": "2.9",
+      "trial_enabled": true,
+      "freemium": true,
+      "web": {
+        "tagline": "Tạo mái, lợp ngói và dựng khung thép mái chỉ với vài cú click.",
+        "tagline_en": "Create roofs, lay tiles and build steel roof frames in a few clicks.",
+        "free_note": "Tạo mái miễn phí. Lợp ngói và Tạo khung mái trải nghệm miễn phí, bản quyền sở hữu vĩnh viễn, update trọn đời",
+        "free_note_en": "Create roofs for free. Tile roofing and create roof frames to try for free, permanent ownership copyright, lifetime updates",
+        "features": [
+          [
+            "Tạo mái đa dạng",
+            "Mái Nhật, mái Thái, Mansard thẳng hoặc cong, mái dốc bê tông, mái đình chùa 1 hoặc 2 tầng.",
+            "Many roof types",
+            "Japanese, Thai (with walls), straight or curved Mansard, sloped concrete, 1- or 2-tier temple roofs."
+          ],
+          [
+            "Lợp ngói tự động",
+            "Ngói 22, âm dương, mũi hài, vảy cá, Địa Trung Hải, Fuji và tôn sóng. Tự cắt theo nóc, mái và khe.",
+            "Automatic tiling",
+            "Type-22, yin-yang, fishscale, Mediterranean, Fuji tiles and metal sheets, trimmed at ridges, hips and valleys."
+          ],
+          [
+            "Khung thép mái",
+            "Dựng kèo, xà gồ, cầu phong, li tô theo mặt mái; thống kê thép, đơn giá và xuất CSV.",
+            "Steel roof frame",
+            "Rafters, purlins and battens follow the roof; steel take-off with prices and CSV export."
+          ],
+          [
+            "Giao diện dễ dùng",
+            "Giao diện tối, tiếng Việt và tiếng Anh, có video hướng dẫn ngay trong plugin.",
+            "Easy to use",
+            "Dark UI in Vietnamese and English, with tutorial videos right inside the plugin."
+          ]
+        ],
+        "gallery": [
+          [
+            "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/web/betagon_smart_roof/mvn38ern_AC7EE720-3C82-4ABC-9703-D9BB6847DF53.png",
+            "",
+            ""
+          ],
+          [
+            "video:intro",
+            "Video giới thiệu",
+            "Intro video"
+          ],
+          [
+            "assets/img/web/sr_tab_roof.jpg",
+            "Tab Tạo mái",
+            "Roof tab"
+          ],
+          [
+            "assets/img/web/sr_tab_dinh.jpg",
+            "Mái đình chùa",
+            "Temple roofs"
+          ],
+          [
+            "assets/img/web/sr_tab_tile.jpg",
+            "Tab Lợp ngói",
+            "Tiling tab"
+          ],
+          [
+            "assets/img/web/sr_tab_frame.jpg",
+            "Tab Tạo khung",
+            "Frame tab"
+          ]
+        ]
+      },
+      "guide_pdf": {
+        "vi": "https://betagon-plugins.pages.dev/docs/Betagon_Smart_Roof_3.0.1_Huong_dan_su_dung.pdf",
+        "en": "https://betagon-plugins.pages.dev/docs/Betagon_Smart_Roof_3.0.1_User_Guide_EN.pdf"
+      },
+      "sort_order": 1,
+      "purchase_plans": [
+        {
+          "key": "smart_roof_1",
+          "name": "Gói 1 máy",
+          "price_vnd": 129000,
+          "device_slots": 1
+        },
+        {
+          "key": "smart_roof_2",
+          "name": "Gói 2 máy",
+          "price_vnd": 199000,
+          "device_slots": 2
+        },
+        {
+          "key": "smart_roof_3",
+          "name": "Gói 3 máy",
+          "price_vnd": 269000,
+          "device_slots": 3
+        }
+      ],
+      "account_device_cap": 9999,
+      "default_plan_key": "smart_roof_2"
+    },
+    {
+      "slug": "betagon_sun",
+      "name": "Betagon Sun",
+      "category": "Architecture",
+      "type": "free",
+      "published": true,
+      "loader_file": "betagon_sun.rb",
+      "folder": "betagon_sun",
+      "latest_version": "1.0.0",
+      "min_sketchup_version": 2021,
+      "max_sketchup_version": 2027,
+      "description": "Mô phỏng quỹ đạo mặt trời, bóng đổ, giờ nắng, hoa gió và khí hậu ngay trong SketchUp với vị trí địa lí, thời gian chính xác.",
+      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_sun_128.png",
+      "video_intro_url": "",
+      "video_update_url": "",
+      "trial_enabled": false,
+      "trial_minutes": 0,
+      "trial_hours": 0,
+      "trial_policy_version": "2.9",
+      "requires_restart": true,
+      "hot_reload": false,
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Sun_V1.0.0.rbz",
+      "checksum_sha256": "cb246534cd98d55d66dc81afe96c1ffb811cd1582869a18b0f120f393a4bd88d",
+      "release_notes": "Mô phỏng quỹ đạo mặt trời, bóng đổ, giờ nắng, hoa gió và khí hậu ngay trong SketchUp với vị trí địa lí, thời gian chính xác.",
+      "release_notes_version": "1.0.0",
+      "web": {
+        "badge": "new",
+        "tagline": "Mô phỏng quỹ đạo mặt trời, bóng đổ, giờ nắng, hoa gió và khí hậu ngay trong SketchUp với vị trí địa lí, thời gian chính xác.",
+        "tagline_en": "Mô phỏng quỹ đạo mặt trời, bóng đổ, giờ nắng, hoa gió và khí hậu ngay trong SketchUp với vị trí địa lí, thời gian chính xác.",
+        "free_note": "Miễn phí vĩnh viễn",
+        "gallery": [
+          [
+            "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/web/betagon_sun/mwepcxj4_Betagon_Sun_1.0.0_bang.png",
+            "Mô phỏng mặt trời, nắng và gió ngay trong SketchUp: biểu đồ quỹ đạo biểu kiến mặt trời, bóng đổ theo ngày giờ, quỹ đạo m",
+            "Sun, light and wind simulation inside SketchUp: apparent sun path diagram, shadows by date and time, 3D sun path around"
+          ],
+          [
+            "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/web/betagon_sun/mwepe8h1_Betagon_Sun_report_Hanoi_Viet_Nam_20261113_14h30.png",
+            "Xuất ảnh PNG chất lượng cao",
+            "Export PNG Hight Quality"
+          ]
+        ]
+      },
+      "sort_order": 2
     },
     {
       "slug": "betagon_converter",
@@ -353,7 +398,7 @@
         "en": "https://betagon-plugins.pages.dev/docs/Betagon_Converter_User_Guide_EN.pdf"
       },
       "freemium": false,
-      "sort_order": 2,
+      "sort_order": 3,
       "purchase_plans": [
         {
           "key": "converter_1",
@@ -412,7 +457,7 @@
       "trial_minutes": 0,
       "trial_hours": 0,
       "trial_policy_version": "2.9",
-      "sort_order": 3
+      "sort_order": 4
     },
     {
       "slug": "betagon_path_tools",
@@ -445,7 +490,7 @@
         "vi": "https://betagon-plugins.pages.dev/docs/Betagon_PathTools_Huong_dan_VI_V1.0.2.pdf",
         "en": "https://betagon-plugins.pages.dev/docs/Betagon_PathTools_User_Guide_EN_V1.0.2.pdf"
       },
-      "sort_order": 4
+      "sort_order": 5
     },
     {
       "slug": "betagon_smart_face",
@@ -484,7 +529,7 @@
       "trial_minutes": 0,
       "trial_hours": 0,
       "trial_policy_version": "2.9",
-      "sort_order": 5
+      "sort_order": 6
     },
     {
       "slug": "betagon_rotate_tools",
@@ -519,7 +564,7 @@
         "vi": "https://betagon-plugins.pages.dev/docs/Betagon_Rotate_Tools_V2.0.1_Huong_dan_su_dung.pdf",
         "en": "https://betagon-plugins.pages.dev/docs/Betagon_Rotate_Tools_V2.0.1_User_Guide_EN.pdf"
       },
-      "sort_order": 6
+      "sort_order": 7
     },
     {
       "slug": "betagon_door_and_window",
@@ -543,7 +588,7 @@
       "checksum_sha256": "",
       "requires_restart": true,
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_door_and_window_128.png",
-      "sort_order": 7
+      "sort_order": 8
     },
     {
       "slug": "betagon_architect",
@@ -561,7 +606,7 @@
       "checksum_sha256": "",
       "requires_restart": true,
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_architect_128.png",
-      "sort_order": 8
+      "sort_order": 9
     },
     {
       "slug": "betagon_faceme_2d",
@@ -580,7 +625,7 @@
       "requires_restart": true,
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_faceme_2d_128.png",
       "hot_reload": false,
-      "sort_order": 9
+      "sort_order": 10
     },
     {
       "slug": "betagon_cabinet_door",
@@ -598,59 +643,14 @@
       "checksum_sha256": "",
       "requires_restart": true,
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_cabinet_door_128.png",
-      "sort_order": 10
-    },
-    {
-      "slug": "betagon_sun",
-      "name": "Betagon Sun",
-      "category": "Architecture",
-      "type": "free",
-      "published": true,
-      "loader_file": "betagon_sun.rb",
-      "folder": "betagon_sun",
-      "latest_version": "1.0.0",
-      "min_sketchup_version": 2021,
-      "max_sketchup_version": 2027,
-      "description": "Mô phỏng quỹ đạo mặt trời, bóng đổ, giờ nắng, hoa gió và khí hậu ngay trong SketchUp với vị trí địa lí, thời gian chính xác.",
-      "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_sun_128.png",
-      "video_intro_url": "",
-      "video_update_url": "",
-      "trial_enabled": false,
-      "trial_minutes": 0,
-      "trial_hours": 0,
-      "trial_policy_version": "2.9",
-      "requires_restart": true,
-      "hot_reload": false,
-      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Sun_V1.0.0.rbz",
-      "checksum_sha256": "cb246534cd98d55d66dc81afe96c1ffb811cd1582869a18b0f120f393a4bd88d",
-      "release_notes": "Mô phỏng quỹ đạo mặt trời, bóng đổ, giờ nắng, hoa gió và khí hậu ngay trong SketchUp với vị trí địa lí, thời gian chính xác.",
-      "release_notes_version": "1.0.0",
-      "web": {
-        "badge": "new",
-        "tagline": "Mô phỏng quỹ đạo mặt trời, bóng đổ, giờ nắng, hoa gió và khí hậu ngay trong SketchUp với vị trí địa lí, thời gian chính xác.",
-        "tagline_en": "Mô phỏng quỹ đạo mặt trời, bóng đổ, giờ nắng, hoa gió và khí hậu ngay trong SketchUp với vị trí địa lí, thời gian chính xác.",
-        "free_note": "Miễn phí vĩnh viễn",
-        "gallery": [
-          [
-            "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/web/betagon_sun/mwepcxj4_Betagon_Sun_1.0.0_bang.png",
-            "Mô phỏng mặt trời, nắng và gió ngay trong SketchUp: biểu đồ quỹ đạo biểu kiến mặt trời, bóng đổ theo ngày giờ, quỹ đạo m",
-            "Sun, light and wind simulation inside SketchUp: apparent sun path diagram, shadows by date and time, 3D sun path around"
-          ],
-          [
-            "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/web/betagon_sun/mwepe8h1_Betagon_Sun_report_Hanoi_Viet_Nam_20261113_14h30.png",
-            "Xuất ảnh PNG chất lượng cao",
-            "Export PNG Hight Quality"
-          ]
-        ]
-      },
-      "sort_order": 99
+      "sort_order": 11
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1794557990033",
+  "manifest_version": "admin-v2-1794558059749",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-11-13T08:19:50.033Z",
+  "generated_at": "2026-11-13T08:20:59.749Z",
   "guides": [
     {
       "id": 2,
@@ -721,7 +721,7 @@
       "download_url": "",
       "checksum_sha256": "",
       "latest_version": "1.0.0",
-      "sort_order": 50,
+      "sort_order": 12,
       "icon_url": "",
       "price_vnd": 0,
       "max_devices": 1,
@@ -756,7 +756,7 @@
           ]
         ]
       },
-      "sort_order": 99,
+      "sort_order": 13,
       "download_url": "",
       "checksum_sha256": "",
       "addon_download_path": "/api/addon-download/betagon_betagonkeymouse",
