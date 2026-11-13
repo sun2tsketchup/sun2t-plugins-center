@@ -348,6 +348,16 @@
         ],
         "gallery": [
           [
+            "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/web/betagon_sun/mwesqjl4_Betagon_Sun_bia_video_ngang_1920x1080.png",
+            "Mô phỏng mặt trời, nắng và gió ngay trong SketchUp: biểu đồ quỹ đạo biểu kiến mặt trời, bóng đổ theo ngày giờ, quỹ đạo m",
+            "Sun path, shadows, sun hours, wind rose and climate right inside SketchUp with accurate location and time."
+          ],
+          [
+            "video:intro",
+            "Betagon Sun - Mô phỏng quỹ đạo mặt trời, bóng đổ, giờ nắng, hoa gió và khí hậu",
+            "Intro video"
+          ],
+          [
             "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/web/betagon_sun/mwepcxj4_Betagon_Sun_1.0.0_bang.png",
             "Mô phỏng mặt trời, nắng và gió ngay trong SketchUp: biểu đồ quỹ đạo biểu kiến mặt trời, bóng đổ theo ngày giờ, quỹ đạo m",
             "Sun path, shadows, sun hours, wind rose and climate right inside SketchUp with accurate location and time."
@@ -709,10 +719,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1794563439476",
+  "manifest_version": "admin-v2-1794563473570",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-11-13T09:50:39.476Z",
+  "generated_at": "2026-11-13T09:51:13.570Z",
   "guides": [
     {
       "id": 2,
