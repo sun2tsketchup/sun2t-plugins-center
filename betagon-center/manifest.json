@@ -625,14 +625,32 @@
       "checksum_sha256": "cb246534cd98d55d66dc81afe96c1ffb811cd1582869a18b0f120f393a4bd88d",
       "release_notes": "Mô phỏng quỹ đạo mặt trời, bóng đổ, giờ nắng, hoa gió và khí hậu ngay trong SketchUp với vị trí địa lí, thời gian chính xác.",
       "release_notes_version": "1.0.0",
+      "web": {
+        "badge": "new",
+        "tagline": "Mô phỏng quỹ đạo mặt trời, bóng đổ, giờ nắng, hoa gió và khí hậu ngay trong SketchUp với vị trí địa lí, thời gian chính xác.",
+        "tagline_en": "Mô phỏng quỹ đạo mặt trời, bóng đổ, giờ nắng, hoa gió và khí hậu ngay trong SketchUp với vị trí địa lí, thời gian chính xác.",
+        "free_note": "Miễn phí vĩnh viễn",
+        "gallery": [
+          [
+            "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/web/betagon_sun/mwepcxj4_Betagon_Sun_1.0.0_bang.png",
+            "Mô phỏng mặt trời, nắng và gió ngay trong SketchUp: biểu đồ quỹ đạo biểu kiến mặt trời, bóng đổ theo ngày giờ, quỹ đạo m",
+            "Sun, light and wind simulation inside SketchUp: apparent sun path diagram, shadows by date and time, 3D sun path around "
+          ],
+          [
+            "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/web/betagon_sun/mwepe8h1_Betagon_Sun_report_Hanoi_Viet_Nam_20261113_14h30.png",
+            "Xuất ảnh PNG chất lượng cao",
+            "Export PNG Hight Quality"
+          ]
+        ]
+      },
       "sort_order": 99
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1794557683506",
+  "manifest_version": "admin-v2-1794557866406",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-11-13T08:14:43.506Z",
+  "generated_at": "2026-11-13T08:17:46.406Z",
   "guides": [
     {
       "id": 2,
