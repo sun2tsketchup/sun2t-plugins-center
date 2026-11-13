@@ -152,9 +152,9 @@
       "checksum_sha256": "",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2027,
-      "latest_version": "1.3.93",
-      "release_notes": "- Tối ưu tính năng vẽ mặt bằng.\n- Update giao diện Toolbar mới dễ nhìn hơn",
-      "release_notes_version": "1.3.93",
+      "latest_version": "1.3.96",
+      "release_notes": "- Update thêm lệnh Offset cho cả Layout triển khai và mặt bằng",
+      "release_notes_version": "1.3.96",
       "video_update_url": "https://youtu.be/wnQJM55dOWg",
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_layout_128.png",
       "video_intro_url": "https://youtu.be/LvrpEiOEnF4",
@@ -602,10 +602,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1794507255401",
+  "manifest_version": "admin-v2-1794554785963",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-11-12T18:14:15.401Z",
+  "generated_at": "2026-11-13T07:26:25.963Z",
   "guides": [
     {
       "id": 2,
