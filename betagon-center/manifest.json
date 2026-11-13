@@ -279,7 +279,7 @@
       "max_sketchup_version": 2027,
       "description": "Mô phỏng quỹ đạo mặt trời, bóng đổ, giờ nắng, hoa gió và khí hậu ngay trong SketchUp với vị trí địa lí, thời gian chính xác.",
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_sun_128.png",
-      "video_intro_url": "",
+      "video_intro_url": "https://youtu.be/1sY5zrF_ZH8",
       "video_update_url": "",
       "trial_enabled": false,
       "trial_minutes": 0,
@@ -359,6 +359,14 @@
           ]
         ]
       },
+      "video_guide_url": "https://youtu.be/1sY5zrF_ZH8",
+      "video_intro_list": [
+        {
+          "vi": "https://youtu.be/1sY5zrF_ZH8",
+          "en": "",
+          "title": "Betagon Sun - Mô phỏng quỹ đạo mặt trời, bóng đổ, giờ nắng, hoa gió và khí hậu"
+        }
+      ],
       "sort_order": 2
     },
     {
@@ -697,10 +705,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1794558723205",
+  "manifest_version": "admin-v2-1794563405456",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-11-13T08:32:03.205Z",
+  "generated_at": "2026-11-13T09:50:05.456Z",
   "guides": [
     {
       "id": 2,
