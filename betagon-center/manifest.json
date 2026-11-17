@@ -27,9 +27,9 @@
       "checksum_sha256": "",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2027,
-      "latest_version": "1.4.2",
-      "release_notes": "- tăng cường bảo mật. anh em update bản mới xong nhớ tắt SketchUp mở lại ( nhớ lưu file dự án nhé ông nào k lưu mất file ráng chịu ;)) )\n- Update cho phép tên bản vẽ có thể xuống dòng",
-      "release_notes_version": "1.4.2",
+      "latest_version": "1.4.3",
+      "release_notes": "- Update tính năng Align, tự động căn chỉnh vị trí bản vẽ tùy chỉnh nhiều chế độ.\nTrên Toolbar Edit nhé ae",
+      "release_notes_version": "1.4.3",
       "video_update_url": "https://youtu.be/wnQJM55dOWg",
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_layout_128.png",
       "video_intro_url": "https://youtu.be/LvrpEiOEnF4",
@@ -709,10 +709,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1794887825765",
+  "manifest_version": "admin-v2-1794891680579",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-11-17T03:57:05.765Z",
+  "generated_at": "2026-11-17T05:01:20.579Z",
   "guides": [
     {
       "id": 2,
