@@ -27,9 +27,9 @@
       "checksum_sha256": "",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2027,
-      "latest_version": "1.4.3",
-      "release_notes": "- Update tính năng Align, tự động căn chỉnh vị trí bản vẽ tùy chỉnh nhiều chế độ.\nTrên Toolbar Edit nhé ae",
-      "release_notes_version": "1.4.3",
+      "latest_version": "1.4.9",
+      "release_notes": "• Hatch mặt cắt theo vật liệu, theo từng vùng: mỗi vật liệu một kiểu hatch riêng đc.\n• Dim gọn hơn: số ngắn nằm thẳng hàng, có nét dẫn 1 mũi tên. \n• Dim bắt điểm ngay trên thân cạnh, bắt được trung điểm cả cạnh rất ngắn.\n• Cập nhật model an toàn: không sinh dim trùng, bản vẽ đã khoá giữ nguyên.\n• In thẳng ra máy in (Ctrl+P). Xuất PDF chọn khổ A4 đến A0, thang xám chuẩn.\n• Sửa nhiều lỗi nhỏ, hỗ trợ SketchUp 2021 – 2027.\n• Bản vẽ mặt bằng concept được lưu theo file SketchUp",
+      "release_notes_version": "1.4.9",
       "video_update_url": "https://youtu.be/wnQJM55dOWg",
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_layout_128.png",
       "video_intro_url": "https://youtu.be/LvrpEiOEnF4",
@@ -709,10 +709,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1794891680579",
+  "manifest_version": "admin-v2-1795080153951",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-11-17T05:01:20.579Z",
+  "generated_at": "2026-11-19T09:22:33.951Z",
   "guides": [
     {
       "id": 2,
