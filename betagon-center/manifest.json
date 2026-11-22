@@ -27,9 +27,9 @@
       "checksum_sha256": "",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2027,
-      "latest_version": "1.5.3",
-      "release_notes": "- Mới: Tab quản lý Tag SketchUp ở bảng trái. Ẩn/hiện nhanh đồ theo tag và thư mục tag, chỉ hiện 1 tag, đổi màu, đổi tên, thêm, xoá tag, gán đồ đang chọn vào tag. Bấm \"Cập nhật bản vẽ\" để vẽ lại theo các tag đang hiện.\n- Nút Style hút thuộc tính như lệnh MA ( lệnh tắt M) của CAD, hút và đổ được cả hatch.\n- Dim nhỏ sát nhau tự nhảy sang hai bên. Kéo số dim vẫn giữ nét dẫn gấp vuông.\n- Nút bật/tắt độ dày nét (LWT): nét siêu mảnh khi vẽ, in vẫn đúng độ dày.\n- Chỉnh Hatch riêng cho từng vật liệu dùng được cho cả bản vẽ đen trắng. Cập nhật riêng từng model.",
-      "release_notes_version": "1.5.3",
+      "latest_version": "1.5.9",
+      "release_notes": "• Số dim chỗ chật nhảy gọn: số không lọt giữa 2 đường gióng chỉ ra sát ngay bên cạnh, thẳng hàng với các số khác. \n• Kéo số dim có hít : kéo số dim tới gần là số tự hít ngang hàng các số khác, hoặc vào giữa dim, hoặc sát bên đường gióng. Giữ Alt để kéo tự do.\n• Đọc font SHX của AutoCAD : romans, simplex, txt… được vẽ bằng nét đơn giống hệt CAD trên màn hình, ảnh, bản in và PDF. Có cả font SHX tiếng Việt (Unicode, VNI, TCVN3).\n• Font của Windows và nút \"+ Font\": ô Font chữ liệt kê mọi font đã cài trong máy, nạp được font riêng mà không cần cài. PDF nhúng font thật, giữ đúng dấu tiếng Việt.\n• Nét dim theo layer: đổi layer dim sang nét khuất, nét trục… thì dim đổi theo, ra đúng bản in, PDF và DXF.\n• Nét nối cong: số dim nằm ngoài và ghi chú chọn được nét cong, hoặc nét thẳng gấp vuông có mũi tên.",
+      "release_notes_version": "1.5.9",
       "video_update_url": "https://youtu.be/wnQJM55dOWg",
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_layout_128.png",
       "video_intro_url": "https://youtu.be/LvrpEiOEnF4",
@@ -709,10 +709,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1795161498887",
+  "manifest_version": "admin-v2-1795339891788",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-11-20T07:58:18.887Z",
+  "generated_at": "2026-11-22T09:31:31.788Z",
   "guides": [
     {
       "id": 2,
