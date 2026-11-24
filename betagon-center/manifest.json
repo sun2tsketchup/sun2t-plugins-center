@@ -498,17 +498,17 @@
       "folder_candidates": [
         "Betagon_AutoLam"
       ],
-      "latest_version": "5.0.10",
+      "latest_version": "5.0.11",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2027,
       "description": "Tạo hệ lam theo bề mặt, cạnh định hướng và tiết diện tùy chọn. Hỗ trợ tạo trên mặt cong",
-      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Auto_Lam_V5.0.10__1_.rbz",
-      "checksum_sha256": "b956b090377076a1243f04c6a3034731403b9cf1a278befc1043b971cd5a2747",
+      "download_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/packages/Betagon_Auto_Lam_V5.0.11.rbz",
+      "checksum_sha256": "3645bbafef3d0925707305af1a29edb1ca0b38251da1e8c24dddbf1bf494ba06",
       "requires_restart": true,
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_auto_lam_128.png",
       "hot_reload": false,
-      "release_notes": "fix lỗi load plugin ở bản trước sau update. ae cập nhật xong k hết thì gỡ plugin và tắt sketchup cài lại nha",
-      "release_notes_version": "5.0.10",
+      "release_notes": "Fix lỗi cắt lam nhựa bị dư tấm cắt k sạch",
+      "release_notes_version": "5.0.11",
       "video_intro_url": "https://youtu.be/MkCL-oAztFc",
       "video_update_url": "",
       "guide_pdf": {
@@ -709,10 +709,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1795339891788",
+  "manifest_version": "admin-v2-1795490253704",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-11-22T09:31:31.788Z",
+  "generated_at": "2026-11-24T03:17:33.704Z",
   "guides": [
     {
       "id": 2,
