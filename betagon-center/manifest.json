@@ -27,9 +27,9 @@
       "checksum_sha256": "",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2027,
-      "latest_version": "1.6.3",
-      "release_notes": "1. Chữ định dạng như Word: Trong ô gõ text, ghi chú và ô bảng, anh chị quét chọn vài chữ rồi bấm thanh định dạng: đậm, nghiêng, gạch chân, đổi cỡ chữ, đổi màu, căn lề.\n2. Chân dim: Gap hoặc Length\nÔ \"Kiểu cắt chân DIM\" có 2 kiểu. Gap: chân dim dừng cách điểm đo một khoảng (như cũ). Length: mọi chân dim dài bằng nhau tính từ đường dim, bản vẽ gọn và đều hơn. Chọn 1 dim để chỉnh riêng, không chọn để chỉnh cả kiểu dim.\n3. Đổi mẫu đồ không cần xoá.\n4. Ctrl+D: vẽ tiếp đúng loại tường\nChọn một bức tường rồi bấm Ctrl+D là vẽ ngay tường mới cùng Bộ tường. \n5. Đổi Bộ tường riêng 1 đoạn\nTường nhiều đoạn: bấm vào 1 đoạn rồi đổi Bộ tường, chỉ đoạn đó đổi, cửa trên tường giữ nguyên. Muốn đổi cả tường thì bấm Tab để chọn cả tường\n6. Vật liệu chuẩn như SketchUp\n7. Dim tự động gọn hơn",
-      "release_notes_version": "1.6.3",
+      "latest_version": "1.6.4",
+      "release_notes": "",
+      "release_notes_version": "1.6.4",
       "video_update_url": "https://youtu.be/wnQJM55dOWg",
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_layout_128.png",
       "video_intro_url": "https://youtu.be/LvrpEiOEnF4",
@@ -709,10 +709,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1795620795140",
+  "manifest_version": "admin-v2-1795624951323",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-11-25T15:33:15.140Z",
+  "generated_at": "2026-11-25T16:42:31.323Z",
   "guides": [
     {
       "id": 2,
