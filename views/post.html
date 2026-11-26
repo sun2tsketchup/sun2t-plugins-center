@@ -1,0 +1,17 @@
+<main id="top">
+<article class="article">
+  <header class="wrap article-head">
+    <a class="back" href="/bai-viet">← Tất cả bài viết</a>
+    {{#if tag}}<span class="eyebrow">{{tag}}</span>{{/if}}
+    <h1>{{title}}</h1>
+    {{#if excerpt}}<p class="lead">{{excerpt}}</p>{{/if}}
+    <div class="meta">{{date}} · {{readMins}} phút đọc</div>
+  </header>
+  <div class="wrap">{{{cover}}}</div>
+  <div class="wrap"><div class="prose">{{{content}}}</div></div>
+  <div class="wrap"><div class="article-cta">
+    <div><b>Muốn học theo cách này?</b><span>Xem lịch khai giảng và đăng ký khóa học tại Betagon.</span></div>
+    <a class="btn btn-primary" href="/dang-ky">Đăng ký khóa học</a>
+  </div></div>
+</article>
+</main>

@@ -1,0 +1,38 @@
+<main id="top">
+<section class="page-head course-page">
+  <div class="wrap">
+    <a class="back" href="/khoa-hoc">← Tất cả khóa học</a>
+    <div class="cp-grid">
+      <div>
+        <span class="eyebrow">{{eyebrow}}</span>
+        <h1 class="h2">{{name}}</h1>
+        <p class="lead">{{desc}}</p>
+        <div class="cp-facts">{{{facts}}}</div>
+        <div class="cp-cta">
+          <span class="price">{{{priceHtml}}}</span>
+          <a class="btn btn-primary" href="#contact" data-pick="{{id}}">Đăng ký khóa này</a>
+          <button type="button" class="btn copy-link" data-copy>Sao chép link khóa học</button>
+        </div>
+      </div>
+      <div class="cp-cover">{{{coverHtml}}}</div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap cp-body">
+    <div class="cp-box">
+      <h2 class="h3">Bạn sẽ học được gì</h2>
+      <ul class="cp-list">{{{detailsHtml}}}</ul>
+    </div>
+    <div class="cp-box" id="schedule">
+      <h2 class="h3">Lịch khai giảng</h2>
+      <div class="sched" id="schedList" data-course="{{id}}" role="list"></div>
+    </div>
+  </div>
+</section>
+
+{{{worksHtml}}}
+
+{{{contactHtml}}}
+</main>

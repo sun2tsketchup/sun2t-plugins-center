@@ -1,0 +1,32 @@
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <a class="badge rise" href="/lich-khai-giang" style="text-decoration:none"><b>{{badgeTag}}</b> {{badgeText}} →</a>
+      <p class="slogan rise d1">{{{sloganHtml}}}</p>
+      <h1 class="rise d1"><span class="h1-top">{{heroTitle}}</span><span class="hl">{{heroHighlight}}</span></h1>
+      <p class="lead rise d2">{{heroLead}}</p>
+      <div class="hero-cta rise d3">
+        <a class="btn btn-primary" href="/khoa-hoc">Xem khóa học
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn" href="/dang-ky">Đăng ký khóa học</a>
+      </div>
+    </div>
+
+    <div class="viewport rise d2" aria-label="Mô hình 3D minh họa, có thể kéo để xoay">
+      <div class="vp-bar"><i></i><i></i><i></i></div>
+      <div class="vp-tools" role="toolbar" aria-label="Các bước của đồ án">
+        <button class="tool" data-mode="plan">2D</button>
+        <button class="tool" data-mode="wire">3D</button>
+        <button class="tool on" data-mode="render">Render</button>
+        <button class="tool" data-mode="spin" id="spinBtn">Tự xoay: Bật</button>
+      </div>
+      <div class="stage-wrap">
+        <canvas id="stage"></canvas>
+        <div class="dim-layer" id="dimLayer" hidden></div>
+        <div class="vp-fallback" id="vpFallback" hidden><span class="logo-mark" aria-hidden="true"></span></div>
+      </div>
+      <div class="vp-foot"><span>Kéo chuột để xoay góc nhìn</span></div>
+    </div>
+  </div>
+</section>
