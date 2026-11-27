@@ -27,9 +27,9 @@
       "checksum_sha256": "",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2027,
-      "latest_version": "1.6.9",
-      "release_notes": "Betagon Layout 1.6.9\n- Tỉ lệ tự thêm (vd 1:12) được nhớ cho mọi bản vẽ, mọi dự án và các lần làm việc sau; xoá được khi không dùng.\n- Ghi chú vật liệu ở góc tờ sửa được ký hiệu (MAT-01 → VL-01), bảng thống kê vật liệu đổi theo; ô sửa có thanh định dạng.\n- Thêm kiểu hiển thị Chỉ màu (texture thành màu trơn); Màu vật liệu có lại texture.\n- Nét và màu luôn khớp: Layout tự vẽ phối cảnh, không chụp ảnh từ SketchUp.\n- Sửa lỗi đỏ ở mặt đứng và lỗi mã chữ trên máy có thư mục tên tiếng Việt có dấu.",
-      "release_notes_version": "1.6.9",
+      "latest_version": "1.7.0",
+      "release_notes": "fix mất cạnh vát chéo và nét cong góc. yêu ae ^^",
+      "release_notes_version": "1.7.0",
       "video_update_url": "https://youtu.be/wnQJM55dOWg",
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_layout_128.png",
       "video_intro_url": "https://youtu.be/LvrpEiOEnF4",
@@ -709,10 +709,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1795682867558",
+  "manifest_version": "admin-v2-1795752304767",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-11-26T08:47:47.558Z",
+  "generated_at": "2026-11-27T04:05:04.767Z",
   "guides": [
     {
       "id": 2,
