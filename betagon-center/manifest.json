@@ -27,9 +27,9 @@
       "checksum_sha256": "",
       "min_sketchup_version": 2021,
       "max_sketchup_version": 2027,
-      "latest_version": "1.7.9",
-      "release_notes": "thêm preset màu layer cho ae trình bày bản vẽ đẹp hơn",
-      "release_notes_version": "1.7.9",
+      "latest_version": "1.8.0",
+      "release_notes": "- fix lỗi file vẽ lâu bị treo trắng màn hình do full bộ nhớ đệm\n- Ae đang dùng dự án cũ thì cạp nhật mới rồi lưu file dự án lại 1 lần để nhận thuật toán mới nhé",
+      "release_notes_version": "1.8.0",
       "video_update_url": "https://youtu.be/wnQJM55dOWg",
       "icon_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/icons/betagon_layout_128.png",
       "video_intro_url": "https://youtu.be/LvrpEiOEnF4",
@@ -709,10 +709,10 @@
     }
   ],
   "channel": "stable",
-  "manifest_version": "admin-v2-1795801758463",
+  "manifest_version": "admin-v2-1795853222504",
   "repository_url": "https://sun2tsketchup.github.io/sun2t-plugins-center/betagon-center/",
   "center_min_version": "0.17.5",
-  "generated_at": "2026-11-27T17:49:18.463Z",
+  "generated_at": "2026-11-28T08:07:02.504Z",
   "guides": [
     {
       "id": 2,
